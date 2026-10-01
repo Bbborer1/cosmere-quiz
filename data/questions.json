@@ -303,6 +303,2210 @@
     "section": "Introduction › Choosing Opportunities and Complications",
     "page": "10"
    }
+  },
+  {
+   "id": "r-stat-01",
+   "category": "rules",
+   "topic": "Defenses",
+   "question": "How is a character's Physical, Cognitive or Spiritual defense calculated?",
+   "choices": [
+    "10 + the higher attribute in that category",
+    "10 + both attributes in that category + bonuses/penalties",
+    "8 + both attributes in that category + tier",
+    "12 + the lower attribute in that category"
+   ],
+   "answer": 1,
+   "explanation": "Each defense is 10 plus both attributes of its category (e.g. Strength and Speed for Physical), plus any bonuses or penalties.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Defenses",
+    "page": "51"
+   }
+  },
+  {
+   "id": "r-stat-02",
+   "category": "rules",
+   "topic": "Health, Focus & Investiture",
+   "question": "At character creation, what is a character's maximum health?",
+   "choices": [
+    "10 + Strength",
+    "10 + Strength + Speed",
+    "2 + Strength",
+    "20 + Strength"
+   ],
+   "answer": 0,
+   "explanation": "Starting maximum health is 10 plus Strength (plus any bonuses or penalties); it then grows with levels per the Character Advancement table.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Health",
+    "page": "54"
+   }
+  },
+  {
+   "id": "r-stat-03",
+   "category": "rules",
+   "topic": "Health, Focus & Investiture",
+   "question": "What is a character's maximum focus?",
+   "choices": [
+    "2 + Intellect",
+    "2 + Willpower",
+    "10 + Willpower",
+    "Willpower + Intellect"
+   ],
+   "answer": 1,
+   "explanation": "Maximum focus equals 2 plus Willpower, plus any bonuses or penalties.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Focus",
+    "page": "54"
+   }
+  },
+  {
+   "id": "r-stat-04",
+   "category": "rules",
+   "topic": "Health, Focus & Investiture",
+   "question": "Once a character gains an Investiture pool from a Radiant path, what is their maximum Investiture?",
+   "choices": [
+    "2 + Willpower",
+    "2 + Awareness + Presence",
+    "2 + the higher of Awareness or Presence",
+    "Equal to their maximum focus"
+   ],
+   "answer": 2,
+   "explanation": "Maximum Investiture is 2 plus whichever of Awareness or Presence is higher, plus any bonuses or penalties. New characters start with no Investiture.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Investiture",
+    "page": "54"
+   }
+  },
+  {
+   "id": "r-stat-05",
+   "category": "rules",
+   "topic": "Deflect",
+   "question": "Which damage types does a character's deflect value reduce?",
+   "choices": [
+    "All damage types",
+    "Impact, keen and energy",
+    "Impact and keen only",
+    "Keen, energy and spirit"
+   ],
+   "answer": 1,
+   "explanation": "Deflect (usually from armor) reduces impact, keen and energy damage by the deflect value. Other damage types bypass it.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Deflect",
+    "page": "51"
+   }
+  },
+  {
+   "id": "r-stat-06",
+   "category": "rules",
+   "topic": "Attributes",
+   "question": "A character with Speed 3 uses the Move action. What is their movement rate?",
+   "choices": [
+    "25 feet per action",
+    "30 feet per action",
+    "35 feet per action",
+    "40 feet per action"
+   ],
+   "answer": 1,
+   "explanation": "On the Movement Rate table, Speed 3–4 gives 30 feet per action (Speed 1–2 is 25 feet, 5–6 is 40 feet).",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Speed (Movement Rate)",
+    "page": "49"
+   }
+  },
+  {
+   "id": "r-stat-07",
+   "category": "rules",
+   "topic": "Attributes",
+   "question": "Which attribute determines the size of a character's recovery die?",
+   "choices": [
+    "Strength",
+    "Willpower",
+    "Awareness",
+    "Presence"
+   ],
+   "answer": 1,
+   "explanation": "Willpower sets the recovery die, from 1d4 at Willpower 0 up through 1d6, 1d8, 1d10 and 1d12, to 1d20 at Willpower 9+.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Willpower (Recovery Die)",
+    "page": "50"
+   }
+  },
+  {
+   "id": "r-stat-08",
+   "category": "rules",
+   "topic": "Senses",
+   "question": "A character with Awareness 3 has their primary sense obscured. How far is their senses range?",
+   "choices": [
+    "5 feet",
+    "10 feet",
+    "20 feet",
+    "50 feet"
+   ],
+   "answer": 2,
+   "explanation": "On the Senses Range table, Awareness 3–4 gives 20 feet (1–2 is 10 feet, 5–6 is 50 feet).",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Awareness (Senses)",
+    "page": "50"
+   }
+  },
+  {
+   "id": "r-stat-09",
+   "category": "rules",
+   "topic": "Attributes",
+   "question": "What happens if a character moves while carrying more than their carrying capacity?",
+   "choices": [
+    "They can't move at all",
+    "They become Slowed, and after a cumulative 60 minutes they become Exhausted [−1]",
+    "They take 1d4 impact damage per round",
+    "They gain a disadvantage on all tests"
+   ],
+   "answer": 1,
+   "explanation": "Moving while over carrying capacity makes you Slowed. Each cumulative 60 minutes spent over capacity also makes you Exhausted [−1]; the cumulative time resets after a long rest.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Strength (Carrying Capacity)",
+    "page": "49"
+   }
+  },
+  {
+   "id": "r-stat-10",
+   "category": "rules",
+   "topic": "Expertises",
+   "question": "How can a character gain a specialist expertise (such as Shardblades or Fabrial Crafting)?",
+   "choices": [
+    "By choosing it with a point of Intellect",
+    "Only through a talent, a reward or GM permission",
+    "By spending downtime training, like any other expertise",
+    "Automatically on reaching tier 2"
+   ],
+   "answer": 1,
+   "explanation": "Specialist expertises can't be chosen with the extra expertises from Intellect; they come only from a talent, a reward or GM permission.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Specialist Expertises",
+    "page": "54"
+   }
+  },
+  {
+   "id": "r-stat-11",
+   "category": "rules",
+   "topic": "Expertises",
+   "question": "How many expertises does a new character start with (before talents and other sources)?",
+   "choices": [
+    "Two cultural expertises plus a number equal to Intellect",
+    "One cultural expertise plus Intellect",
+    "Intellect + Willpower",
+    "Three, of any category"
+   ],
+   "answer": 0,
+   "explanation": "Characters begin with two cultural expertises plus additional expertises equal to their Intellect score, and gain another each time Intellect rises by 1.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Using Expertises",
+    "page": "51"
+   }
+  },
+  {
+   "id": "r-skill-01",
+   "category": "rules",
+   "topic": "Skill Tests",
+   "question": "How is a skill modifier calculated?",
+   "choices": [
+    "Ranks × 2",
+    "Associated attribute + ranks in the skill",
+    "Associated attribute + tier",
+    "10 + ranks in the skill"
+   ],
+   "answer": 1,
+   "explanation": "Your skill modifier equals your score in the skill's associated attribute plus your ranks in that skill (0–5).",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Skill Ranks and Modifiers",
+    "page": "56"
+   }
+  },
+  {
+   "id": "r-skill-02",
+   "category": "rules",
+   "topic": "Skill Tests",
+   "question": "On the Difficulty Class Examples table, what DC represents a Hard task?",
+   "choices": [
+    "15",
+    "18",
+    "20",
+    "25"
+   ],
+   "answer": 2,
+   "explanation": "The guideline DCs are Easy 10, Medium 15, Hard 20, Very Hard 25 and Nearly Impossible 30.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Difficulty Class Examples",
+    "page": "56"
+   }
+  },
+  {
+   "id": "r-skill-03",
+   "category": "rules",
+   "topic": "Skill Tests",
+   "question": "In an opposed test, what happens when both characters tie?",
+   "choices": [
+    "Both succeed",
+    "Reroll until one is higher",
+    "Nobody meets their DC; the result generally favors keeping things as they are",
+    "The character with the higher skill modifier wins"
+   ],
+   "answer": 2,
+   "explanation": "On a tie, neither side meets their DC. Both may fail, and in an aggressive contest the defender — the side trying to keep things the same — is favored.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Opposed Tests",
+    "page": "57"
+   }
+  },
+  {
+   "id": "r-skill-04",
+   "category": "rules",
+   "topic": "Skill Tests",
+   "question": "When an effect grants an automatic success on a test, what happens?",
+   "choices": [
+    "Roll anyway; you can't fail but can gain Opportunities",
+    "You don't roll, and you succeed with no Opportunities or Complications",
+    "You succeed and gain one Opportunity",
+    "You roll the plot die only"
+   ],
+   "answer": 1,
+   "explanation": "With an automatic success you don't roll at all, so you get the benefits of success with no Opportunities or Complications.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Automatic Successes",
+    "page": "57"
+   }
+  },
+  {
+   "id": "r-skill-05",
+   "category": "rules",
+   "topic": "Advantage & Disadvantage",
+   "question": "A PC has two advantages on an attack test. How are they applied?",
+   "choices": [
+    "Roll three d20s and keep the best",
+    "Roll two d20s and add +2",
+    "Apply each advantage to a different die (e.g. one to the d20, one to a damage die), rolling two of each and keeping one",
+    "Both advantages must apply to the d20"
+   ],
+   "answer": 2,
+   "explanation": "Each advantage picks a different die — the d20, the plot die or another die such as a damage die. You roll two of that die and keep one. The same die can't be chosen twice.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Testing With Advantages",
+    "page": "58"
+   }
+  },
+  {
+   "id": "r-skill-06",
+   "category": "rules",
+   "topic": "Advantage & Disadvantage",
+   "question": "When a PC tests with a disadvantage, who chooses which die is doubled and which result is kept?",
+   "choices": [
+    "The player chooses both",
+    "The GM chooses both",
+    "The player chooses the die; the GM chooses the result",
+    "The GM chooses the die; the player chooses the result"
+   ],
+   "answer": 1,
+   "explanation": "For each disadvantage, the GM picks which die is rolled twice and also picks which of the two results is kept.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Testing With Disadvantages",
+    "page": "58"
+   }
+  },
+  {
+   "id": "r-skill-07",
+   "category": "rules",
+   "topic": "Advantage & Disadvantage",
+   "question": "An enemy NPC makes a test with a disadvantage. Who chooses which of the doubled dice is kept?",
+   "choices": [
+    "The GM",
+    "A player, typically the one whose character is most affected",
+    "The NPC always keeps the lower result automatically",
+    "Nobody — NPCs ignore disadvantages"
+   ],
+   "answer": 1,
+   "explanation": "For enemy NPC tests the roles reverse: the GM picks for advantages, and a player (usually the most affected one) picks for disadvantages.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Enemy NPC Tests",
+    "page": "58"
+   }
+  },
+  {
+   "id": "r-skill-08",
+   "category": "rules",
+   "topic": "Skill Tests",
+   "question": "A PC tries to intimidate a guard. By default, which of the guard's defenses sets the DC?",
+   "choices": [
+    "Physical",
+    "Cognitive",
+    "Spiritual",
+    "The highest of the three"
+   ],
+   "answer": 1,
+   "explanation": "A test against a character usually targets the defense in the same category as the skill. Intimidation is Willpower-based (cognitive), so it targets Cognitive defense.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Defenses (as DC)",
+    "page": "56"
+   }
+  },
+  {
+   "id": "r-skill-09",
+   "category": "rules",
+   "topic": "Skill Tests",
+   "question": "When the GM sets a DC by judgment, whose abilities should the task's difficulty be gauged against?",
+   "choices": [
+    "The PC attempting it",
+    "The party's average",
+    "An average person, not a player character",
+    "The strongest NPC present"
+   ],
+   "answer": 2,
+   "explanation": "Difficulty is gauged by what an average humanoid could do, not a PC. A leap that's nearly impossible for an ordinary citizen is DC 30.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › GM Discretion",
+    "page": "56"
+   }
+  },
+  {
+   "id": "s-stat-01",
+   "category": "scenario",
+   "topic": "Deflect",
+   "question": "A PC wearing armor with deflect 2 is hit for 7 keen damage. How much health do they lose?",
+   "choices": [
+    "7",
+    "5",
+    "3",
+    "0 — armor negates keen damage"
+   ],
+   "answer": 1,
+   "explanation": "Deflect reduces keen, impact and energy damage by its value: 7 − 2 = 5 health lost.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Deflect",
+    "page": "51"
+   }
+  },
+  {
+   "id": "s-skill-01",
+   "category": "scenario",
+   "topic": "Advantage & Disadvantage",
+   "question": "A PC's Lore test has two advantages (good research, a helpful archivist) and one disadvantage (time pressure). What do they roll?",
+   "choices": [
+    "Two advantages and one disadvantage, each on a separate die",
+    "One advantage — the disadvantage cancels one advantage",
+    "Nothing extra — any disadvantage cancels all advantages",
+    "One disadvantage, because disadvantages take priority"
+   ],
+   "answer": 1,
+   "explanation": "Advantages and disadvantages cancel one for one, so two advantages and one disadvantage leaves one advantage.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Testing With Both",
+    "page": "58"
+   }
+  },
+  {
+   "id": "s-skill-02",
+   "category": "scenario",
+   "topic": "Skill Tests",
+   "question": "A Windrunner Lashed a door shut with Adhesion. A PC tests Athletics against the Windrunner's Adhesion to force it open, and the results tie. What happens?",
+   "choices": [
+    "The door opens — ties go to the active character",
+    "Both reroll",
+    "The door stays stuck — a tie favors the status quo",
+    "The GM decides with the plot die"
+   ],
+   "answer": 2,
+   "explanation": "On a tie neither side meets their DC, and in an aggressive contest the result favors the defender, keeping things as they were. The door stays Lashed.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Opposed Tests",
+    "page": "57"
+   }
+  },
+  {
+   "id": "s-skill-03",
+   "category": "scenario",
+   "topic": "Skill Tests",
+   "question": "A merchant with Spiritual defense 14 is already very friendly toward the party. A PC tests Persuasion. Which approach matches the rules?",
+   "choices": [
+    "The DC must stay 14 — defenses are fixed",
+    "Lower the DC (e.g. to 11); you don't have to tell the player",
+    "Grant an advantage and announce it",
+    "Skip the test and grant an automatic success with an Opportunity"
+   ],
+   "answer": 1,
+   "explanation": "The target's defense sets the base DC, but the GM may adjust it for circumstances. Unlike advantages and disadvantages, the GM doesn't have to reveal that change.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Adjusting DCs",
+    "page": "56"
+   }
+  },
+  {
+   "id": "s-stat-02",
+   "category": "scenario",
+   "topic": "Expertises",
+   "question": "A PC with the Thaylen cultural expertise wants to know the basic customs at a Thaylen merchant gathering. What should you do as GM?",
+   "choices": [
+    "Call for a Lore test with an advantage",
+    "Call for an Insight test",
+    "Just tell them — basic facts in their area of expertise need no test",
+    "Call for a Lore test at DC 10"
+   ],
+   "answer": 2,
+   "explanation": "Expertise means you automatically know the basic facts of that area — no Lore, Deduction or Insight test is needed for basics.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Expertise Benefits (Assumed Knowledge)",
+    "page": "52"
+   }
+  },
+  {
+   "id": "r-skill-10",
+   "category": "rules",
+   "topic": "Skill Tests",
+   "question": "Outside combat, several characters work together on one task. How is it resolved by default?",
+   "choices": [
+    "Everyone tests and the best result counts",
+    "Everyone tests and the average counts",
+    "The leader makes one test and gains an advantage for each character helping",
+    "The leader tests with +2 per helper"
+   ],
+   "answer": 2,
+   "explanation": "The person leading the effort makes a single test and gains one advantage per helper. Helpers must be able to reasonably do the task themselves; complex group tasks may become an endeavor instead.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Working Together",
+    "page": "59"
+   }
+  },
+  {
+   "id": "r-skill-11",
+   "category": "rules",
+   "topic": "Skill Tests",
+   "question": "How does a character help an ally's test during combat?",
+   "choices": [
+    "By spending 1 focus",
+    "By using the Aid reaction",
+    "By using the Gain Advantage action on the ally",
+    "They can't help in combat"
+   ],
+   "answer": 1,
+   "explanation": "Helping in combat requires the Aid reaction; the 'one advantage per helper' rule is for working together outside combat.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Helping in Combat",
+    "page": "59"
+   }
+  },
+  {
+   "id": "r-skill-12",
+   "category": "rules",
+   "topic": "Dice",
+   "question": "An ability increases the die size of an attack that normally deals 1d4. What do you roll now?",
+   "choices": [
+    "2d4",
+    "1d4+1",
+    "1d6",
+    "1d8"
+   ],
+   "answer": 2,
+   "explanation": "Increasing die size swaps the die for the next largest one: d4 → d6 → d8 → d10 → d12.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Changing Die Size",
+    "page": "59"
+   }
+  },
+  {
+   "id": "r-skill-13",
+   "category": "rules",
+   "topic": "Senses",
+   "question": "In general, what happens when you make a test to directly affect a character you can't sense (e.g. a surge or weapon attack)?",
+   "choices": [
+    "The test automatically fails",
+    "You usually gain a disadvantage",
+    "The target gains +5 to its defenses",
+    "Nothing, as long as you know where they are"
+   ],
+   "answer": 1,
+   "explanation": "If you can't sense a character, you usually gain a disadvantage on tests made to directly affect them.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Targeting From a Distance",
+    "page": "59"
+   }
+  },
+  {
+   "id": "r-skill-14",
+   "category": "rules",
+   "topic": "Skills",
+   "question": "A PC tries to deceive someone by letter. What's the rule?",
+   "choices": [
+    "Deception can't be used at a distance",
+    "Test Deception with a disadvantage if the target can't sense you",
+    "Test Lore instead of Deception",
+    "Test normally, but the DC is +5"
+   ],
+   "answer": 1,
+   "explanation": "Long-distance deception (spanreed, letters, messengers) is harder: you test Deception with a disadvantage if the target can't sense you.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Deception (Long-Distance Deception)",
+    "page": "61"
+   }
+  },
+  {
+   "id": "r-skill-15",
+   "category": "rules",
+   "topic": "Movement",
+   "question": "Without making a test, how far can a moving character generally jump?",
+   "choices": [
+    "5 feet in any direction",
+    "Horizontally equal to their size, vertically half their size",
+    "Horizontally half their movement rate",
+    "Horizontally 10 feet, vertically 3 feet"
+   ],
+   "answer": 1,
+   "explanation": "A moving character can jump a horizontal distance equal to their size and a vertical distance equal to half their size without a test. Longer jumps need an Athletics test.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Athletics (Jumping)",
+    "page": "60"
+   }
+  },
+  {
+   "id": "r-skill-16",
+   "category": "rules",
+   "topic": "Medicine",
+   "question": "What's needed to treat a conscious ally with Medicine during combat?",
+   "choices": [
+    "A healing kit and 1 action, no test",
+    "At least 1 rank in Medicine, 2 focus and Use a Skill for a DC 15 Medicine test",
+    "Any character can make a DC 10 Medicine test as a reaction",
+    "3 actions and a DC 20 Medicine test"
+   ],
+   "answer": 1,
+   "explanation": "With at least 1 rank in Medicine, you spend 2 focus and Use a Skill for a DC 15 test on a conscious ally within reach (yourself with a disadvantage). On a success they recover health equal to your Medicine ranks.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Medicine (Using Medicine in Combat)",
+    "page": "63"
+   }
+  },
+  {
+   "id": "r-skill-17",
+   "category": "rules",
+   "topic": "Medicine",
+   "question": "During a long rest, what does a successful DC 20 Medicine test on an injured ally do?",
+   "choices": [
+    "Removes the injury entirely",
+    "Reduces a shallow or vicious injury's duration by 1d4 days",
+    "Restores health equal to Medicine ranks",
+    "Converts a vicious injury into a shallow one"
+   ],
+   "answer": 1,
+   "explanation": "Treating an injury during a long rest (DC 20; with a disadvantage on yourself) cuts a shallow or vicious injury's duration by 1d4 days. Each character can only be treated this way once per long rest.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Medicine (Using Medicine While Resting)",
+    "page": "63"
+   }
+  },
+  {
+   "id": "r-skill-18",
+   "category": "rules",
+   "topic": "Stealth",
+   "question": "In combat, what must be true for a character to attempt to hide from someone?",
+   "choices": [
+    "They must be at least 30 feet away",
+    "They must be in cover, in an area that obscures the target's primary sense, or out of the target's line of effect",
+    "They must spend 1 focus",
+    "They must not have attacked this round"
+   ],
+   "answer": 1,
+   "explanation": "Hiding in combat (Use a Skill: Stealth vs. Spiritual defense) requires cover, an area obscuring the target's primary sense (like darkness), or no line of effect to the target.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Stealth (Hiding in Combat)",
+    "page": "64"
+   }
+  },
+  {
+   "id": "r-skill-19",
+   "category": "rules",
+   "topic": "Stealth",
+   "question": "When a hiding character tests Stealth in combat, which defense of the searcher do they test against?",
+   "choices": [
+    "Physical",
+    "Cognitive",
+    "Spiritual",
+    "None — it's always an opposed Perception test"
+   ],
+   "answer": 2,
+   "explanation": "Hiding in combat is a Stealth test against each character's Spiritual defense. Anyone you beat loses track of you.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Stealth (Hiding in Combat)",
+    "page": "64"
+   }
+  },
+  {
+   "id": "r-skill-20",
+   "category": "rules",
+   "topic": "Skills",
+   "question": "Which is true about pickpocketing in combat with Thievery?",
+   "choices": [
+    "It's a free action",
+    "The stakes are always raised, the DC is the target's Spiritual defense, and you have a disadvantage if the target is aware of you",
+    "It targets Physical defense with an advantage",
+    "It can only be done against Unconscious targets"
+   ],
+   "answer": 1,
+   "explanation": "Pickpocketing in combat uses Use a Skill against a target within reach. You always raise the stakes, the DC is their Spiritual defense, and you gain a disadvantage if they're aware of your presence.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Thievery (Pickpocketing in Combat)",
+    "page": "65"
+   }
+  },
+  {
+   "id": "r-skill-21",
+   "category": "rules",
+   "topic": "Skills",
+   "question": "What does a character give up to forage with Survival during a short rest?",
+   "choices": [
+    "Nothing",
+    "The other benefits of resting",
+    "1 focus",
+    "Their next reaction"
+   ],
+   "answer": 1,
+   "explanation": "Foraging during a short rest means giving up that rest's normal benefits to test Survival and collect resources.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Survival (Foraging in Nature)",
+    "page": "65"
+   }
+  },
+  {
+   "id": "r-skill-22",
+   "category": "rules",
+   "topic": "Skills",
+   "question": "A visibly sick PC who can barely stand threatens a thug by claiming to be a fearsome warrior. How does that affect the Intimidation test?",
+   "choices": [
+    "No effect — bluffing never matters",
+    "The test gains a disadvantage",
+    "The test is impossible",
+    "Use Deception instead, with an advantage"
+   ],
+   "answer": 1,
+   "explanation": "Plausible exaggeration doesn't change the test, but an obviously preposterous threat gives a disadvantage on the Intimidation test.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Intimidation (Insincere Threats)",
+    "page": "62"
+   }
+  },
+  {
+   "id": "r-skill-23",
+   "category": "rules",
+   "topic": "Crafting",
+   "question": "What does a character need before they can make a Crafting test to build a weapon, armor or a fabrial?",
+   "choices": [
+    "Nothing beyond a rank in Crafting",
+    "A corresponding expertise",
+    "A specialist workshop and 3 ranks",
+    "Intellect 3 or higher"
+   ],
+   "answer": 1,
+   "explanation": "Commonplace items just need a Crafting test, but complex items like weapons, armor, equipment, grand works of art and fabrials need a corresponding expertise.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Crafting (Crafting Complex Items)",
+    "page": "61"
+   }
+  },
+  {
+   "id": "s-skill-04",
+   "category": "scenario",
+   "topic": "Skill Tests",
+   "question": "Outside combat, a PC leads an effort to decipher an enemy fabrial. Three allies want to help, but one lacks the Fabrial Crafting expertise the task needs. How many advantages does the leader get?",
+   "choices": [
+    "3",
+    "2",
+    "1",
+    "0 — the leader must roll alone"
+   ],
+   "answer": 1,
+   "explanation": "Each helper grants one advantage, but helpers must be able to reasonably do the task themselves. The ally without the required expertise can't contribute, so the leader gets 2.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Helping Outside Combat",
+    "page": "59"
+   }
+  },
+  {
+   "id": "s-skill-05",
+   "category": "scenario",
+   "topic": "Medicine",
+   "question": "Mid-combat, a PC with 2 ranks in Medicine treats a wounded, conscious ally beside them and succeeds on the DC 15 test. What did it cost, and how much health does the ally recover?",
+   "choices": [
+    "Cost 1 action; recover 1d6",
+    "Cost 2 focus plus the Use a Skill action; recover 2 health",
+    "Cost 2 focus; recover 2d4",
+    "Cost nothing extra; recover 4 health"
+   ],
+   "answer": 1,
+   "explanation": "Medicine in combat costs 2 focus and the Use a Skill action, and heals health equal to the healer's Medicine ranks — 2 here.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Medicine (Using Medicine in Combat)",
+    "page": "63"
+   }
+  },
+  {
+   "id": "s-skill-06",
+   "category": "scenario",
+   "topic": "Stealth",
+   "question": "A PC ducks behind crates and tests Stealth to hide from two guards, rolling a total of 17. Guard A has Spiritual defense 15; Guard B has 18. What's the result?",
+   "choices": [
+    "Hidden from both — beat the lower defense",
+    "Hidden from neither — must beat both",
+    "Hidden from Guard A only",
+    "Hidden from Guard B only"
+   ],
+   "answer": 2,
+   "explanation": "Compare the one Stealth result to each character's Spiritual defense. 17 beats Guard A's 15 but not Guard B's 18, so only Guard A loses track of the PC.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Stealth (Hiding in Combat)",
+    "page": "64"
+   }
+  },
+  {
+   "id": "s-skill-07",
+   "category": "scenario",
+   "topic": "Stealth",
+   "question": "A PC hid in a dark corridor with a Stealth result of 19. On his turn, a guard searches with Perception. What's the DC, and does anything modify his roll?",
+   "choices": [
+    "DC 15, no modifier",
+    "DC = the PC's Spiritual defense, with an advantage",
+    "DC 19, and the guard has a disadvantage because the area obscures his primary sense",
+    "DC 19, no modifier"
+   ],
+   "answer": 2,
+   "explanation": "A searcher uses Use a Skill for a Perception test whose DC is the hider's original Stealth result (19). They have a disadvantage if the hider is in cover or in an area obscuring the searcher's primary sense, like darkness.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Stealth (Hiding in Combat)",
+    "page": "64"
+   }
+  },
+  {
+   "id": "s-skill-08",
+   "category": "scenario",
+   "topic": "Medicine",
+   "question": "During a long rest, the party medic tries to shorten a companion's vicious injury but fails the Medicine test. Another PC with Medicine wants to try too. Can they?",
+   "choices": [
+    "Yes, with an advantage from the first attempt",
+    "Yes, but at DC 25",
+    "No — a character can only be treated this way once per long rest, success or failure",
+    "Only if they spend 2 focus"
+   ],
+   "answer": 2,
+   "explanation": "Once a character has been treated during a long rest, successfully or not, they can't be treated that way again until the next long rest.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 3 Character Statistics › Medicine (Using Medicine While Resting)",
+    "page": "63"
+   }
+  },
+  {
+   "id": "r-cond-01",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "What does the Determined condition let you do?",
+   "choices": [
+    "Gain an advantage on your next test",
+    "When you fail a test, add an Opportunity to it (then the condition ends)",
+    "Ignore your next Complication",
+    "Reroll one failed test"
+   ],
+   "answer": 1,
+   "explanation": "While Determined, you can add an Opportunity to a failed test. Doing so removes the condition.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Determined)",
+    "page": "293"
+   }
+  },
+  {
+   "id": "r-cond-02",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "Which set of effects describes the Disoriented condition?",
+   "choices": [
+    "Movement halved; melee attacks against you gain an advantage",
+    "No reactions; your senses count as obscured; disadvantage on Perception and similar sense-based tests",
+    "Lose two actions on your turn",
+    "Disadvantage on all tests except escaping"
+   ],
+   "answer": 1,
+   "explanation": "Disoriented means you can't use reactions, your senses always count as obscured, and Perception (and similar sensing tests) gain a disadvantage.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Disoriented)",
+    "page": "293"
+   }
+  },
+  {
+   "id": "r-cond-03",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "A Radiant becomes Empowered after swearing an Ideal. What does that grant, and when does it end?",
+   "choices": [
+    "+2 to all tests until their next long rest",
+    "An advantage on all tests and Investiture refilling to max at the start of each of their turns, until the end of the scene",
+    "Double Investiture for 1 round",
+    "Immunity to damage until the end of their next turn"
+   ],
+   "answer": 1,
+   "explanation": "Empowered grants an advantage on all tests and refills Investiture to maximum at the start of each of your turns. It's removed at the end of the current scene.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Empowered)",
+    "page": "293"
+   }
+  },
+  {
+   "id": "r-cond-04",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "Which is true of a Prone character?",
+   "choices": [
+    "Ranged attacks against them gain an advantage",
+    "They are Slowed, and melee attacks against them gain an advantage",
+    "They can't take actions until they stand",
+    "They are Immobilized"
+   ],
+   "answer": 1,
+   "explanation": "While Prone you're Slowed and melee attacks against you gain an advantage. You can Brace without cover, and after standing up your movement rate is reduced by 5 until the start of your next turn.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Prone)",
+    "page": "294"
+   }
+  },
+  {
+   "id": "r-cond-05",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "What does the Restrained condition do?",
+   "choices": [
+    "Movement 0 and a disadvantage on all tests except those to escape",
+    "Movement 0 only — tests are unaffected",
+    "Movement halved and no reactions",
+    "You can't be moved by other effects"
+   ],
+   "answer": 0,
+   "explanation": "Restrained sets your movement rate to 0 and gives a disadvantage on all tests other than escaping your bonds. (Immobilized is the one that also stops other effects moving you.)",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Restrained)",
+    "page": "294"
+   }
+  },
+  {
+   "id": "r-cond-06",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "A character becomes Enhanced [+2 Strength]. Which of these does NOT change?",
+   "choices": [
+    "Athletics test results",
+    "Heavy Weaponry test results",
+    "Physical defense and maximum health",
+    "Talents that directly use Strength"
+   ],
+   "answer": 2,
+   "explanation": "Enhanced boosts the attribute for skills, talents and things like movement, but explicitly doesn't change defenses, maximum health, maximum focus or maximum Investiture.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Enhanced)",
+    "page": "294"
+   }
+  },
+  {
+   "id": "r-cond-07",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "How does the Exhausted condition go away?",
+   "choices": [
+    "It ends at the end of the scene",
+    "After each long rest the penalty drops by 1; the condition ends at 0",
+    "A short rest removes it entirely",
+    "A DC 15 Discipline test ends it"
+   ],
+   "answer": 1,
+   "explanation": "Each long rest reduces your Exhausted penalty by 1, and the condition is removed when the penalty reaches 0. Multiple instances add together.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Exhausted)",
+    "page": "294"
+   }
+  },
+  {
+   "id": "r-cond-08",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "What does the Focused condition do?",
+   "choices": [
+    "Grants an advantage on Discipline tests",
+    "Reduces the focus cost of your abilities by 1",
+    "Restores 1 focus per round",
+    "Prevents you from losing focus"
+   ],
+   "answer": 1,
+   "explanation": "While Focused, abilities that cost focus cost 1 less.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Focused)",
+    "page": "294"
+   }
+  },
+  {
+   "id": "r-cond-09",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "Which of these is NOT an effect of the Surprised condition?",
+   "choices": [
+    "You lose any reactions",
+    "You can't take a fast turn",
+    "You gain one fewer action",
+    "Attacks against you are automatically critical hits"
+   ],
+   "answer": 3,
+   "explanation": "Surprised removes your reactions, stops you gaining a reaction at the start of combat or on your turn, bars fast turns, and costs you one action. It ends after your next turn. Nothing makes attacks auto-crit.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Surprised)",
+    "page": "295"
+   }
+  },
+  {
+   "id": "r-cond-10",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "Can a character be Afflicted by more than one effect at the same time?",
+   "choices": [
+    "No — only the strongest applies",
+    "Yes — resolve each effect separately",
+    "Yes, but only two at once",
+    "Only if they're different damage types"
+   ],
+   "answer": 1,
+   "explanation": "Unlike most conditions, you can be Afflicted by several effects at once, resolving each separately. In combat, the damage happens at the end of each of your turns.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Afflicted)",
+    "page": "293"
+   }
+  },
+  {
+   "id": "r-cond-11",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "When can an Unconscious PC choose to wake up?",
+   "choices": [
+    "Only when healed by another character",
+    "At the end of any of their turns (no action needed), or when healed to at least 1 health",
+    "After a successful DC 15 Discipline test",
+    "At the end of combat"
+   ],
+   "answer": 1,
+   "explanation": "A PC can choose to regain consciousness at the end of any of their turns, or when an effect heals them to at least 1 health. If they're at 0, they recover 1 health. NPCs only wake when they recover 1 health.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Unconscious)",
+    "page": "295"
+   }
+  },
+  {
+   "id": "r-cond-12",
+   "category": "rules",
+   "topic": "Conditions",
+   "question": "An effect applies a condition to everything in an area that includes a cart and some crates. What happens to the objects?",
+   "choices": [
+    "They gain the condition too",
+    "Objects generally ignore conditions, unless the GM decides otherwise for the story",
+    "Objects take 1d4 damage instead",
+    "The condition fails for everyone"
+   ],
+   "answer": 1,
+   "explanation": "Conditions generally only apply to characters; objects in the area ignore them, though the GM may apply a similar narrative effect when it fits.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions",
+    "page": "293"
+   }
+  },
+  {
+   "id": "r-dmg-01",
+   "category": "rules",
+   "topic": "Damage & Injuries",
+   "question": "Which two damage types are NOT reduced by deflect?",
+   "choices": [
+    "Energy and keen",
+    "Spirit and vital",
+    "Impact and spirit",
+    "Vital and energy"
+   ],
+   "answer": 1,
+   "explanation": "Deflect reduces energy, impact and keen. Spirit damage (usually from Shardblades) and vital damage (poison, suffocation, extreme cold) bypass it.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Damage Types",
+    "page": "296"
+   }
+  },
+  {
+   "id": "r-dmg-02",
+   "category": "rules",
+   "topic": "Damage & Injuries",
+   "question": "A PC is poisoned or exposed to extreme cold. What type of damage is that by default?",
+   "choices": [
+    "Energy",
+    "Impact",
+    "Spirit",
+    "Vital"
+   ],
+   "answer": 3,
+   "explanation": "Vital damage covers effects that test your constitution, such as poison, suffocation and extreme cold.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Damage Types",
+    "page": "296"
+   }
+  },
+  {
+   "id": "r-inj-01",
+   "category": "rules",
+   "topic": "Damage & Injuries",
+   "question": "How is an injury roll calculated?",
+   "choices": [
+    "d20 + Athletics modifier vs. DC 15",
+    "d20 + armor deflect + relevant ability modifiers − 5 per existing injury",
+    "d20 − damage taken",
+    "2d6 + Strength"
+   ],
+   "answer": 1,
+   "explanation": "An injury roll isn't a skill test: roll a d20, add your armor's deflect and any relevant ability modifiers, and subtract 5 for each injury you already have. The result can be negative.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Injury Rolls",
+    "page": "296"
+   }
+  },
+  {
+   "id": "r-inj-02",
+   "category": "rules",
+   "topic": "Damage & Injuries",
+   "question": "On the Injury Duration table, what does an injury roll result of 6 to 15 mean?",
+   "choices": [
+    "Flesh wound — lasts until after a long rest",
+    "Shallow injury — lasts 1d6 days",
+    "Vicious injury — lasts 6d6 days",
+    "Permanent injury"
+   ],
+   "answer": 1,
+   "explanation": "Injury roll results: 16+ flesh wound (until after a long rest); 6–15 shallow (1d6 days); 1–5 vicious (6d6 days); −5 to 0 permanent; −6 or lower death.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Injury Duration",
+    "page": "296"
+   }
+  },
+  {
+   "id": "r-inj-03",
+   "category": "rules",
+   "topic": "Damage & Injuries",
+   "question": "What injury roll result kills a character?",
+   "choices": [
+    "0 or lower",
+    "−5 or lower",
+    "−6 or lower",
+    "−10 or lower"
+   ],
+   "answer": 2,
+   "explanation": "A result of −6 or lower is death; −5 to 0 is a permanent injury.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Injury Duration",
+    "page": "296"
+   }
+  },
+  {
+   "id": "r-inj-04",
+   "category": "rules",
+   "topic": "Damage & Injuries",
+   "question": "A minor NPC suffers an injury. What happens?",
+   "choices": [
+    "They make an injury roll like a PC",
+    "They're immediately defeated; the PC who caused it can choose death or Unconscious",
+    "They lose half their health",
+    "They flee the scene"
+   ],
+   "answer": 1,
+   "explanation": "Minor NPCs are defeated as soon as they suffer an injury. The PC inflicting it can choose whether they die or fall Unconscious. Major NPCs make injury rolls like PCs.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Minor NPCs and Injuries",
+    "page": "297"
+   }
+  },
+  {
+   "id": "r-inj-05",
+   "category": "rules",
+   "topic": "Damage & Injuries",
+   "question": "How does recuperating during downtime affect injury healing?",
+   "choices": [
+    "No effect",
+    "Each day of dedicated rest counts as two days toward healing",
+    "It heals the injury after one day",
+    "It removes one injury per week"
+   ],
+   "answer": 1,
+   "explanation": "Each downtime day spent on rest and recuperation counts as two days toward healing an injury, so you heal twice as fast.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Downtime (Recuperating)",
+    "page": "292"
+   }
+  },
+  {
+   "id": "r-inj-06",
+   "category": "rules",
+   "topic": "Damage & Injuries",
+   "question": "When a PC suffers an injury, who decides what its effect is?",
+   "choices": [
+    "The GM, always",
+    "The player — they can pick from or roll on the Injury Effects table, or create a custom effect with the GM",
+    "It's always a d8 roll on the table",
+    "The character who dealt the damage"
+   ],
+   "answer": 1,
+   "explanation": "The player decides the injury's effects, choosing or rolling (d8) on the Injury Effects table or working out a custom effect with the GM. The player has final say on how an injury affects their character.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Injury Effects",
+    "page": "296"
+   }
+  },
+  {
+   "id": "r-rest-01",
+   "category": "rules",
+   "topic": "Resting",
+   "question": "What does a character recover after a short rest?",
+   "choices": [
+    "All health and focus",
+    "Their recovery die result, split however they like between health and focus",
+    "Half their maximum health",
+    "1 focus and 1 health"
+   ],
+   "answer": 1,
+   "explanation": "A short rest (an uninterrupted hour or more) lets you roll your recovery die and add the result to health, focus or a mix of both.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Short Rest",
+    "page": "299"
+   }
+  },
+  {
+   "id": "r-rest-02",
+   "category": "rules",
+   "topic": "Resting",
+   "question": "What does a long rest provide?",
+   "choices": [
+    "Recovery die × 2",
+    "All lost health and focus, and the Exhausted penalty drops by 1",
+    "All health, focus and Investiture, and all injuries heal",
+    "All health only"
+   ],
+   "answer": 1,
+   "explanation": "A long rest (8+ uninterrupted hours) restores all lost health and focus and reduces your Exhausted penalty by 1.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Long Rest",
+    "page": "299"
+   }
+  },
+  {
+   "id": "r-rest-03",
+   "category": "rules",
+   "topic": "Resting",
+   "question": "During a short rest, a PC chooses Tend to Others instead of recovering. What do the allies they tend get?",
+   "choices": [
+    "They add the tender's Medicine modifier to their recovery die roll",
+    "They gain an advantage on their recovery die",
+    "They recover all focus",
+    "One injury is shortened by 1 day"
+   ],
+   "answer": 0,
+   "explanation": "Tend to Others has you forgo your own recovery; the willing allies resting with you add your Medicine modifier to their recovery die rolls.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Short Rest (Alternative Benefits)",
+    "page": "299"
+   }
+  },
+  {
+   "id": "r-dur-01",
+   "category": "rules",
+   "topic": "Combat Turns",
+   "question": "In combat, an effect lasts '1 round'. When does it end?",
+   "choices": [
+    "At the end of the current round",
+    "At the end of the affected character's next turn",
+    "At the beginning of the same turn phase (fast PC, fast NPC, etc.) on the next round",
+    "After 6 seconds of real time"
+   ],
+   "answer": 2,
+   "explanation": "Note which phase the effect began in — fast PC, fast NPC, slow PC or slow NPC. It lasts until the start of that same phase on the next round.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Durations",
+    "page": "295"
+   }
+  },
+  {
+   "id": "r-food-01",
+   "category": "rules",
+   "topic": "Survival & Travel",
+   "question": "How long can a character go without food before suffering ill effects?",
+   "choices": [
+    "1 day",
+    "3 days",
+    "A number of days equal to their Willpower",
+    "A number of days equal to their Strength"
+   ],
+   "answer": 2,
+   "explanation": "You can go days equal to your Willpower without food; each further day makes you Exhausted [−1]. Reaching Exhausted [−10] or worse is fatal. Water is harsher: Exhausted [−1] from the first day without it.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Food and Water",
+    "page": "295"
+   }
+  },
+  {
+   "id": "r-event-01",
+   "category": "rules",
+   "topic": "Events",
+   "question": "During a scene with an event track in play, how do the event's slots get filled?",
+   "choices": [
+    "The GM fills one slot each round",
+    "Players and GM spend Opportunities or Complications to fill slots instead of using them normally",
+    "Each failed test fills a slot automatically",
+    "Slots fill when a character takes an injury"
+   ],
+   "answer": 1,
+   "explanation": "Opportunities can be spent to fill positive event slots and Complications (spent by the GM) to fill negative ones, giving up their usual effects. The event triggers when the last slot fills.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Contributing to Events",
+    "page": "290"
+   }
+  },
+  {
+   "id": "r-down-01",
+   "category": "rules",
+   "topic": "Downtime",
+   "question": "Using the downtime Training activity, how long does it typically take to learn a new expertise, and at what cost?",
+   "choices": [
+    "5 days at 1 mark per day",
+    "10 days at 3 marks per day",
+    "20 days or longer at 5 marks per day",
+    "30 days, free"
+   ],
+   "answer": 2,
+   "explanation": "Training for a new expertise (even a specialist one) usually takes 20+ days at 5 marks per day, and normally needs a relevant skill test. Research, by comparison, is about 10+ days at 3 marks per day.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Downtime (Training)",
+    "page": "293"
+   }
+  },
+  {
+   "id": "r-down-02",
+   "category": "rules",
+   "topic": "Downtime",
+   "question": "What does the Self-Reflection downtime activity allow?",
+   "choices": [
+    "Swearing an Ideal without a goal",
+    "Rebuilding your character (e.g. swapping talents or skill ranks) at the same level, after 10+ days at 5 marks per day",
+    "Gaining a level",
+    "Removing all injuries"
+   ],
+   "answer": 1,
+   "explanation": "Ten or more days of self-reflection (5 marks/day) let you rebuild your character at your current level with GM approval. Prerequisites still apply, and rewards don't count toward earlier-level prerequisites.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Downtime (Self-Reflection)",
+    "page": "293"
+   }
+  },
+  {
+   "id": "s-inj-01",
+   "category": "scenario",
+   "topic": "Damage & Injuries",
+   "question": "A PC in armor with deflect 2 is reduced to 0 health. They already have one injury. They roll a 9 on the injury roll. What happens?",
+   "choices": [
+    "Flesh wound — heals after a long rest",
+    "Shallow injury lasting 1d6 days",
+    "Vicious injury lasting 6d6 days",
+    "Permanent injury"
+   ],
+   "answer": 1,
+   "explanation": "9 + 2 (deflect) − 5 (one existing injury) = 6, which is in the 6–15 shallow injury band (1d6 days). They're also Unconscious.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Injury Rolls",
+    "page": "296"
+   }
+  },
+  {
+   "id": "s-inj-02",
+   "category": "scenario",
+   "topic": "Damage & Injuries",
+   "question": "An unarmored PC with two existing injuries suffers another and rolls a 7 on the injury roll. What's the outcome?",
+   "choices": [
+    "Shallow injury",
+    "Vicious injury",
+    "Permanent injury",
+    "Death"
+   ],
+   "answer": 2,
+   "explanation": "7 − 10 (two existing injuries × 5) = −3, which falls in the −5 to 0 band: a permanent injury.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Injury Duration",
+    "page": "296"
+   }
+  },
+  {
+   "id": "s-inj-03",
+   "category": "scenario",
+   "topic": "Damage & Injuries",
+   "question": "A PC lies Unconscious at 0 health. An enemy spends an attack on them and hits for 4 damage. What happens?",
+   "choices": [
+    "Nothing — they're already at 0",
+    "They suffer another injury and make another injury roll",
+    "They automatically die",
+    "They wake up from the pain"
+   ],
+   "answer": 1,
+   "explanation": "Each time you take damage while at 0 health, you suffer another injury, with the −5 per existing injury making it more dangerous. (Enemies typically ignore Unconscious characters unless they have a strong reason.)",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Damage",
+    "page": "295"
+   }
+  },
+  {
+   "id": "s-cond-01",
+   "category": "scenario",
+   "topic": "Conditions",
+   "question": "A PC is Exhausted [−2] from travel, then a poison makes them Exhausted [−1]. They roll a Survival test totaling 16. What is the final result?",
+   "choices": [
+    "16 — only the worst penalty applies",
+    "14",
+    "13",
+    "15"
+   ],
+   "answer": 2,
+   "explanation": "Exhausted is cumulative: −2 and −1 make a −3 penalty, applied after calculating the result. 16 − 3 = 13.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Exhausted)",
+    "page": "294"
+   }
+  },
+  {
+   "id": "s-cond-02",
+   "category": "scenario",
+   "topic": "Conditions",
+   "question": "A PC with Speed 3 (30 ft movement) becomes Enhanced [+2 Speed]. What changes?",
+   "choices": [
+    "Movement rises to 40 ft and Speed-based skill tests get +2; Physical defense stays the same",
+    "Physical defense +2 and movement 40 ft",
+    "Only movement rises, to 35 ft",
+    "Everything Speed affects, including Physical defense, rises by 2"
+   ],
+   "answer": 0,
+   "explanation": "Enhanced Speed 5 uses the 40 ft movement band and adds +2 to Agility, Light Weaponry, Stealth and Thievery tests — but Enhanced never changes defenses.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Enhanced)",
+    "page": "294"
+   }
+  },
+  {
+   "id": "s-cond-03",
+   "category": "scenario",
+   "topic": "Conditions",
+   "question": "A PC with 30 ft of movement has moved 15 ft when a trap makes them Slowed. How much farther can they move with this Move?",
+   "choices": [
+    "0 ft",
+    "7 ft",
+    "8 ft",
+    "15 ft"
+   ],
+   "answer": 2,
+   "explanation": "If you become Slowed mid-movement, halve your remaining movement, rounded up — an exception to the usual round-down rule. Half of 15 is 7.5, rounded up to 8.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Slowed)",
+    "page": "295"
+   }
+  },
+  {
+   "id": "s-dur-01",
+   "category": "scenario",
+   "topic": "Combat Turns",
+   "question": "During the fast PC phase, a PC's ability makes an enemy Disoriented for 1 round. When does it wear off?",
+   "choices": [
+    "At the end of the enemy's next turn",
+    "At the start of the fast PC phase on the next round",
+    "At the end of this round",
+    "At the start of the slow NPC phase this round"
+   ],
+   "answer": 1,
+   "explanation": "Round-based durations last until the start of the same phase in which they began, on the next round. It began in the fast PC phase, so it ends when the next fast PC phase starts.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Durations",
+    "page": "295"
+   }
+  },
+  {
+   "id": "s-event-01",
+   "category": "scenario",
+   "topic": "Events",
+   "question": "You've put a positive event, 'Reinforcements Arrive', on the table with Opportunity slots. An enemy NPC rolls a Complication. What can that Complication do?",
+   "choices": [
+    "Nothing — NPCs can't interact with events",
+    "It can fill a slot on the PCs' positive event",
+    "It must fill a negative event slot",
+    "It cancels a filled Opportunity slot"
+   ],
+   "answer": 1,
+   "explanation": "NPC contributions are inverted: an enemy's Opportunities feed events that are bad for the PCs, and its Complications feed events that are good for them.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › NPC Contributions",
+    "page": "290"
+   }
+  },
+  {
+   "id": "s-food-01",
+   "category": "scenario",
+   "topic": "Survival & Travel",
+   "question": "A PC with Willpower 2 is lost in the wilds with plenty of water but no food for 5 days. What's their condition?",
+   "choices": [
+    "No effect yet",
+    "Exhausted [−3]",
+    "Exhausted [−5]",
+    "Exhausted [−1]"
+   ],
+   "answer": 1,
+   "explanation": "They can go 2 days (their Willpower) without food. Each day after that adds Exhausted [−1]: days 3, 4 and 5 make Exhausted [−3].",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Insufficient Food",
+    "page": "295"
+   }
+  },
+  {
+   "id": "s-rest-01",
+   "category": "scenario",
+   "topic": "Resting",
+   "question": "After an hour's break between fights, a PC at low health and low focus rolls a 6 on their recovery die. What can they do with it?",
+   "choices": [
+    "Recover 6 health only — focus needs a long rest",
+    "Recover 6 focus only",
+    "Split the 6 between health and focus however they like (e.g. 4 and 2)",
+    "Recover 6 to each"
+   ],
+   "answer": 2,
+   "explanation": "After a short rest you add the recovery die result to health, focus or any combination of the two.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Short Rest",
+    "page": "299"
+   }
+  },
+  {
+   "id": "r-cmb-01",
+   "category": "rules",
+   "topic": "Combat Turns",
+   "question": "What's the trade-off between a fast turn and a slow turn?",
+   "choices": [
+    "Fast: 3 actions, no reaction. Slow: 2 actions plus a reaction",
+    "Fast: act before enemies with 2 actions. Slow: act after fast enemies with 3 actions",
+    "Fast: 2 actions and disadvantage on attacks. Slow: 3 actions",
+    "There's no difference except order"
+   ],
+   "answer": 1,
+   "explanation": "A fast turn goes before any enemies but gives only two actions; a slow turn comes after fast enemies but gives three. Either way you gain a reaction at the start of your turn.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Rounds and Turns",
+    "page": "301"
+   }
+  },
+  {
+   "id": "r-cmb-02",
+   "category": "rules",
+   "topic": "Combat Turns",
+   "question": "What's the order of turn phases in a combat round?",
+   "choices": [
+    "Fast PCs, slow PCs, fast NPCs, slow NPCs",
+    "Fast NPCs, fast PCs, slow NPCs, slow PCs",
+    "Fast PCs, fast NPCs, slow PCs, slow NPCs",
+    "Initiative order by d20 roll"
+   ],
+   "answer": 2,
+   "explanation": "Each round runs: fast PC turns, fast NPC turns, slow PC turns, slow NPC turns, then the next round begins.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Turn Phases",
+    "page": "301"
+   }
+  },
+  {
+   "id": "r-cmb-03",
+   "category": "rules",
+   "topic": "Combat Turns",
+   "question": "When does a character gain reactions in combat?",
+   "choices": [
+    "Only at the start of combat",
+    "At the start of combat (unless Surprised) and again at the start of each of their turns",
+    "Only on slow turns",
+    "At the end of each round"
+   ],
+   "answer": 1,
+   "explanation": "You gain a reaction when combat starts (unless Surprised), usable before your first turn, then a new one at the start of each of your turns, fast or slow. Each lasts until the start of your next turn or until used.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Gaining Reactions",
+    "page": "302"
+   }
+  },
+  {
+   "id": "r-cmb-04",
+   "category": "rules",
+   "topic": "Combat Actions",
+   "question": "Can a character use the Strike action more than once per turn?",
+   "choices": [
+    "No, named actions are once per turn",
+    "Yes, but each attack must use a different hand, and an offhand attack costs 2 focus",
+    "Yes, unlimited times with the same weapon",
+    "Only on a slow turn"
+   ],
+   "answer": 1,
+   "explanation": "Strike is an exception to the once-per-turn rule, but each Strike must use a different hand and attacking with your offhand costs 2 focus.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Strike",
+    "page": "303"
+   }
+  },
+  {
+   "id": "r-cmb-05",
+   "category": "rules",
+   "topic": "Combat Actions",
+   "question": "What does the Brace action do?",
+   "choices": [
+    "Grants +2 deflect until your next turn",
+    "Behind cover within 5 feet, attacks against you gain a disadvantage until you attack or move",
+    "Lets you ignore the next Shove or Grapple",
+    "Makes you immune to being knocked Prone"
+   ],
+   "answer": 1,
+   "explanation": "Brace puts you behind cover within 5 feet: attacks from the far side of that cover gain a disadvantage until you attack or move. A Defensive-trait weapon like a shield can act as mobile cover.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Brace",
+    "page": "303"
+   }
+  },
+  {
+   "id": "r-cmb-06",
+   "category": "rules",
+   "topic": "Combat Actions",
+   "question": "What does a successful Gain Advantage action give you?",
+   "choices": [
+    "An advantage on all tests against that enemy this round",
+    "An advantage on your next test against that enemy that uses a different skill",
+    "An Opportunity on your next test",
+    "A free Strike"
+   ],
+   "answer": 1,
+   "explanation": "After a successful test (a relevant skill vs. the matching defense), you gain an advantage on your next test against that enemy — but it must use a different skill from the one you used to Gain Advantage.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Gain Advantage",
+    "page": "303"
+   }
+  },
+  {
+   "id": "r-cmb-07",
+   "category": "rules",
+   "topic": "Combat Actions",
+   "question": "A character is Grappled. Which of these does NOT end the Grapple?",
+   "choices": [
+    "The grappler becomes Unconscious",
+    "The target is no longer within the grappler's reach",
+    "The grappled character successfully Shoves the grappler",
+    "The grappled character takes damage"
+   ],
+   "answer": 3,
+   "explanation": "Grapple (Athletics vs. Physical) makes the target Restrained until the grappler is Unconscious, chooses to end it, or the target leaves their reach. Successfully Shoving the grappler also ends it. Taking damage doesn't.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Grapple / Shove",
+    "page": "304"
+   }
+  },
+  {
+   "id": "r-cmb-08",
+   "category": "rules",
+   "topic": "Combat Actions",
+   "question": "How often can a character use the Recover action, and what does it do?",
+   "choices": [
+    "Once per round; regain 1 focus",
+    "Once per scene; roll your recovery die as if you'd finished a short rest",
+    "Twice per scene; regain all focus",
+    "Unlimited; regain 1d4 health"
+   ],
+   "answer": 1,
+   "explanation": "Recover (a two-action activity) lets you roll your recovery die for health and/or focus as if after a short rest. It can be used only once per scene.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Recover",
+    "page": "304"
+   }
+  },
+  {
+   "id": "r-cmb-09",
+   "category": "rules",
+   "topic": "Combat Reactions",
+   "question": "What does the Aid reaction cost and give?",
+   "choices": [
+    "Free; +2 to the ally's test",
+    "1 focus; the ally gains an advantage on their test",
+    "2 focus; the ally rerolls",
+    "1 action; the ally gains an Opportunity"
+   ],
+   "answer": 1,
+   "explanation": "Before an ally makes a skill test, you can use your reaction and spend 1 focus to grant them an advantage — if you're realistically in position to help.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Aid",
+    "page": "305"
+   }
+  },
+  {
+   "id": "r-cmb-10",
+   "category": "rules",
+   "topic": "Combat Reactions",
+   "question": "Which statement about the Dodge reaction is correct?",
+   "choices": [
+    "It costs no focus",
+    "It adds a disadvantage to an incoming attack for 1 focus, but can't be used against area or multi-target attacks",
+    "It lets you move 5 feet out of an area attack",
+    "It turns a hit into a graze"
+   ],
+   "answer": 1,
+   "explanation": "Dodge costs your reaction and 1 focus to add a disadvantage to an attack before it's made. It doesn't work on area attacks or attacks with multiple targets — Avoid Danger might help there.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Dodge",
+    "page": "305"
+   }
+  },
+  {
+   "id": "r-cmb-11",
+   "category": "rules",
+   "topic": "Combat Reactions",
+   "question": "What triggers a Reactive Strike, and what does it cost?",
+   "choices": [
+    "An enemy entering your reach; free",
+    "An enemy voluntarily leaving your reach; your reaction and 1 focus",
+    "Any enemy movement within 30 feet; 1 action",
+    "An enemy attacking an ally; 2 focus"
+   ],
+   "answer": 1,
+   "explanation": "When an enemy voluntarily leaves your reach, you can use your reaction and spend 1 focus to make a melee weapon attack against their Physical defense. Instant movement like Transportation doesn't trigger it.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Reactive Strike",
+    "page": "305"
+   }
+  },
+  {
+   "id": "r-cmb-12",
+   "category": "rules",
+   "topic": "Attacking",
+   "question": "An attack misses. What option does the attacker have?",
+   "choices": [
+    "None — a miss deals no damage",
+    "Spend 1 focus per target to graze, dealing the damage dice total (no skill modifier)",
+    "Spend an Opportunity to hit anyway",
+    "Spend 2 focus to reroll"
+   ],
+   "answer": 1,
+   "explanation": "On a miss you can spend 1 focus per target to graze, dealing damage equal to the damage dice alone. A hit adds your skill modifier to the dice.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Step 3: Resolve Damage",
+    "page": "306"
+   }
+  },
+  {
+   "id": "r-cmb-13",
+   "category": "rules",
+   "topic": "Attacking",
+   "question": "What does turning a hit into a critical hit do?",
+   "choices": [
+    "Doubles all damage",
+    "Treats all damage dice as rolling their maximum",
+    "Adds one extra damage die",
+    "Inflicts an automatic injury"
+   ],
+   "answer": 1,
+   "explanation": "Spending an Opportunity on a hit makes it a critical hit, maximizing the damage dice against all targets of that attack (the skill modifier is still added as usual).",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Critical Hit",
+    "page": "306"
+   }
+  },
+  {
+   "id": "r-cmb-14",
+   "category": "rules",
+   "topic": "Targeting & Range",
+   "question": "A thrown weapon has range [20/60]. What happens when attacking a target 40 feet away?",
+   "choices": [
+    "Normal attack",
+    "The attack gains a disadvantage",
+    "The attack can't be made",
+    "The attack takes a −5 penalty"
+   ],
+   "answer": 1,
+   "explanation": "Inside the short range (20 ft) tests are normal; between short and long range (up to 60 ft) they gain a disadvantage; beyond long range you can't attack.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Long and Short Range",
+    "page": "308"
+   }
+  },
+  {
+   "id": "r-cmb-15",
+   "category": "rules",
+   "topic": "Targeting & Range",
+   "question": "A PC attacks where they believe a hidden enemy is but can't sense them. What applies?",
+   "choices": [
+    "The attack automatically misses",
+    "The attack has a disadvantage and can't graze",
+    "Normal attack, but no damage modifier",
+    "The attack gains an advantage because the enemy is unaware"
+   ],
+   "answer": 1,
+   "explanation": "If you know roughly where a target is but can't sense them, attacks and other physical-effect tests against them gain a disadvantage, and those attacks can't graze.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Locating and Sensing Targets",
+    "page": "308"
+   }
+  },
+  {
+   "id": "r-cmb-16",
+   "category": "rules",
+   "topic": "Movement",
+   "question": "Does forced movement, like a Shove, trigger Reactive Strikes?",
+   "choices": [
+    "Yes, always",
+    "No — forced movement doesn't trigger Reactive Strike or other leave-your-reach abilities",
+    "Only if the target is pushed more than 5 feet",
+    "Only for Large or bigger characters"
+   ],
+   "answer": 1,
+   "explanation": "Forced movement ignores the target's movement rate and doesn't trigger Reactive Strike or other abilities that trigger when a character leaves your reach.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Forced Movement",
+    "page": "310"
+   }
+  },
+  {
+   "id": "r-cmb-17",
+   "category": "rules",
+   "topic": "Movement",
+   "question": "How much falling damage does a character take?",
+   "choices": [
+    "1d6 impact per 10 feet fallen (from at least 10 feet), and they land Prone if damaged",
+    "1d10 per 10 feet, no other effect",
+    "1d6 per 5 feet",
+    "Flat 5 damage per 10 feet"
+   ],
+   "answer": 0,
+   "explanation": "Falling at least 10 feet deals 1d6 impact damage per 10 feet. If you take any damage from the fall, you land Prone.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Falling",
+    "page": "311"
+   }
+  },
+  {
+   "id": "r-cmb-18",
+   "category": "rules",
+   "topic": "Mounted Combat",
+   "question": "What does a rider need to use their mount's abilities (from its stat block) in combat?",
+   "choices": [
+    "Nothing — mounts act on their own turn",
+    "A utility expertise in riding that kind of mount (e.g. Riding Horses); the rider spends their own resources",
+    "A successful Survival test each round",
+    "2 focus per round"
+   ],
+   "answer": 1,
+   "explanation": "With the right riding expertise you can activate the mount's abilities on your turn using your own focus and actions. Without it, the mount takes no actions of its own.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Using Mount Abilities",
+    "page": "313"
+   }
+  },
+  {
+   "id": "s-cmb-01",
+   "category": "scenario",
+   "topic": "Combat Reactions",
+   "question": "An ally Shoves an enemy 5 feet, out of the reach of the PC next to it. The PC still has their reaction and focus. Can they make a Reactive Strike?",
+   "choices": [
+    "Yes, it left their reach",
+    "Yes, but with a disadvantage",
+    "No — forced movement doesn't trigger Reactive Strike",
+    "No — Reactive Strike only works on the PC's own turn"
+   ],
+   "answer": 2,
+   "explanation": "Reactive Strike needs an enemy to voluntarily leave your reach. Being pushed is forced movement, which never triggers it.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Forced Movement",
+    "page": "310"
+   }
+  },
+  {
+   "id": "s-cmb-02",
+   "category": "scenario",
+   "topic": "Combat Reactions",
+   "question": "An enemy Elsecaller standing next to a PC uses Transportation to vanish and reappear across the room. Can the PC Reactive Strike?",
+   "choices": [
+    "Yes, they left reach voluntarily",
+    "No — Reactive Strike can't target characters who transport themselves or move instantaneously",
+    "Only with an advantage",
+    "Only if the PC has a reach weapon"
+   ],
+   "answer": 1,
+   "explanation": "Reactive Strike explicitly can't be used on a character who transports themselves with Transportation or otherwise moves instantaneously.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Reactive Strike",
+    "page": "305"
+   }
+  },
+  {
+   "id": "s-cmb-03",
+   "category": "scenario",
+   "topic": "Attacking",
+   "question": "A PC archer has an enemy soldier right next to them but shoots at an enemy officer 30 feet away (within short range). What modifies the attack?",
+   "choices": [
+    "Nothing",
+    "A disadvantage, because they're within an enemy's reach",
+    "An advantage, because the officer is unaware",
+    "The stakes are raised"
+   ],
+   "answer": 1,
+   "explanation": "A ranged attack made while you're within reach of any enemy gains a disadvantage.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Ranged Attacks and Reach",
+    "page": "306"
+   }
+  },
+  {
+   "id": "s-cmb-04",
+   "category": "scenario",
+   "topic": "Attacking",
+   "question": "A PC fires a shortbow at an enemy who is locked in melee, within 5 feet of the PC's ally. The attack misses and the plot die shows a Complication. What can you, the GM, do?",
+   "choices": [
+    "Nothing special — the stakes weren't raised",
+    "Spend the Complication to have the attack automatically graze the ally",
+    "Make the PC drop their bow",
+    "The ally takes full hit damage"
+   ],
+   "answer": 1,
+   "explanation": "Ranged attacks against a target within 5 feet of the attacker's ally always raise the stakes. On a miss with a Complication, the GM can spend it so the shot grazes the ally, at no focus cost.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Ranged Attacks and Reach",
+    "page": "306"
+   }
+  },
+  {
+   "id": "s-cmb-05",
+   "category": "scenario",
+   "topic": "Attacking",
+   "question": "A PC with a +4 Heavy Weaponry modifier hits with a weapon dealing 1d10 keen damage, rolling a 5. The target's armor has deflect 2. How much damage does the target take?",
+   "choices": [
+    "5",
+    "7",
+    "9",
+    "3"
+   ],
+   "answer": 1,
+   "explanation": "A hit deals the damage dice plus the skill modifier: 5 + 4 = 9. Keen damage is reduced by deflect: 9 − 2 = 7.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Step 3: Resolve Damage",
+    "page": "306"
+   }
+  },
+  {
+   "id": "s-cmb-06",
+   "category": "scenario",
+   "topic": "Attacking",
+   "question": "A PC with Light Weaponry +3 attacks with a weapon dealing 2d6, rolls 2 and 4 on the damage dice, and hits. They have an Opportunity and spend it to critically hit. How much damage (before deflect)?",
+   "choices": [
+    "9",
+    "12",
+    "15",
+    "18"
+   ],
+   "answer": 2,
+   "explanation": "A critical hit treats all damage dice as their maximum: 2d6 becomes 12. Add the skill modifier for a hit: 12 + 3 = 15.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Critical Hit",
+    "page": "306"
+   }
+  },
+  {
+   "id": "s-cmb-07",
+   "category": "scenario",
+   "topic": "Attacking",
+   "question": "A PC's attack misses. Their damage dice rolled a total of 6, and their skill modifier is +3. They spend 1 focus. What happens?",
+   "choices": [
+    "They graze for 6 damage",
+    "They graze for 9 damage",
+    "They hit for 9 damage",
+    "They graze for 3 damage"
+   ],
+   "answer": 0,
+   "explanation": "Spending 1 focus on a miss turns it into a graze, which deals only the damage dice total — 6 — without the skill modifier.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Step 3: Resolve Damage",
+    "page": "306"
+   }
+  },
+  {
+   "id": "s-cmb-08",
+   "category": "scenario",
+   "topic": "Movement",
+   "question": "A PC is shoved off a ledge and falls 30 feet onto stone. What happens?",
+   "choices": [
+    "1d6 impact damage",
+    "3d6 impact damage and they land Prone",
+    "3d6 impact damage, no other effect",
+    "An automatic injury"
+   ],
+   "answer": 1,
+   "explanation": "Falling deals 1d6 impact damage per 10 feet — 3d6 for 30 feet — and taking any fall damage leaves you Prone. (They could first try Avoid Danger to catch themselves.)",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Falling",
+    "page": "311"
+   }
+  },
+  {
+   "id": "s-cmb-09",
+   "category": "scenario",
+   "topic": "Combat Actions",
+   "question": "A PC uses Gain Advantage, testing Deduction to read a duelist's footwork, and succeeds. Which of their next tests against that duelist can use the advantage?",
+   "choices": [
+    "Any test, including another Deduction test",
+    "Their next test against the duelist that uses a different skill, such as a Light Weaponry Strike",
+    "Only a Deduction test",
+    "Only a test made by an ally"
+   ],
+   "answer": 1,
+   "explanation": "The advantage applies to your next test against that enemy using a different skill from the one you used to gain it.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Gain Advantage",
+    "page": "303"
+   }
+  },
+  {
+   "id": "s-cmb-10",
+   "category": "scenario",
+   "topic": "Combat Turns",
+   "question": "Two PCs have taken fast turns. The third PC planned to go slow but, after seeing the situation, wants to go fast now, before the fast NPCs. Is that allowed?",
+   "choices": [
+    "No — fast/slow must be declared at the start of the round",
+    "Yes — the choice can be made in the moment and changes each round",
+    "Only if they spend 1 focus",
+    "Only with a Speed higher than the other PCs"
+   ],
+   "answer": 1,
+   "explanation": "You choose fast or slow each round, and the decision doesn't need to be made at the start of the round. You can opt in after the other fast PCs have gone.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Rounds and Turns",
+    "page": "301"
+   }
+  },
+  {
+   "id": "s-cmb-11",
+   "category": "scenario",
+   "topic": "Combat Turns",
+   "question": "Bandits ambush the party, and you rule two PCs are Surprised. What does that mean for those PCs on the first round?",
+   "choices": [
+    "They skip their first turn entirely",
+    "No reaction, can't take a fast turn, and one fewer action on their turn; the condition ends after that turn",
+    "They have a disadvantage on all tests this round only",
+    "They're Prone"
+   ],
+   "answer": 1,
+   "explanation": "Surprised characters lose reactions (and don't gain one at the start of combat or on their turn), can't take a fast turn, and gain one fewer action. The condition is removed after their next turn.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Surprised)",
+    "page": "295"
+   }
+  },
+  {
+   "id": "s-cmb-12",
+   "category": "scenario",
+   "topic": "Combat Actions",
+   "question": "On their turn, a PC uses Ready to Strike the first enemy who comes through a door. No enemy comes through before the PC's next turn. What happens to the actions they spent?",
+   "choices": [
+    "They're refunded on the next turn",
+    "They're lost",
+    "They carry over as a bonus action",
+    "The PC can Strike at any target instead"
+   ],
+   "answer": 1,
+   "explanation": "If the trigger doesn't occur (or you choose not to respond), you don't regain the actions spent on Ready and the prepared action.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Ready",
+    "page": "304"
+   }
+  },
+  {
+   "id": "s-cmb-13",
+   "category": "scenario",
+   "topic": "Combat Reactions",
+   "question": "An enemy Dustbringer targets an area containing a PC with a gout of flame. The PC wants to Dodge. What's the correct ruling?",
+   "choices": [
+    "Dodge works normally for 1 focus",
+    "Dodge can't be used against area attacks; the PC can try Avoid Danger (Agility vs. the attack's test result) instead",
+    "The PC automatically takes half damage",
+    "Dodge works but costs 2 focus"
+   ],
+   "answer": 1,
+   "explanation": "Dodge can't be used against area or multi-target attacks. Avoid Danger lets you test Agility against the triggering test's result; on a success you avoid the danger to a reasonable degree, as the GM judges.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Avoid Danger / Dodge",
+    "page": "305"
+   }
+  },
+  {
+   "id": "s-cmb-14",
+   "category": "scenario",
+   "topic": "Conditions",
+   "question": "A PC is knocked Prone. An enemy swordsman and an enemy archer (30 feet away) both attack them. Which attack gains an advantage from the Prone condition?",
+   "choices": [
+    "Both",
+    "Only the swordsman's melee attack",
+    "Only the archer's ranged attack",
+    "Neither"
+   ],
+   "answer": 1,
+   "explanation": "While Prone, melee attacks against you gain an advantage. The condition doesn't grant ranged attackers an advantage.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 9 Adventuring › Conditions (Prone)",
+    "page": "294"
+   }
+  },
+  {
+   "id": "s-cmb-15",
+   "category": "scenario",
+   "topic": "Movement",
+   "question": "Playing on a 5-foot grid, a Slowed PC has 5 feet of movement left. Can they move one more square?",
+   "choices": [
+    "Yes — one square costs 5 feet",
+    "No — a Slowed character needs at least 10 feet remaining to enter a square",
+    "Yes, but only orthogonally",
+    "Only with an Athletics test"
+   ],
+   "answer": 1,
+   "explanation": "On a grid you need at least 5 feet of movement left to enter a square, or 10 feet if you're Slowed.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Variant: Using a Grid (Movement)",
+    "page": "312"
+   }
+  },
+  {
+   "id": "s-cmb-16",
+   "category": "scenario",
+   "topic": "Targeting & Range",
+   "question": "A PC wants to use an ability that targets 'a character within reach' on themselves. Allowed?",
+   "choices": [
+    "No — abilities target others",
+    "Yes — you are a character, so you can target yourself (but you are not your own ally)",
+    "Only with GM approval",
+    "Only for healing effects"
+   ],
+   "answer": 1,
+   "explanation": "Since you're a character, an effect targeting 'a character' can target you. Note, though, that you aren't considered your own ally.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 10 Combat › Target Types",
+    "page": "309"
+   }
   }
  ]
 }
