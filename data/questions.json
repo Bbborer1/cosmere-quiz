@@ -2507,6 +2507,690 @@
     "section": "Ch. 10 Combat › Target Types",
     "page": "309"
    }
+  },
+  {
+   "id": "r-talk-01",
+   "category": "rules",
+   "topic": "Conversations",
+   "question": "After a PC succeeds on a social test against an NPC, how much focus must the NPC spend to resist being influenced?",
+   "choices": [
+    "1 focus, always",
+    "2 focus if the argument is reasonably persuasive; 4 if it's extremely strong",
+    "Focus equal to the amount the PC beat the DC by",
+    "They can't resist a successful test"
+   ],
+   "answer": 1,
+   "explanation": "The GM decides how persuasive the contribution was: reasonably persuasive costs 2 focus to resist, extremely strong costs 4. Some arguments are so compelling the NPC might not resist at all.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 11 Conversations › Resisting Influence",
+    "page": "317"
+   }
+  },
+  {
+   "id": "r-talk-02",
+   "category": "rules",
+   "topic": "Conversations",
+   "question": "What happens when an NPC in a conversation is reduced to 0 focus?",
+   "choices": [
+    "They fall Unconscious",
+    "They can no longer resist being influenced and may check out of the conversation",
+    "They must attack",
+    "They automatically agree to everything"
+   ],
+   "answer": 1,
+   "explanation": "At 0 focus an NPC is too frustrated or scattered to contribute effectively. They can't resist influence any more and might disengage entirely, generally conceding the point or opening to compromise.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 11 Conversations › Running Out of Focus",
+    "page": "318"
+   }
+  },
+  {
+   "id": "r-talk-03",
+   "category": "rules",
+   "topic": "Conversations",
+   "question": "Which of these is NOT one of the conversation types the Handbook describes?",
+   "choices": [
+    "Inquiry",
+    "Negotiation",
+    "Interrogation",
+    "Scheme"
+   ],
+   "answer": 2,
+   "explanation": "The four described conversation types are Inquiry, Negotiation, Scheme and Social. Interrogations would usually be run as an Inquiry.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 11 Conversations › Conversation Types",
+    "page": "318"
+   }
+  },
+  {
+   "id": "r-talk-04",
+   "category": "rules",
+   "topic": "Conversations",
+   "question": "To influence a character in a conversation, what generally sets the DC of your test?",
+   "choices": [
+    "A flat DC 15",
+    "Their Spiritual or Cognitive defense, depending on the skill used",
+    "Their current focus + 10",
+    "Their Physical defense"
+   ],
+   "answer": 1,
+   "explanation": "Influence tests generally target the person's Spiritual or Cognitive defense, matching the skill's category (e.g. Persuasion → Spiritual, Intimidation → Cognitive). The GM can adjust it.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 11 Conversations › Contribution Outcomes",
+    "page": "316"
+   }
+  },
+  {
+   "id": "r-talk-05",
+   "category": "rules",
+   "topic": "Conversations",
+   "question": "An effect says it targets 'a character you can influence.' Can the target resist it?",
+   "choices": [
+    "No, never",
+    "Yes — unless the effect says otherwise, such a target can resist it (typically by spending 2 focus)",
+    "Only PCs can resist",
+    "Only if they pass a Discipline test"
+   ],
+   "answer": 1,
+   "explanation": "Effects targeting a character you can influence can be resisted by that character unless stated otherwise, by spending focus as if it were a social skill test.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 11 Conversations › Resisting Mechanical Effects",
+    "page": "318"
+   }
+  },
+  {
+   "id": "r-endv-01",
+   "category": "rules",
+   "topic": "Endeavors",
+   "question": "Which four endeavor types does the Handbook give specific guidance for?",
+   "choices": [
+    "Discovery, Exploration, Mission, Pursuit",
+    "Investigation, Travel, Heist, Chase",
+    "Discovery, Survival, Infiltration, Pursuit",
+    "Exploration, Mission, Negotiation, Siege"
+   ],
+   "answer": 0,
+   "explanation": "Chapter 12 covers Discovery, Exploration, Mission and Pursuit endeavors, while noting these are just starting points.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 12 Endeavors (intro)",
+    "page": "323"
+   }
+  },
+  {
+   "id": "r-endv-02",
+   "category": "rules",
+   "topic": "Endeavors",
+   "question": "How does a Discovery endeavor track progress instead of a collective success threshold?",
+   "choices": [
+    "A distance track",
+    "An investigative web of leads and clues",
+    "A ticking clock",
+    "An event track"
+   ],
+   "answer": 1,
+   "explanation": "A Discovery uses an investigative web: the party starts with leads (usually two to four), each opening a line of clues toward the objective. The GM may still track failures.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 12 Endeavors › Discovery Endeavors (No Threshold for Success)",
+    "page": "326"
+   }
+  },
+  {
+   "id": "r-endv-03",
+   "category": "rules",
+   "topic": "Endeavors",
+   "question": "In a Pursuit's distance track, what happens when a pursuer fails a test?",
+   "choices": [
+    "The gap widens by 1",
+    "The gap closes by 1",
+    "Nothing — only successes count",
+    "The target escapes immediately"
+   ],
+   "answer": 0,
+   "explanation": "Pursuer success closes the gap by 1 and failure widens it by 1. For the target, it's the reverse. The chase ends when the gap hits 0 (caught) or the escape distance (escaped).",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 12 Endeavors › Special Rule: Closing the Distance",
+    "page": "333"
+   }
+  },
+  {
+   "id": "r-endv-04",
+   "category": "rules",
+   "topic": "Endeavors",
+   "question": "What is the 'Against the Odds' special rule?",
+   "choices": [
+    "Once per Exploration, every character tests against a serious peril and suffers its effect if they fail",
+    "A Mission rule that doubles Complications",
+    "A Pursuit rule for opposed tests",
+    "A once-per-session reroll for the party"
+   ],
+   "answer": 0,
+   "explanation": "Once per Exploration, the GM can introduce exceptional perils. Each character makes a related test (e.g. Survival, Athletics, Leadership), and those who fail suffer that peril's effect.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 12 Endeavors › Special Rule: Against the Odds",
+    "page": "330"
+   }
+  },
+  {
+   "id": "r-endv-05",
+   "category": "rules",
+   "topic": "Endeavors",
+   "question": "In a Mission endeavor, what can the GM do with a Complication a PC rolls?",
+   "choices": [
+    "Nothing special",
+    "Spend it to advance the ticking clock",
+    "Add 2 to the failure threshold",
+    "End the Mission immediately"
+   ],
+   "answer": 1,
+   "explanation": "Missions use a ticking clock that advances each round. The GM can also spend PC Complications to advance it further, by an amount of their choosing.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 12 Endeavors › Special Rule: The Ticking Clock",
+    "page": "331"
+   }
+  },
+  {
+   "id": "s-talk-01",
+   "category": "scenario",
+   "topic": "Conversations",
+   "question": "A stubborn highlady has 4 focus. The PCs make two successful, reasonably persuasive arguments, and she resists both. A third PC then succeeds on a strong Persuasion test. What happens?",
+   "choices": [
+    "She resists again for 2 focus",
+    "She can't resist — at 0 focus she can no longer resist influence",
+    "She resists for free since she's stubborn",
+    "She ends the conversation"
+   ],
+   "answer": 1,
+   "explanation": "Each resisted argument cost her 2 focus (4 → 2 → 0). At 0 focus she can't resist influence, so the third success lands, and she'll likely concede or seek a compromise.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 11 Conversations › Running Out of Focus",
+    "page": "318"
+   }
+  },
+  {
+   "id": "s-talk-02",
+   "category": "scenario",
+   "topic": "Conversations",
+   "question": "An NPC succeeds on a Persuasion test to convince a PC to abandon their mission. The PC is at 0 focus. What does the player have to do?",
+   "choices": [
+    "Their character must agree",
+    "Nothing — PCs are never forced to believe or do something that doesn't fit their story; the player decides",
+    "Make a DC 15 Discipline test",
+    "Take Exhausted [−1] to refuse"
+   ],
+   "answer": 1,
+   "explanation": "PCs are never forced to choose between spending focus and acting against their story. Even at 0 focus, the player decides how their character responds.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 11 Conversations › Player Characters and Influence",
+    "page": "318"
+   }
+  },
+  {
+   "id": "s-talk-03",
+   "category": "scenario",
+   "topic": "Conversations",
+   "question": "In a Negotiation, a merchant NPC rolls Persuasion to talk a PC into paying a 'danger commission.' What sets the DC?",
+   "choices": [
+    "The PC's Cognitive defense",
+    "The PC's Spiritual defense",
+    "The PC's Persuasion result in an opposed test, always",
+    "DC 15"
+   ],
+   "answer": 1,
+   "explanation": "Persuasion is a Presence (spiritual) skill, so an NPC persuading a PC tests against the PC's Spiritual defense, just as the Handbook's example conversation shows.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 11 Conversations › Example Conversation",
+    "page": "321"
+   }
+  },
+  {
+   "id": "s-endv-01",
+   "category": "scenario",
+   "topic": "Endeavors",
+   "question": "In a Pursuit with an escape distance of 6, the current distance is 2. A pursuing PC succeeds on an Agility test, then the fleeing target fails its Stealth test. What's the result?",
+   "choices": [
+    "Distance 2 — they cancel out",
+    "Distance 0 — the target is caught",
+    "Distance 4",
+    "Distance 1"
+   ],
+   "answer": 1,
+   "explanation": "A pursuer's success closes the gap by 1 (2 → 1), and a target's failure also closes it by 1 (1 → 0). At 0 the target is caught.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 12 Endeavors › Special Rule: Closing the Distance",
+    "page": "333"
+   }
+  },
+  {
+   "id": "s-endv-02",
+   "category": "scenario",
+   "topic": "Endeavors",
+   "question": "During an endeavor to cross a flooded canyon, a Windrunner simply Lashes the party across. Do you need a test?",
+   "choices": [
+    "Yes — every contribution needs a test",
+    "Not necessarily — for abilities like surges that make a clear contribution, the GM can add a success without a test",
+    "Only a DC 20 Gravitation test",
+    "No, and the endeavor ends in automatic success"
+   ],
+   "answer": 1,
+   "explanation": "Some abilities, especially surges, make demonstrable progress without needing a test; the GM may simply add a success toward the threshold.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 12 Endeavors › Interpreting Skill Tests",
+    "page": "325"
+   }
+  },
+  {
+   "id": "s-endv-03",
+   "category": "scenario",
+   "topic": "Endeavors",
+   "question": "A party hits the failure threshold in a Discovery endeavor but wants to propose who stole the schematics anyway. What rule covers this?",
+   "choices": [
+    "None — the Discovery simply fails",
+    "Betting on a Hunch: if their guess is right, treat it as a success; if wrong, introduce twists and consequences later",
+    "They may reroll their last failed test",
+    "They can pay 5 marks per day to keep researching"
+   ],
+   "answer": 1,
+   "explanation": "Betting on a Hunch lets the group make an educated guess after failing. A correct guess counts as success; a wrong one feeds story twists and eventual consequences.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 12 Endeavors › Special Rule: Betting on a Hunch",
+    "page": "327"
+   }
+  },
+  {
+   "id": "s-endv-04",
+   "category": "scenario",
+   "topic": "Endeavors",
+   "question": "During an Exploration through a region where a PC's powerful patron holds sway, the PC wants to secure safe passage through a checkpoint. What can you do as GM?",
+   "choices": [
+    "Require a DC 20 Persuasion test with a disadvantage",
+    "Let the relevant reward or expertise grant an automatic success on that test",
+    "Make them spend Investiture",
+    "Nothing — patrons don't apply in endeavors"
+   ],
+   "answer": 1,
+   "explanation": "In an Exploration, a relevant expertise or reward (like a patron with regional influence) can grant automatic success on certain tests, at the GM's discretion.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 12 Endeavors › Progressing an Exploration",
+    "page": "330"
+   }
+  },
+  {
+   "id": "r-rad-01",
+   "category": "rules",
+   "topic": "Radiants & Investiture",
+   "question": "What does choosing a First Ideal key talent immediately grant?",
+   "choices": [
+    "Both surges of the order and a Shardblade",
+    "Access to Investiture and the Breathe Stormlight, Enhance and Regenerate actions, plus the goal 'Speak the First Ideal'",
+    "Only a spren companion",
+    "Full Radiant status and the Empowered condition"
+   ],
+   "answer": 1,
+   "explanation": "The First Ideal talent (level 2+) immediately unlocks Investiture and the three Stormlight actions and grants the goal 'Speak the First Ideal.' The order's two surges come only once that goal is completed.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Choosing a First Ideal Talent",
+    "page": "123"
+   }
+  },
+  {
+   "id": "r-rad-02",
+   "category": "rules",
+   "topic": "Radiants & Investiture",
+   "question": "How much Investiture does a Radiant usually have at the start of a scene?",
+   "choices": [
+    "0 — they must Breathe Stormlight first",
+    "Full, unless they start the scene Surprised, in which case 1",
+    "Half their maximum",
+    "2"
+   ],
+   "answer": 1,
+   "explanation": "It's assumed a Radiant instinctively breathed in Stormlight beforehand, so they start full. A Radiant who starts the scene Surprised has only 1 Investiture.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Regaining Stormlight",
+    "page": "124"
+   }
+  },
+  {
+   "id": "r-rad-03",
+   "category": "rules",
+   "topic": "Radiants & Investiture",
+   "question": "When can the GM assume a Radiant has enough infused spheres without tracking them?",
+   "choices": [
+    "Always",
+    "When they carry wealth in marks of at least three times their Investiture total and can access highstorms",
+    "When they carry at least one broam",
+    "Only in Urithiru"
+   ],
+   "answer": 1,
+   "explanation": "If a Radiant carries marks equal to at least three times their Investiture total (and highstorms are accessible), assume they have enough Stormlight. Track spheres only when the story makes it matter.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Breathe Stormlight",
+    "page": "124"
+   }
+  },
+  {
+   "id": "r-rad-04",
+   "category": "rules",
+   "topic": "Radiants & Investiture",
+   "question": "What does the Regenerate action do?",
+   "choices": [
+    "Spend 2 Investiture to heal 2d6",
+    "Spend 1 Investiture to recover 1d6 + your current tier in health; usable even while Unconscious",
+    "Spend 1 focus to recover 1d4",
+    "Heal one injury per use"
+   ],
+   "answer": 1,
+   "explanation": "Regenerate is a free action: spend 1 Investiture to recover 1d6 + your tier in health. It works even while you're Unconscious or otherwise unable to act.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Regenerate",
+    "page": "125"
+   }
+  },
+  {
+   "id": "r-rad-05",
+   "category": "rules",
+   "topic": "Radiants & Investiture",
+   "question": "What does the Enhance Stormlight action grant for 1 Investiture?",
+   "choices": [
+    "Enhanced [Strength +1] and Enhanced [Speed +1] until the end of your next turn",
+    "Enhanced [+2] to any one attribute for a scene",
+    "+1 deflect",
+    "An advantage on your next attack"
+   ],
+   "answer": 0,
+   "explanation": "Enhance makes you Enhanced [Strength +1] and [Speed +1] until the end of your next turn. You can keep paying 1 Investiture at the end of each turn to maintain it.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Enhance",
+    "page": "125"
+   }
+  },
+  {
+   "id": "r-rad-06",
+   "category": "rules",
+   "topic": "Radiants & Investiture",
+   "question": "How many milestone boxes must be marked on an Ideal goal before the Radiant can speak those Words?",
+   "choices": [
+    "One",
+    "Two",
+    "Three",
+    "Five"
+   ],
+   "answer": 2,
+   "explanation": "Each Ideal goal has three milestone boxes, marked for dramatic, philosophy-aligned actions. Once all three are marked, the player and GM can set up the moment to speak the Words.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Ideals and Goals",
+    "page": "126"
+   }
+  },
+  {
+   "id": "r-rad-07",
+   "category": "rules",
+   "topic": "Radiants & Investiture",
+   "question": "What happens the first time a Radiant acts against their Ideals?",
+   "choices": [
+    "They lose their highest Ideal",
+    "Nothing — mistakes can be forgiven",
+    "Their spren dies",
+    "They lose all Investiture"
+   ],
+   "answer": 1,
+   "explanation": "The first infraction has no effect. A second before demonstrably advancing their Ideals costs their highest Ideal and dependent talents, and further breaches strip more.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Forsaking Your Ideals",
+    "page": "128"
+   }
+  },
+  {
+   "id": "r-rad-08",
+   "category": "rules",
+   "topic": "Radiants & Investiture",
+   "question": "What does a squire gain while within range of their Radiant?",
+   "choices": [
+    "The Radiant's full talents",
+    "An Investiture maximum of 2 and the three Stormlight actions (within 50 miles), plus optionally the Radiant's surges at 1 rank",
+    "A Shardblade",
+    "Nothing until they bond their own spren"
+   ],
+   "answer": 1,
+   "explanation": "Within 50 miles of their Radiant (who must have the Take Squire talent, available after the Third Ideal), a squire can draw Stormlight with Investiture max 2 and use Breathe Stormlight, Enhance and Regenerate. The Radiant may also grant one or both surges at 1 rank.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Squire Ability",
+    "page": "128"
+   }
+  },
+  {
+   "id": "r-rad-09",
+   "category": "rules",
+   "topic": "Radiants & Investiture",
+   "question": "Which two surges does the Windrunner order wield?",
+   "choices": [
+    "Adhesion and Gravitation",
+    "Gravitation and Division",
+    "Adhesion and Tension",
+    "Transportation and Gravitation"
+   ],
+   "answer": 0,
+   "explanation": "Windrunners (honorspren) wield Adhesion and Gravitation. Skybreakers have Division and Gravitation; Bondsmiths have Adhesion and Tension.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Radiant Orders table",
+    "page": "131"
+   }
+  },
+  {
+   "id": "r-rad-10",
+   "category": "rules",
+   "topic": "Radiants & Investiture",
+   "question": "Which order wields Illumination and Transformation?",
+   "choices": [
+    "Truthwatchers",
+    "Elsecallers",
+    "Lightweavers",
+    "Willshapers"
+   ],
+   "answer": 2,
+   "explanation": "Lightweavers (Cryptics) wield Illumination and Transformation. Truthwatchers have Illumination and Progression; Elsecallers have Transformation and Transportation.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Radiant Orders table",
+    "page": "131"
+   }
+  },
+  {
+   "id": "r-rad-11",
+   "category": "rules",
+   "topic": "Radiants & Investiture",
+   "question": "How far can a newly bonded spren move from their Radiant before temporarily losing sapience?",
+   "choices": [
+    "5 feet",
+    "30 feet (expandable with the Deepened Bond talent)",
+    "100 feet",
+    "1 mile"
+   ],
+   "answer": 1,
+   "explanation": "Spren bond range starts at 30 feet; beyond it a newly bonded spren temporarily loses sapience. The Deepened Bond talent increases the range.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Spren Rules (Movement)",
+    "page": "129"
+   }
+  },
+  {
+   "id": "r-surge-01",
+   "category": "rules",
+   "topic": "Surges",
+   "question": "A Radiant has 3 ranks in a surge skill. What are their surge die size and surge size?",
+   "choices": [
+    "d6, Medium (5 ft)",
+    "d8, Large (10 ft)",
+    "d10, Huge (15 ft)",
+    "d8, Medium (5 ft)"
+   ],
+   "answer": 1,
+   "explanation": "Surge Scaling: 1 rank d4/Small, 2 d6/Medium, 3 d8/Large (10 ft), 4 d10/Huge, 5 d12/Gargantuan.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 6 Surges › Surge Scaling",
+    "page": "210"
+   }
+  },
+  {
+   "id": "r-surge-02",
+   "category": "rules",
+   "topic": "Surges",
+   "question": "How does an infused surge effect use up its Investiture?",
+   "choices": [
+    "All at once when cast",
+    "It usually expends 1 Investiture at the start of each of your turns until it runs out",
+    "1 per minute regardless of combat",
+    "It never runs out while you're conscious"
+   ],
+   "answer": 1,
+   "explanation": "Surges usually expend 1 Investiture at the start of each of your turns, even if you're Unconscious. An object infused with 2 Investiture lasts two rounds.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 6 Surges › Expending Infused Investiture",
+    "page": "210"
+   }
+  },
+  {
+   "id": "r-surge-03",
+   "category": "rules",
+   "topic": "Surges",
+   "question": "Outside combat, roughly how long does one 'round' of a surge's Investiture last during a conversation?",
+   "choices": [
+    "10 seconds",
+    "About one minute (one round of contributions)",
+    "10 minutes",
+    "One hour"
+   ],
+   "answer": 1,
+   "explanation": "Combat: once per 10-second round. Conversation: about once per minute. Endeavor: 1–10 minutes depending on the endeavor. Outside scenes: about every 10 minutes.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 6 Surges › Duration Outside Combat",
+    "page": "211"
+   }
+  },
+  {
+   "id": "s-rad-01",
+   "category": "scenario",
+   "topic": "Radiants & Investiture",
+   "question": "A tier 2 Radiant is knocked Unconscious at 0 health but still has 3 Investiture. What can they do?",
+   "choices": [
+    "Nothing until someone heals them",
+    "Use the Regenerate free action (1 Investiture) to recover 1d6 + 2 health, even while Unconscious",
+    "Use Enhance to stand up",
+    "Breathe Stormlight but not Regenerate"
+   ],
+   "answer": 1,
+   "explanation": "Regenerate is usable while Unconscious: 1 Investiture recovers 1d6 + tier (2) health. They can then choose to wake. Breathe Stormlight also works while Unconscious.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Regenerate",
+    "page": "125"
+   }
+  },
+  {
+   "id": "s-rad-02",
+   "category": "scenario",
+   "topic": "Radiants & Investiture",
+   "question": "Assassins ambush a party, and the party's Skybreaker (max Investiture 5) is Surprised. How much Investiture does the Skybreaker start the combat with?",
+   "choices": [
+    "5",
+    "1",
+    "0",
+    "2"
+   ],
+   "answer": 1,
+   "explanation": "Radiants normally start scenes full, but a Radiant who starts the scene Surprised has only 1 Investiture — enough to maintain ongoing powers.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Regaining Stormlight",
+    "page": "124"
+   }
+  },
+  {
+   "id": "s-rad-03",
+   "category": "scenario",
+   "topic": "Surges",
+   "question": "A Radiant with 2 ranks in Adhesion wants to infuse a 10-foot-long cart. Can they?",
+   "choices": [
+    "Yes, with 2 Investiture",
+    "No — with 2 ranks their surge size is Medium (5 ft), and they can't infuse an object whose width, length or height exceeds it",
+    "Yes, but with a disadvantage",
+    "Only if they spend focus as well"
+   ],
+   "answer": 1,
+   "explanation": "Surge size scales with ranks: 2 ranks is Medium (5 ft). Unless specified otherwise, you can't infuse an object with any dimension beyond your surge size.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 6 Surges › Surge Size",
+    "page": "210"
+   }
+  },
+  {
+   "id": "s-rad-04",
+   "category": "scenario",
+   "topic": "Surges",
+   "question": "A Radiant infuses a door with 3 Investiture to keep it sealed, then fights in the next room. Absent other effects, how long does the infusion last?",
+   "choices": [
+    "Until the end of the scene",
+    "Three rounds — it spends 1 Investiture at the start of each of the Radiant's turns",
+    "One round",
+    "Until the Radiant falls Unconscious"
+   ],
+   "answer": 1,
+   "explanation": "An infusion expends 1 Investiture at the start of each of your turns, so 3 infused Investiture lasts three rounds. The Radiant can add more at the start of a turn if within range. (If the surge isn't relevant to the new scene, the GM may track it more loosely.)",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 6 Surges › Ending a Surge",
+    "page": "210"
+   }
+  },
+  {
+   "id": "s-rad-05",
+   "category": "scenario",
+   "topic": "Radiants & Investiture",
+   "question": "A Windrunner abandons a defenseless village in a way that clearly breaks their Ideals. It's the second time since they last advanced their Ideals. What happens?",
+   "choices": [
+    "Nothing — only the first breach matters",
+    "They lose access to their highest Ideal and any talents requiring it",
+    "They lose all Radiant abilities immediately",
+    "Their spren dies"
+   ],
+   "answer": 1,
+   "explanation": "The first breach is forgiven. A second, before demonstrably advancing their Ideals, weakens the bond: they lose their highest Ideal and talents that require it. They can repair the bond by genuinely rededicating themselves.",
+   "cite": {
+    "book": "handbook",
+    "section": "Ch. 5 Radiant Paths › Forsaking Your Ideals",
+    "page": "128"
+   }
   }
  ]
 }
