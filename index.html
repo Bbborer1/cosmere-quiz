@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b1424">
+  <meta name="color-scheme" content="dark">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Cosmere Quiz">
+  <title>Cosmere DM Quiz</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button id="nav-quiz" class="brand" type="button" aria-label="Back to quiz">
+      <img src="icons/icon-192.png" alt="" width="28" height="28">
+      <span>Cosmere DM Quiz</span>
+    </button>
+    <div class="topbar-right">
+      <span id="streak" class="streak" title="Current streak">0</span>
+      <button id="nav-stats" class="icon-btn" type="button" aria-label="Stats">
+        <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M4 20V10h3v10H4Zm6.5 0V4h3v16h-3ZM17 20v-7h3v7h-3Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="quiz" class="screen">
+    <div class="q-meta">
+      <span id="q-cat" class="chip"></span>
+      <span id="q-topic" class="topic"></span>
+      <span id="q-review" class="chip review" hidden>Review</span>
+    </div>
+    <h1 id="q-text" class="q-text">Loading questions…</h1>
+    <ol id="choices" class="choices"></ol>
+
+    <section id="feedback" class="feedback" hidden aria-live="polite">
+      <p id="fb-result" class="fb-result"></p>
+      <p id="fb-explain" class="fb-explain"></p>
+      <p class="fb-cite"><span class="cite-label">See</span> <span id="fb-cite"></span></p>
+      <button id="flag" class="link-btn" type="button">Flag this question</button>
+    </section>
+  </main>
+
+  <main id="stats" class="screen" hidden>
+    <h1 class="stats-title">Progress</h1>
+    <div class="tiles">
+      <div class="tile"><span id="st-answered" class="tile-num">0</span><span class="tile-label">Answered</span></div>
+      <div class="tile"><span id="st-accuracy" class="tile-num">–</span><span class="tile-label">Accuracy</span></div>
+      <div class="tile"><span id="st-best" class="tile-num">0</span><span class="tile-label">Best streak</span></div>
+      <div class="tile"><span id="st-review" class="tile-num">0</span><span class="tile-label">In review</span></div>
+    </div>
+
+    <h2>By category</h2>
+    <div id="st-cats" class="bars"></div>
+
+    <h2>Weakest topics</h2>
+    <p class="hint">Topics you've answered, lowest accuracy first.</p>
+    <div id="st-topics" class="bars"></div>
+
+    <h2>Coverage</h2>
+    <p id="st-coverage" class="hint"></p>
+
+    <h2>Flagged questions</h2>
+    <div id="st-flagged" class="flagged"></div>
+
+    <h2>Data</h2>
+    <p class="hint">Progress is saved on this device only. Export a backup to move it or keep it safe.</p>
+    <div class="data-actions">
+      <button id="export" class="btn" type="button">Export progress</button>
+      <label class="btn">Import progress<input id="import" type="file" accept="application/json,.json" hidden></label>
+      <button id="reset" class="btn danger" type="button">Reset progress</button>
+    </div>
+    <p class="hint version" id="version"></p>
+  </main>
+
+  <footer class="actionbar">
+    <button id="next" class="btn primary" type="button" disabled>Next question</button>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
