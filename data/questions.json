@@ -3191,6 +3191,1241 @@
     "section": "Ch. 5 Radiant Paths › Forsaking Your Ideals",
     "page": "128"
    }
+  },
+  {
+   "id": "w-world-01",
+   "category": "world",
+   "topic": "Calendar & Time",
+   "question": "How is the human Rosharan calendar structured?",
+   "choices": [
+    "365 days; 12 months of 30 days",
+    "500 days; 10 months, each of 10 five-day weeks",
+    "400 days; 10 months of 40 days",
+    "500 days; 5 months of 100 days"
+   ],
+   "answer": 1,
+   "explanation": "The Rosharan year has 500 days: ten months, each of ten weeks, each of five days. Days are 20 hours long.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Measuring Time",
+    "page": "5"
+   }
+  },
+  {
+   "id": "w-world-02",
+   "category": "world",
+   "topic": "Calendar & Time",
+   "question": "What happens on Lightday, the Rosharan new year in the middle of the Weeping?",
+   "choices": [
+    "It's always a clear day",
+    "It's clear in even-numbered years and brings a highstorm in odd-numbered years",
+    "The Everstorm arrives",
+    "All spheres go dun"
+   ],
+   "answer": 1,
+   "explanation": "The Weeping's four weeks of rain are interrupted by Lightday: a clear day in even-numbered years, a highstorm in odd-numbered years.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › The Weeping",
+    "page": "5"
+   }
+  },
+  {
+   "id": "w-world-03",
+   "category": "world",
+   "topic": "Calendar & Time",
+   "question": "What is Midpeace?",
+   "choices": [
+    "A truce between Alethkar and Jah Keved",
+    "A four-week period halfway through the year with no highstorms",
+    "The hour when no moons are visible",
+    "A listener festival"
+   ],
+   "answer": 1,
+   "explanation": "Midpeace falls halfway between Weepings: four weeks without highstorms.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Midpeace",
+    "page": "5"
+   }
+  },
+  {
+   "id": "w-world-04",
+   "category": "world",
+   "topic": "Spheres & Currency",
+   "question": "How do sphere denominations convert?",
+   "choices": [
+    "1 mark = 10 chips; 1 broam = 10 marks",
+    "1 mark = 5 chips; 1 broam = 4 marks (20 chips)",
+    "1 mark = 4 chips; 1 broam = 5 marks",
+    "1 broam = 2 marks = 8 chips"
+   ],
+   "answer": 1,
+   "explanation": "Spheres come as chips, marks and broams: one mark is five chips, and one broam is four marks (twenty chips).",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Spheres (Denominations)",
+    "page": "6"
+   }
+  },
+  {
+   "id": "w-world-05",
+   "category": "world",
+   "topic": "Spheres & Currency",
+   "question": "Which gem type makes the most valuable spheres, and which the least?",
+   "choices": [
+    "Diamond most, emerald least",
+    "Emerald most, diamond least",
+    "Ruby most, garnet least",
+    "Sapphire most, topaz least"
+   ],
+   "answer": 1,
+   "explanation": "Value follows a gem's usefulness in Soulcasting. Emerald is top (an emerald mark is worth 50 diamond marks) and diamond is lowest, so the game prices everything in diamond marks ('clearmarks').",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Gem Types",
+    "page": "6"
+   }
+  },
+  {
+   "id": "w-world-06",
+   "category": "world",
+   "topic": "Highstorms & Stormlight",
+   "question": "Which part of a highstorm is generally considered the most dangerous?",
+   "choices": [
+    "The riddens",
+    "The stormwall",
+    "The centerbeat",
+    "The main body"
+   ],
+   "answer": 1,
+   "explanation": "The stormwall at the front carries tempestuous winds, debris and torrential rain. The main body is less deadly, and the riddens at the end bring light rain and mild wind.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Highstorms (Properties)",
+    "page": "7"
+   }
+  },
+  {
+   "id": "w-world-07",
+   "category": "world",
+   "topic": "Highstorms & Stormlight",
+   "question": "Why was the Everstorm's first arrival so devastating to human settlements?",
+   "choices": [
+    "It carried far more crem",
+    "It travels west to east, opposite the highstorms that buildings are designed to face",
+    "It only strikes at night",
+    "It drains all Stormlight from spheres"
+   ],
+   "answer": 1,
+   "explanation": "Highstorms blow east to west, so buildings have reinforced stormward (eastern) sides. The Everstorm moves west to east, hitting the vulnerable leeward sides.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › The Everstorm",
+    "page": "8"
+   }
+  },
+  {
+   "id": "w-world-08",
+   "category": "world",
+   "topic": "Highstorms & Stormlight",
+   "question": "Which describes the Everstorm?",
+   "choices": [
+    "White clouds and blue lightning, carrying extra crem",
+    "Black clouds and red lightning, no stormwall and no crem, typically every nine days",
+    "A stationary storm over the Shattered Plains",
+    "A highstorm that only occurs during the Weeping"
+   ],
+   "answer": 1,
+   "explanation": "Driven by Odium, the Everstorm has black clouds and red lightning, lacks a stormwall and crem, and usually comes every nine days — though Odium can speed or stall it.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › The Everstorm (Properties)",
+    "page": "8"
+   }
+  },
+  {
+   "id": "w-world-09",
+   "category": "world",
+   "topic": "Highstorms & Stormlight",
+   "question": "Roughly how long can each of these hold Stormlight: a person, a sphere, a perfect gemstone?",
+   "choices": [
+    "Hours; weeks; years",
+    "Minutes; days; indefinitely",
+    "Seconds; hours; days",
+    "Days; months; indefinitely"
+   ],
+   "answer": 1,
+   "explanation": "Stormlight leaks out over time: people hold it for minutes, spheres for days, larger gems longer, and rare perfect gemstones indefinitely.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Stormlight (Properties)",
+    "page": "9"
+   }
+  },
+  {
+   "id": "w-world-10",
+   "category": "world",
+   "topic": "Spren",
+   "question": "Why can the largest greatshells move at all despite their immense weight?",
+   "choices": [
+    "They live only in water",
+    "They form symbiotic bonds with luckspren",
+    "They draw Stormlight from highstorms",
+    "Cultivation granted them Shardplate"
+   ],
+   "answer": 1,
+   "explanation": "Greatshells bond with luckspren; without these bonds, the largest would be crushed by their own weight.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Greatshells",
+    "page": "13"
+   }
+  },
+  {
+   "id": "w-world-11",
+   "category": "world",
+   "topic": "Spren",
+   "question": "Which Radiant order bonds lightspren, also called Reachers?",
+   "choices": [
+    "Windrunners",
+    "Willshapers",
+    "Lightweavers",
+    "Truthwatchers"
+   ],
+   "answer": 1,
+   "explanation": "Lightspren (Reachers) grant surges to Willshapers. Lightweavers bond Cryptics (liespren); Truthwatchers bond mistspren.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Radiant Spren",
+    "page": "16"
+   }
+  },
+  {
+   "id": "w-world-12",
+   "category": "world",
+   "topic": "Spren",
+   "question": "The Sibling, the Bondsmith spren who manifests as Urithiru, is a Splinter of which Shard(s)?",
+   "choices": [
+    "Honor only",
+    "Cultivation only",
+    "Both Honor and Cultivation",
+    "Odium"
+   ],
+   "answer": 2,
+   "explanation": "The Sibling is a Splinter of both Honor and Cultivation. The Stormfather is of Honor, and the Nightwatcher is of Cultivation.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Bondsmith Spren",
+    "page": "16"
+   }
+  },
+  {
+   "id": "w-world-13",
+   "category": "world",
+   "topic": "Fabrials & Technology",
+   "question": "Spanreeds are the most widespread use of which kind of fabrial?",
+   "choices": [
+    "Augmenters",
+    "Conjoiners made from a split ruby",
+    "Reversers made from amethyst",
+    "Warning fabrials"
+   ],
+   "answer": 1,
+   "explanation": "Conjoiners, a type of pairing fabrial, are made from a split ruby and move in parallel over great distances. Spanreeds are their most common use.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Pairing Fabrials",
+    "page": "20"
+   }
+  },
+  {
+   "id": "w-world-14",
+   "category": "world",
+   "topic": "Fabrials & Technology",
+   "question": "What is a dead Shardblade?",
+   "choices": [
+    "A broken Honorblade",
+    "The body of a deadeye spren whose Radiant broke their oaths",
+    "A Shardblade with no gemstone",
+    "A Blade that can no longer be summoned"
+   ],
+   "answer": 1,
+   "explanation": "Dead Shardblades are deadeye spren that perished when their Radiant broke their oaths. They can't change shape, but can still form a rudimentary bond and be summoned.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Shardblades",
+    "page": "20"
+   }
+  },
+  {
+   "id": "w-world-15",
+   "category": "world",
+   "topic": "Fabrials & Technology",
+   "question": "Towerlight is a hybrid of which two Lights?",
+   "choices": [
+    "Stormlight and Voidlight",
+    "Stormlight and Lifelight",
+    "Lifelight and Voidlight",
+    "Stormlight and anti-Stormlight"
+   ],
+   "answer": 1,
+   "explanation": "Towerlight (the Sibling's essence) combines Stormlight and Lifelight. Warlight, discovered by Navani and Raboniel, combines Stormlight and Voidlight.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Hybrid Light",
+    "page": "23"
+   }
+  },
+  {
+   "id": "w-world-16",
+   "category": "world",
+   "topic": "Fabrials & Technology",
+   "question": "What is raysium?",
+   "choices": [
+    "A metal used for fabrial frames",
+    "A God Metal formed from Odium that can siphon Stormlight from Radiants",
+    "A type of perfect gemstone",
+    "Shardplate alloy"
+   ],
+   "answer": 1,
+   "explanation": "Raysium is a God Metal from the Shard Odium. The Fused make weapons from it that siphon Stormlight, and set with anti-Light gems they can kill Invested beings.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 1 The World › Raysium",
+    "page": "23"
+   }
+  },
+  {
+   "id": "w-nat-01",
+   "category": "world",
+   "topic": "Alethkar",
+   "question": "What natural rock formations protect Kholinar from highstorms?",
+   "choices": [
+    "The Misted Mountains",
+    "Windblades",
+    "Laits",
+    "Chasms"
+   ],
+   "answer": 1,
+   "explanation": "Kholinar, Alethkar's symmetrical capital from the Silver Kingdoms era, is built around large rock formations called windblades.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Alethkar",
+    "page": "28"
+   }
+  },
+  {
+   "id": "w-nat-02",
+   "category": "world",
+   "topic": "Alethkar",
+   "question": "Which revived Alethi title has authority over criminal investigations, policing and appointing judges?",
+   "choices": [
+    "Highprince of War",
+    "Highprince of Commerce",
+    "Highprince of Information",
+    "Highprince of Works"
+   ],
+   "answer": 2,
+   "explanation": "The Highprince of Information oversees investigations, policing and judicial appointments. Commerce covers merchants and roads, War covers military matters, and Works covers infrastructure, including Stormlight management.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Alethkar (Government)",
+    "page": "28"
+   }
+  },
+  {
+   "id": "w-nat-03",
+   "category": "world",
+   "topic": "Alethkar",
+   "question": "In the Vorin caste system, who holds the first dahn?",
+   "choices": [
+    "The highprinces",
+    "The monarch alone",
+    "Shardbearers",
+    "The ardents"
+   ],
+   "answer": 1,
+   "explanation": "Lighteyes are ranked in dahns (first highest). The first dahn belongs solely to the monarch, the second to the highprinces. Darkeyes are ranked in nahns, and the tenth nahn can be sold into slavery.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Alethkar (Dahns)",
+    "page": "31"
+   }
+  },
+  {
+   "id": "w-nat-04",
+   "category": "world",
+   "topic": "Alethkar",
+   "question": "In Vorin Alethkar, who are the only people permitted to use Soulcasters?",
+   "choices": [
+    "Highprinces",
+    "Ardents",
+    "Stormwardens",
+    "Shardbearers"
+   ],
+   "answer": 1,
+   "explanation": "Ardents — Vorin priests who can't own property or hold political office — are the only ones allowed to use Soulcasters, which gives them great influence.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Alethkar (Religion)",
+    "page": "33"
+   }
+  },
+  {
+   "id": "w-nat-05",
+   "category": "world",
+   "topic": "Alethkar",
+   "question": "The Thrill, the battle rage concentrated in Alethkar, was caused by which Unmade?",
+   "choices": [
+    "Moelach",
+    "Sja-anat",
+    "Nergaoul",
+    "Ba-Ado-Mishram"
+   ],
+   "answer": 2,
+   "explanation": "The Thrill came from the Unmade Nergaoul, whose influence was concentrated in Alethkar during the Era of Solitude.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Alethkar (Military)",
+    "page": "29"
+   }
+  },
+  {
+   "id": "w-nat-06",
+   "category": "world",
+   "topic": "Azish Empire",
+   "question": "How much real power does the Prime Aqasix of Azir hold?",
+   "choices": [
+    "Absolute power over the empire",
+    "A revered figurehead with limited power, elected by — and overrulable by — the viziers",
+    "Command of the military only",
+    "None; the office is hereditary and ceremonial"
+   ],
+   "answer": 1,
+   "explanation": "The viziers elect the Prime Aqasix, who is a revered figurehead with limited power. Viziers guide the Prime and can even overrule them.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Azir (Government)",
+    "page": "36"
+   }
+  },
+  {
+   "id": "w-nat-07",
+   "category": "world",
+   "topic": "Azish Empire",
+   "question": "Why do Tashikki people wear shiquas, full-body wraps?",
+   "choices": [
+    "Protection from highstorm debris",
+    "To shield themselves from the hateful gaze of Nun Raylisi",
+    "To show their rank in the bureaucracy",
+    "For mourning"
+   ],
+   "answer": 1,
+   "explanation": "Tashikki worship Tashi (the Herald Ishar) and believe in an evil god, Nun Raylisi (based on Odium). Shiquas shield the wearer from his hateful gaze.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Tashikk",
+    "page": "40"
+   }
+  },
+  {
+   "id": "w-nat-08",
+   "category": "world",
+   "topic": "Azish Empire",
+   "question": "Who is Tezim, the veiled god-priest of Tukar, secretly?",
+   "choices": [
+    "The Herald Nale",
+    "The Herald Ishar",
+    "Taravangian",
+    "A Fused"
+   ],
+   "answer": 1,
+   "explanation": "Unknown to the Tukari, their god-priest Tezim is the Herald Ishar.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Tukar",
+    "page": "42"
+   }
+  },
+  {
+   "id": "w-nat-09",
+   "category": "world",
+   "topic": "Herdaz",
+   "question": "What is unusual about Herdazian fingernails?",
+   "choices": [
+    "They glow faintly in darkness",
+    "They're crystalline and can strike sparks from steel like flint",
+    "They grow carapace",
+    "They're naturally blue"
+   ],
+   "answer": 1,
+   "explanation": "Thanks to distant singer ancestry, Herdazian nails are crystalline and spark like flint against steel. Herdazians use them with 'sparkflickers' to start fires.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Herdazian Culture",
+    "page": "44"
+   }
+  },
+  {
+   "id": "w-nat-10",
+   "category": "world",
+   "topic": "Horneater Peaks",
+   "question": "In an Unkalaki family, which son is tasked with becoming a warrior?",
+   "choices": [
+    "The first son",
+    "The second son",
+    "The third son",
+    "The fourth son"
+   ],
+   "answer": 3,
+   "explanation": "First and second sons farm, raise livestock or hunt; third sons become craftsmen; fourth sons become warriors. Younger brothers shift up if an older son can't serve.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Horneater Peaks (Family Structure)",
+    "page": "50"
+   }
+  },
+  {
+   "id": "w-nat-11",
+   "category": "world",
+   "topic": "Horneater Peaks",
+   "question": "Where is the only stable entry point to Roshar for offworld visitors?",
+   "choices": [
+    "The Origin of Storms",
+    "Cultivation's Perpendicularity in the Pool, atop the Horneater Peaks",
+    "The Oathgate in Thaylen City",
+    "Honor's Perpendicularity at Urithiru"
+   ],
+   "answer": 1,
+   "explanation": "Cultivation's Perpendicularity lies in the Unkalaki crater lake called the Pool. It's the only stable entry for worldhoppers, whom the Unkalaki greet as 'strange gods.'",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Offworld Visitors",
+    "page": "50"
+   }
+  },
+  {
+   "id": "w-nat-12",
+   "category": "world",
+   "topic": "Iri & Rira",
+   "question": "According to the Iriali Long Trail, what is Roshar?",
+   "choices": [
+    "The final world, where the One reunites",
+    "The fourth of seven worlds on their journey",
+    "Their original homeworld",
+    "A prison world"
+   ],
+   "answer": 1,
+   "explanation": "The Iriali believe Roshar is the fourth world on a seven-world journey, after which they'll reunite as the One. Many keep packs ready to leave at a moment's notice.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Iri (Religion)",
+    "page": "53"
+   }
+  },
+  {
+   "id": "w-nat-13",
+   "category": "world",
+   "topic": "Iri & Rira",
+   "question": "Of the nations that enslaved singers, which is the only one where humans and singers achieved peace after the Everstorm?",
+   "choices": [
+    "Azir",
+    "Thaylenah",
+    "Iri",
+    "Jah Keved"
+   ],
+   "answer": 2,
+   "explanation": "Iriali humans acknowledged the singers as the land's rightful stewards and began a peaceful surrender, complicated later by the Fused taking control of Iri's military.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Iriali and Riran Singers",
+    "page": "54"
+   }
+  },
+  {
+   "id": "w-nat-14",
+   "category": "world",
+   "topic": "Kharbranth & Frostlands",
+   "question": "How are Kharbranth's free public hospitals funded?",
+   "choices": [
+    "Taxes on spanreed traffic",
+    "Revenue from the Palanaeum",
+    "Donations from the Vorin church",
+    "Sale of Soulcast grain"
+   ],
+   "answer": 1,
+   "explanation": "Treatment is free because the hospitals are fully funded by revenue from the Palanaeum, Roshar's largest library, which charges expensive admission.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Kharbranth (Medical Prowess)",
+    "page": "59"
+   }
+  },
+  {
+   "id": "w-nat-15",
+   "category": "world",
+   "topic": "Purelake",
+   "question": "How do the Selay of the Purelake handle their two brother gods?",
+   "choices": [
+    "They worship both equally",
+    "They openly honor Vun Makak and secretly worship Nu Ralik in holy grottos",
+    "They reject both",
+    "They worship Vun Makak and fear Nu Ralik"
+   ],
+   "answer": 1,
+   "explanation": "Their true god is the upright Nu Ralik, but to avoid his jealous brother's ire they pretend to venerate Vun Makak, saving worship of Nu Ralik for holy grottos.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Selay Culture (Religion)",
+    "page": "62"
+   }
+  },
+  {
+   "id": "w-nat-16",
+   "category": "world",
+   "topic": "Shinovar",
+   "question": "Where do warriors rank in Shin society?",
+   "choices": [
+    "At the top, as protectors",
+    "At the bottom — they're 'those who subtract'",
+    "Equal to farmers",
+    "Just below the Honorbearers"
+   ],
+   "answer": 1,
+   "explanation": "The Shin divide people into 'those who add' (farmers are highly respected) and 'those who subtract.' Anyone who takes up a weapon is forever a lowly warrior in brown, subject to the Stone Shamans.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Shinovar (Social Ranking)",
+    "page": "69"
+   }
+  },
+  {
+   "id": "w-nat-17",
+   "category": "world",
+   "topic": "Thaylenah",
+   "question": "What is a 'babsk' in Thaylen merchant culture?",
+   "choices": [
+    "A ship captain's rope",
+    "A master merchant who takes legal responsibility for an apprentice as their legal parent",
+    "A merchant guild tax",
+    "A Thaylen gemstone bank note"
+   ],
+   "answer": 1,
+   "explanation": "Would-be merchants apprentice to a master merchant who becomes their babsk — their legal parent — until declaring them ready to strike out on their own.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Thaylenah (Resources and Trade)",
+    "page": "71"
+   }
+  },
+  {
+   "id": "w-nat-18",
+   "category": "world",
+   "topic": "Singers",
+   "question": "Which spren must a singer bond during a highstorm to take warform?",
+   "choices": [
+    "Windspren",
+    "Gravitationspren",
+    "Painspren",
+    "Lifespren"
+   ],
+   "answer": 2,
+   "explanation": "Warform comes from bonding a painspren. Nimbleform uses windspren, workform gravitationspren, and mateform lifespren.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Recovered Forms",
+    "page": "76"
+   }
+  },
+  {
+   "id": "w-nat-19",
+   "category": "world",
+   "topic": "Singers",
+   "question": "Why did the listeners retain their free will when other singers lost theirs?",
+   "choices": [
+    "They lived beyond the reach of the Everstorm",
+    "They refused Ba-Ado-Mishram's offer of Regal forms and Connection, so her imprisonment didn't sever them",
+    "They bonded honorspren",
+    "The Heralds protected them"
+   ],
+   "answer": 1,
+   "explanation": "The listeners rejected Ba-Ado-Mishram's offer and Connection. When the Radiants imprisoned her, every singer Connected to her was severed — but not the listeners, who were left with only dullform and mateform.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › The Listeners",
+    "page": "75"
+   }
+  },
+  {
+   "id": "w-nat-20",
+   "category": "world",
+   "topic": "Singers",
+   "question": "What notable ability does the Regal envoyform grant?",
+   "choices": [
+    "Channeling red lightning",
+    "Understanding and speaking any human or singer language after hearing only a few sentences",
+    "Flight",
+    "Heavy armor-like carapace"
+   ],
+   "answer": 1,
+   "explanation": "Envoyform Regals can speak, read and understand any human or singer language after hearing just a few sentences. Stormform is the one that channels red lightning.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 2 Nations and Cultures › Regal Forms",
+    "page": "77"
+   }
+  },
+  {
+   "id": "w-cos-01",
+   "category": "world",
+   "topic": "Cosmology",
+   "question": "Into how many Shards was Adonalsium split at the Shattering?",
+   "choices": [
+    "Three",
+    "Ten",
+    "Sixteen",
+    "Twenty"
+   ],
+   "answer": 2,
+   "explanation": "Conspirators used the Dawnshards to kill Adonalsium, fracturing the power of creation into sixteen Shards, each with its own Intent.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Shattering of Adonalsium",
+    "page": "81"
+   }
+  },
+  {
+   "id": "w-cos-02",
+   "category": "world",
+   "topic": "Cosmology",
+   "question": "Which of these Shards was NOT killed by Odium?",
+   "choices": [
+    "Honor",
+    "Devotion",
+    "Cultivation",
+    "Ambition"
+   ],
+   "answer": 2,
+   "explanation": "Odium killed Ambition, Devotion, Dominion and Honor. Cultivation survives and remains on Roshar.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Dead Shards",
+    "page": "81"
+   }
+  },
+  {
+   "id": "w-cos-03",
+   "category": "world",
+   "topic": "Cosmology",
+   "question": "What is Braize?",
+   "choices": [
+    "Roshar's largest moon",
+    "A cold, inhospitable planet in the Rosharan system where the souls of the Fused are bound",
+    "The capital of Shinovar",
+    "Another name for Shadesmar"
+   ],
+   "answer": 1,
+   "explanation": "Braize, the third terrestrial planet of the Rosharan system, has a metal core that draws in Investiture. The Fused's souls are bound there, migrating to Roshar during Desolations.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Terrestrial Planets",
+    "page": "82"
+   }
+  },
+  {
+   "id": "w-cos-04",
+   "category": "world",
+   "topic": "Cosmology",
+   "question": "Which of Roshar's moons always rises first each night, and what color is it?",
+   "choices": [
+    "Nomon, pale blue",
+    "Mishim, green",
+    "Salas, violet",
+    "Salas, red"
+   ],
+   "answer": 2,
+   "explanation": "Salas (violet, associated with Odium) rises first, then Nomon (pale blue, Honor), then Mishim (green, Cultivation). Only during the 17th hour, the 'hateful hour,' is no moon visible.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Moons",
+    "page": "83"
+   }
+  },
+  {
+   "id": "w-cos-05",
+   "category": "world",
+   "topic": "Cosmology",
+   "question": "Who is the Vessel of Cultivation?",
+   "choices": [
+    "Tanavast, a human tanner",
+    "Rayse, a Shin man",
+    "Koravellium Avast, a dragon",
+    "The Nightwatcher"
+   ],
+   "answer": 2,
+   "explanation": "Koravellium Avast (Koravari), a dragon who often takes human form, holds Cultivation. She loved Tanavast, the Vessel of Honor, until he betrayed Ba-Ado-Mishram.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Cultivation (Vessel)",
+    "page": "87"
+   }
+  },
+  {
+   "id": "w-cos-06",
+   "category": "world",
+   "topic": "Cosmology",
+   "question": "Under the contract Tanavast forged with Honor's power, how can Odium claim Roshar?",
+   "choices": [
+    "By outlasting the Heralds",
+    "Only through a contest of champions — a duel decided by the death of one proxy",
+    "By capturing Urithiru",
+    "By extinguishing every highstorm"
+   ],
+   "answer": 1,
+   "explanation": "Even after Honor's Vessel fell, Odium stayed bound by the contract: he can only claim Roshar through a contest of champions.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Odium (Power and Works)",
+    "page": "89"
+   }
+  },
+  {
+   "id": "w-cos-07",
+   "category": "world",
+   "topic": "Heralds",
+   "question": "Which Herald, patron of the Stonewards, was the only one who never broke under torture?",
+   "choices": [
+    "Jezrien",
+    "Kalak",
+    "Talenel",
+    "Ishar"
+   ],
+   "answer": 2,
+   "explanation": "Talenel (Taln), Herald of War and patron of the Stonewards, never broke, even when the other nine abandoned the Oathpact and left him to bear it alone.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Talenel",
+    "page": "93"
+   }
+  },
+  {
+   "id": "w-cos-08",
+   "category": "world",
+   "topic": "Heralds",
+   "question": "When Vorin characters swear 'Kelek's breath!', which Herald are they invoking?",
+   "choices": [
+    "Kalak, patron of the Willshapers",
+    "Chanaranach",
+    "Jezrien",
+    "Battar"
+   ],
+   "answer": 0,
+   "explanation": "Kalak is known as Kelek in Vorinism because of a vowel shift. He's patron of the Willshapers and a very common expletive.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Kalak",
+    "page": "93"
+   }
+  },
+  {
+   "id": "w-cos-09",
+   "category": "world",
+   "topic": "Unmade",
+   "question": "How was Ba-Ado-Mishram defeated at the end of the False Desolation?",
+   "choices": [
+    "Slain by Talenel",
+    "The Bondsmith Melishi bonded her and trapped her in a perfect gemstone",
+    "Banished to Braize by the Heralds",
+    "She surrendered to the Radiants"
+   ],
+   "answer": 1,
+   "explanation": "Melishi, acting on Tanavast's orders, used a bond with Mishram to pull her into a perfect gemstone. All singers Connected to her lost their forms and Identity.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Ba-Ado-Mishram",
+    "page": "95"
+   }
+  },
+  {
+   "id": "w-cos-10",
+   "category": "world",
+   "topic": "Unmade",
+   "question": "Which Unmade 'Enlightens' (corrupts) spren and secretly works against Odium?",
+   "choices": [
+    "Re-Shephir",
+    "Sja-anat",
+    "Ashertmarn",
+    "Dai-Gonarthis"
+   ],
+   "answer": 1,
+   "explanation": "Sja-anat, the Taker of Secrets, corrupts spren with Odium's Investiture. She pretends to serve Odium but actively works against him and encourages her 'children' to bond Radiants.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Sja-Anat",
+    "page": "97"
+   }
+  },
+  {
+   "id": "w-cos-11",
+   "category": "world",
+   "topic": "Unmade",
+   "question": "The prophetic 'death rattles' of the dying are attributed to which Unmade?",
+   "choices": [
+    "Moelach",
+    "Nergaoul",
+    "Chemoarish",
+    "Yelig-nar"
+   ],
+   "answer": 0,
+   "explanation": "Moelach's domain is precognition. He's said to possess the minds of the dying, whose last words Kharbranthian scholars secretly study as prophecy.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Moelach",
+    "page": "97"
+   }
+  },
+  {
+   "id": "w-cos-12",
+   "category": "world",
+   "topic": "Fused",
+   "question": "Each brand of Fused accesses a single surge. Which surge can no Fused use?",
+   "choices": [
+    "Gravitation",
+    "Adhesion",
+    "Transformation",
+    "Illumination"
+   ],
+   "answer": 1,
+   "explanation": "The nine Fused brands cover nine surges (e.g. Heavenly Ones use Gravitation, Deepest Ones use Cohesion), but no Fused can access Adhesion.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Brands of Fused",
+    "page": "103"
+   }
+  },
+  {
+   "id": "w-cos-13",
+   "category": "world",
+   "topic": "Vorinism",
+   "question": "How does Vorinism view symmetry?",
+   "choices": [
+    "As a sign of Odium",
+    "As holy — but names shouldn't be too symmetrical, which would be impious",
+    "As irrelevant",
+    "As reserved for the Almighty's name alone"
+   ],
+   "answer": 1,
+   "explanation": "Symmetry is holy in Vorinism: glyphs and the Heralds' names are symmetrical, and many people's names are nearly so — but making them too symmetrical is impious.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 3 Cosmology and Religion › Vorinism (Symmetry)",
+    "page": "99"
+   }
+  },
+  {
+   "id": "w-hist-01",
+   "category": "world",
+   "topic": "History",
+   "question": "According to the true history revealed in the Eila Stele, who were the original 'Voidbringers'?",
+   "choices": [
+    "The Fused",
+    "The Unmade",
+    "Humans, who came from Ashyn and brought Odium to Roshar",
+    "Thunderclasts"
+   ],
+   "answer": 2,
+   "explanation": "Humans fled the ruined world of Ashyn to Roshar. Because they brought Odium with them, the Dawnsingers named them the Voidbringers.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 4 History of Roshar › Odium's Influence (False History)",
+    "page": "107"
+   }
+  },
+  {
+   "id": "w-hist-02",
+   "category": "world",
+   "topic": "History",
+   "question": "Which Radiant order did NOT take part in the Recreance?",
+   "choices": [
+    "The Windrunners",
+    "The Skybreakers",
+    "The Bondsmiths",
+    "The Edgedancers"
+   ],
+   "answer": 1,
+   "explanation": "After Tanavast's vision, the Radiants and their spren agreed together to break their oaths, killing the spren. Only the Skybreakers abstained, withdrawing to ensure the Radiants never rose again.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 4 History of Roshar › Day of Recreance",
+    "page": "111"
+   }
+  },
+  {
+   "id": "w-hist-03",
+   "category": "world",
+   "topic": "History",
+   "question": "What does 'Parshendi', the Alethi name for the listeners, mean?",
+   "choices": [
+    "'Children of the storm'",
+    "'Parshmen who can think'",
+    "'Those who sing'",
+    "'Free people'"
+   ],
+   "answer": 1,
+   "explanation": "When Gavilar's expedition met the listeners, the Alethi, ignorant of singer history, called them Parshendi — 'parshmen who can think.'",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 4 History of Roshar › The Parshendi",
+    "page": "113"
+   }
+  },
+  {
+   "id": "w-hist-04",
+   "category": "world",
+   "topic": "History",
+   "question": "Who overthrew the Vorin Hierocracy in the War of Loss?",
+   "choices": [
+    "Gavilar Kholin",
+    "The Sunmaker (Sadees)",
+    "Nohadon",
+    "Taravangian"
+   ],
+   "answer": 1,
+   "explanation": "Sadees, the Sunmaker, united Alethkar's princedoms and cast down the Hierocracy. His empire fractured among his sons after his sudden death.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 4 History of Roshar › War of Loss",
+    "page": "112"
+   }
+  },
+  {
+   "id": "w-hist-05",
+   "category": "world",
+   "topic": "History",
+   "question": "At the Battle of Thaylen Field, what did Dalinar do to turn the tide?",
+   "choices": [
+    "Slew Odium's champion in single combat",
+    "United the three realms and opened Honor's Perpendicularity, declaring 'I am Unity'",
+    "Activated every Oathgate at once",
+    "Summoned the Stormfather's highstorm"
+   ],
+   "answer": 1,
+   "explanation": "Dalinar used his Bondsmith powers to unite the Physical, Cognitive and Spiritual Realms, opening Honor's Perpendicularity. Gems filled with Stormlight and Odium fled.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 4 History of Roshar › Battle of Thaylen Field",
+    "page": "118"
+   }
+  },
+  {
+   "id": "w-sm-01",
+   "category": "world",
+   "topic": "Shadesmar",
+   "question": "What are the 'seas' of Shadesmar made of?",
+   "choices": [
+    "Black water that can't be swum",
+    "Small glass beads, each representing the soul of a non-living object in the Physical Realm",
+    "Mist and Stormlight",
+    "Liquid Investiture"
+   ],
+   "answer": 1,
+   "explanation": "Shadesmar's oceans are dark glass beads, each the soul of a non-living object. They drag people down, are drawn to Stormlight, and drift back toward their object's location if moved.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 7 Shadesmar › Seas of Beads",
+    "page": "169"
+   }
+  },
+  {
+   "id": "w-sm-02",
+   "category": "world",
+   "topic": "Shadesmar",
+   "question": "How does Shadesmar's geography relate to the Physical Realm?",
+   "choices": [
+    "It's an exact copy",
+    "It's roughly inverted: seas of beads mirror Roshar's lands, and obsidian land mirrors its waters",
+    "It has no relation",
+    "It's rotated 90 degrees"
+   ],
+   "answer": 1,
+   "explanation": "Shadesmar's seas of beads correspond to Roshar's land and its obsidian lands to the oceans, rivers and lakes. Sizes are shaped by how much people think about an area.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 7 Shadesmar › Geography",
+    "page": "169"
+   }
+  },
+  {
+   "id": "w-sm-03",
+   "category": "world",
+   "topic": "Shadesmar",
+   "question": "What's strange about shadows cast by Shadesmar's small white sun?",
+   "choices": [
+    "There are none",
+    "They point toward the sun instead of away",
+    "They're colored",
+    "They move constantly"
+   ],
+   "answer": 1,
+   "explanation": "Shadesmar's sun never moves, and shadows it creates point toward it. Other light sources, like manifested fires, cast normal shadows.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 7 Shadesmar › Land and Sky",
+    "page": "171"
+   }
+  },
+  {
+   "id": "w-sm-04",
+   "category": "world",
+   "topic": "Shadesmar",
+   "question": "In Shadesmar, what do the small floating flames represent?",
+   "choices": [
+    "Lesser spren",
+    "The souls of living creatures",
+    "Infused gemstones",
+    "Fabrials"
+   ],
+   "answer": 1,
+   "explanation": "Beads are the souls of objects; flames are the souls of living creatures, larger for sapient beings. A flame corrupted by Odium or Sja-anat turns vivid red.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 7 Shadesmar › Flames of People",
+    "page": "171"
+   }
+  },
+  {
+   "id": "w-sm-05",
+   "category": "world",
+   "topic": "Shadesmar",
+   "question": "What is notable about Lasting Integrity, the honorspren capital?",
+   "choices": [
+    "It floats above the sea",
+    "It's a roofless fortress whose walls each have their own gravity, so residents walk up them",
+    "It's built from manifested beads",
+    "It sits on Cultivation's Perpendicularity"
+   ],
+   "answer": 1,
+   "explanation": "Lasting Integrity, in the Sea of Souls, is a hollow, roofless blue-stone fortress. Each wall has its own gravitational field, so buildings rise from the walls. The Herald Kalak serves there as High Judge.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 7 Shadesmar › Lasting Integrity",
+    "page": "175"
+   }
+  },
+  {
+   "id": "w-sm-06",
+   "category": "world",
+   "topic": "Shadesmar",
+   "question": "In Shadesmar, what do luckspren (called mandras there) do for spren sailors?",
+   "choices": [
+    "Navigate by starlight",
+    "Pull their vessels through the bead ocean",
+    "Light the ships",
+    "Ward off angerspren"
+   ],
+   "answer": 1,
+   "explanation": "Mandras are far larger in Shadesmar, with sinuous bodies and arrow-shaped heads. Radiant spren sailors use them to pull ships through the bead sea.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 7 Shadesmar › Lesser Spren",
+    "page": "173"
+   }
+  },
+  {
+   "id": "w-sm-07",
+   "category": "world",
+   "topic": "Shadesmar",
+   "question": "For travelers in Shadesmar, what does the World Guide call the greatest dangers?",
+   "choices": [
+    "Angerspren packs",
+    "Dehydration and starvation",
+    "Fused warships",
+    "The bead seas"
+   ],
+   "answer": 1,
+   "explanation": "Shadesmar's wilderness has no food or water to forage, so supplies are the real threat. Spren traders sell rations, and hydrator fabrials condense water from the air.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 7 Shadesmar › Food, Water, and Survival",
+    "page": "178"
+   }
+  },
+  {
+   "id": "s-sm-01",
+   "category": "scenario",
+   "topic": "Shadesmar",
+   "question": "A non-Radiant PC in Shadesmar wants to manifest a rope from its bead using Stormlight from an unencased gem they're carrying. What's the test?",
+   "choices": [
+    "DC 15 Insight",
+    "Discipline at the usual DC (typically 10) + 5, because they're infusing from a gem rather than their own Investiture",
+    "Crafting DC 10",
+    "They can't — only Radiants can manifest beads"
+   ],
+   "answer": 1,
+   "explanation": "Manifesting needs a Discipline test (usually DC 10) and 1+ Investiture infused into the bead. Without personal Investiture you can infuse from an unencased gem, but the DC rises by 5. The object then spends 1 Investiture per day.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 7 Shadesmar › Manifesting an Object",
+    "page": "170"
+   }
+  },
+  {
+   "id": "s-sm-02",
+   "category": "scenario",
+   "topic": "Shadesmar",
+   "question": "A Windrunner in Shadesmar wants their honorspren to quietly scout ahead (Covert Scouting) and to summon them as a Shardblade. What happens?",
+   "choices": [
+    "Both work normally",
+    "Neither — in Shadesmar the spren is a full-sized person fixed in form, so it can't use Covert Scouting, and Radiant Blades can't be summoned",
+    "Scouting works; the Blade doesn't",
+    "The Blade works; scouting doesn't"
+   ],
+   "answer": 1,
+   "explanation": "In Shadesmar, a Radiant spren can't change shape, fly or disappear, so it loses Covert Scouting and Sudden Warning. Radiant and dead Shardblades can't be summoned there; only Honorblades work normally.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 7 Shadesmar › Radiant Shardblades",
+    "page": "177"
+   }
+  },
+  {
+   "id": "s-sm-03",
+   "category": "scenario",
+   "topic": "Shadesmar",
+   "question": "A PC tests their Gravitation surge while standing near a sea of beads. What special rule applies?",
+   "choices": [
+    "None",
+    "Raise the stakes; an Opportunity can let them move 15 ft without triggering Reactive Strikes, and a Complication can knock them down for 1d6 impact damage and toward the sea",
+    "The surge automatically fails",
+    "The surge costs double Investiture"
+   ],
+   "answer": 1,
+   "explanation": "Beads are drawn to Investiture, so surge tests near a bead sea always raise the stakes. The PC can spend an Opportunity to ride the flow 15 ft; the GM can spend a Complication to knock them off their feet (1d6 impact), possibly into the sea.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 7 Shadesmar › Dangers of the Seas",
+    "page": "171"
+   }
+  },
+  {
+   "id": "s-sm-04",
+   "category": "scenario",
+   "topic": "Shadesmar",
+   "question": "A PC with 2 Investiture touches a bead barehanded to learn what it represents. Do they need a test?",
+   "choices": [
+    "Yes, DC 15 Insight",
+    "No — being Invested (1+ Investiture) gives them a brief glimpse automatically",
+    "Yes, DC 10 Discipline",
+    "Only if they're Radiant"
+   ],
+   "answer": 1,
+   "explanation": "Touching a bead gives a glimpse of its object if you're currently Invested (1+ Investiture) or succeed on a DC 15 Insight test. Touching too many beads at once is overwhelming.",
+   "cite": {
+    "book": "worldguide",
+    "section": "Ch. 7 Shadesmar › Gleaning Impressions From Beads",
+    "page": "170"
+   }
   }
  ]
 }
