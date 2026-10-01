@@ -1,18 +1,354 @@
 [
-{"id":"w-world-01","category":"world","topic":"Calendar & Time","question":"How is the human Rosharan calendar structured?","choices":["365 days; 12 months of 30 days","500 days; 10 months, each of 10 five-day weeks","400 days; 10 months of 40 days","500 days; 5 months of 100 days"],"answer":1,"explanation":"The Rosharan year has 500 days: ten months, each of ten weeks, each of five days. Days are 20 hours long.","cite":{"book":"worldguide","section":"Ch. 1 The World › Measuring Time","page":"5"},"verify":["The Rosharan year contains five hundred days"]},
-{"id":"w-world-02","category":"world","topic":"Calendar & Time","question":"What happens on Lightday, the Rosharan new year in the middle of the Weeping?","choices":["It's always a clear day","It's clear in even-numbered years and brings a highstorm in odd-numbered years","The Everstorm arrives","All spheres go dun"],"answer":1,"explanation":"The Weeping's four weeks of rain are interrupted by Lightday: a clear day in even-numbered years, a highstorm in odd-numbered years.","cite":{"book":"worldguide","section":"Ch. 1 The World › The Weeping","page":"5"},"verify":["In even-numbered years, Lightday is a clear day"]},
-{"id":"w-world-03","category":"world","topic":"Calendar & Time","question":"What is Midpeace?","choices":["A truce between Alethkar and Jah Keved","A four-week period halfway through the year with no highstorms","The hour when no moons are visible","A listener festival"],"answer":1,"explanation":"Midpeace falls halfway between Weepings: four weeks without highstorms.","cite":{"book":"worldguide","section":"Ch. 1 The World › Midpeace","page":"5"},"verify":["a four-week period with no highstorms"]},
-{"id":"w-world-04","category":"world","topic":"Spheres & Currency","question":"How do sphere denominations convert?","choices":["1 mark = 10 chips; 1 broam = 10 marks","1 mark = 5 chips; 1 broam = 4 marks (20 chips)","1 mark = 4 chips; 1 broam = 5 marks","1 broam = 2 marks = 8 chips"],"answer":1,"explanation":"Spheres come as chips, marks and broams: one mark is five chips, and one broam is four marks (twenty chips).","cite":{"book":"worldguide","section":"Ch. 1 The World › Spheres (Denominations)","page":"6"},"verify":["One mark equals five chips, and one broam equals four marks"]},
-{"id":"w-world-05","category":"world","topic":"Spheres & Currency","question":"Which gem type makes the most valuable spheres, and which the least?","choices":["Diamond most, emerald least","Emerald most, diamond least","Ruby most, garnet least","Sapphire most, topaz least"],"answer":1,"explanation":"Value follows a gem's usefulness in Soulcasting. Emerald is top (an emerald mark is worth 50 diamond marks) and diamond is lowest, so the game prices everything in diamond marks ('clearmarks').","cite":{"book":"worldguide","section":"Ch. 1 The World › Gem Types","page":"6"},"verify":["Diamond spheres are the least valuable"]},
-{"id":"w-world-06","category":"world","topic":"Highstorms & Stormlight","question":"Which part of a highstorm is generally considered the most dangerous?","choices":["The riddens","The stormwall","The centerbeat","The main body"],"answer":1,"explanation":"The stormwall at the front carries tempestuous winds, debris and torrential rain. The main body is less deadly, and the riddens at the end bring light rain and mild wind.","cite":{"book":"worldguide","section":"Ch. 1 The World › Highstorms (Properties)","page":"7"},"verify":["This stormwall is generally considered the most dangerous part"]},
-{"id":"w-world-07","category":"world","topic":"Highstorms & Stormlight","question":"Why was the Everstorm's first arrival so devastating to human settlements?","choices":["It carried far more crem","It travels west to east, opposite the highstorms that buildings are designed to face","It only strikes at night","It drains all Stormlight from spheres"],"answer":1,"explanation":"Highstorms blow east to west, so buildings have reinforced stormward (eastern) sides. The Everstorm moves west to east, hitting the vulnerable leeward sides.","cite":{"book":"worldguide","section":"Ch. 1 The World › The Everstorm","page":"8"},"verify":["Because this unnatural storm travels west to east"]},
-{"id":"w-world-08","category":"world","topic":"Highstorms & Stormlight","question":"Which describes the Everstorm?","choices":["White clouds and blue lightning, carrying extra crem","Black clouds and red lightning, no stormwall and no crem, typically every nine days","A stationary storm over the Shattered Plains","A highstorm that only occurs during the Weeping"],"answer":1,"explanation":"Driven by Odium, the Everstorm has black clouds and red lightning, lacks a stormwall and crem, and usually comes every nine days — though Odium can speed or stall it.","cite":{"book":"worldguide","section":"Ch. 1 The World › The Everstorm (Properties)","page":"8"},"verify":["The Everstorm typically appears every nine days"]},
-{"id":"w-world-09","category":"world","topic":"Highstorms & Stormlight","question":"Roughly how long can each of these hold Stormlight: a person, a sphere, a perfect gemstone?","choices":["Hours; weeks; years","Minutes; days; indefinitely","Seconds; hours; days","Days; months; indefinitely"],"answer":1,"explanation":"Stormlight leaks out over time: people hold it for minutes, spheres for days, larger gems longer, and rare perfect gemstones indefinitely.","cite":{"book":"worldguide","section":"Ch. 1 The World › Stormlight (Properties)","page":"9"},"verify":["People can only hold Stormlight for minutes"]},
-{"id":"w-world-10","category":"world","topic":"Spren","question":"Why can the largest greatshells move at all despite their immense weight?","choices":["They live only in water","They form symbiotic bonds with luckspren","They draw Stormlight from highstorms","Cultivation granted them Shardplate"],"answer":1,"explanation":"Greatshells bond with luckspren; without these bonds, the largest would be crushed by their own weight.","cite":{"book":"worldguide","section":"Ch. 1 The World › Greatshells","page":"13"},"verify":["Greatshells can form symbiotic bonds with luckspren"]},
-{"id":"w-world-11","category":"world","topic":"Spren","question":"Which Radiant order bonds lightspren, also called Reachers?","choices":["Windrunners","Willshapers","Lightweavers","Truthwatchers"],"answer":1,"explanation":"Lightspren (Reachers) grant surges to Willshapers. Lightweavers bond Cryptics (liespren); Truthwatchers bond mistspren.","cite":{"book":"worldguide","section":"Ch. 1 The World › Radiant Spren","page":"16"},"verify":["Lightspren (or Reachers) grant surges to Willshapers"]},
-{"id":"w-world-12","category":"world","topic":"Spren","question":"The Sibling, the Bondsmith spren who manifests as Urithiru, is a Splinter of which Shard(s)?","choices":["Honor only","Cultivation only","Both Honor and Cultivation","Odium"],"answer":2,"explanation":"The Sibling is a Splinter of both Honor and Cultivation. The Stormfather is of Honor, and the Nightwatcher is of Cultivation.","cite":{"book":"worldguide","section":"Ch. 1 The World › Bondsmith Spren","page":"16"},"verify":["The Sibling is a Splinter of both Honor and Cultivation"]},
-{"id":"w-world-13","category":"world","topic":"Fabrials & Technology","question":"Spanreeds are the most widespread use of which kind of fabrial?","choices":["Augmenters","Conjoiners made from a split ruby","Reversers made from amethyst","Warning fabrials"],"answer":1,"explanation":"Conjoiners, a type of pairing fabrial, are made from a split ruby and move in parallel over great distances. Spanreeds are their most common use.","cite":{"book":"worldguide","section":"Ch. 1 The World › Pairing Fabrials","page":"20"},"verify":["Conjoiners are made from a split ruby"]},
-{"id":"w-world-14","category":"world","topic":"Fabrials & Technology","question":"What is a dead Shardblade?","choices":["A broken Honorblade","The body of a deadeye spren whose Radiant broke their oaths","A Shardblade with no gemstone","A Blade that can no longer be summoned"],"answer":1,"explanation":"Dead Shardblades are deadeye spren that perished when their Radiant broke their oaths. They can't change shape, but can still form a rudimentary bond and be summoned.","cite":{"book":"worldguide","section":"Ch. 1 The World › Shardblades","page":"20"},"verify":["Dead Shardblades are the bodies of deadeye spren"]},
-{"id":"w-world-15","category":"world","topic":"Fabrials & Technology","question":"Towerlight is a hybrid of which two Lights?","choices":["Stormlight and Voidlight","Stormlight and Lifelight","Lifelight and Voidlight","Stormlight and anti-Stormlight"],"answer":1,"explanation":"Towerlight (the Sibling's essence) combines Stormlight and Lifelight. Warlight, discovered by Navani and Raboniel, combines Stormlight and Voidlight.","cite":{"book":"worldguide","section":"Ch. 1 The World › Hybrid Light","page":"23"},"verify":["This hybrid Light of Stormlight and Lifelight"]},
-{"id":"w-world-16","category":"world","topic":"Fabrials & Technology","question":"What is raysium?","choices":["A metal used for fabrial frames","A God Metal formed from Odium that can siphon Stormlight from Radiants","A type of perfect gemstone","Shardplate alloy"],"answer":1,"explanation":"Raysium is a God Metal from the Shard Odium. The Fused make weapons from it that siphon Stormlight, and set with anti-Light gems they can kill Invested beings.","cite":{"book":"worldguide","section":"Ch. 1 The World › Raysium","page":"23"},"verify":["Raysium is a God Metal"]}
+{
+"id": "w-world-01",
+"category": "world",
+"topic": "Calendar & Time",
+"question": "How is the human Rosharan calendar structured?",
+"choices": [
+"365 days; 12 months of 30 days, plus 5 feast days",
+"500 days; 10 months of 10 five-day weeks",
+"400 days; 10 months, each of 40 days",
+"500 days; 5 months, each of 100 days"
+],
+"answer": 1,
+"explanation": "The Rosharan year has 500 days: ten months, each of ten weeks, each of five days. Days are 20 hours long.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Measuring Time",
+"page": "5"
+},
+"verify": [
+"The Rosharan year contains five hundred days"
+]
+},
+{
+"id": "w-world-02",
+"category": "world",
+"topic": "Calendar & Time",
+"question": "What happens on Lightday, the Rosharan new year in the middle of the Weeping?",
+"choices": [
+"It's always a clear, calm day across Roshar",
+"Clear in even years; a highstorm in odd years",
+"The Everstorm always arrives on Lightday",
+"Every sphere on Roshar goes dun until dawn"
+],
+"answer": 1,
+"explanation": "The Weeping's four weeks of rain are interrupted by Lightday: a clear day in even-numbered years, a highstorm in odd-numbered years.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › The Weeping",
+"page": "5"
+},
+"verify": [
+"In even-numbered years, Lightday is a clear day"
+]
+},
+{
+"id": "w-world-03",
+"category": "world",
+"topic": "Calendar & Time",
+"question": "What is Midpeace?",
+"choices": [
+"A yearly truce between Alethkar and Jah Keved",
+"Four weeks at midyear with no highstorms",
+"The hour of night when no moons are visible",
+"A listener festival held at the Lull"
+],
+"answer": 1,
+"explanation": "Midpeace falls halfway between Weepings: four weeks without highstorms.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Midpeace",
+"page": "5"
+},
+"verify": [
+"a four-week period with no highstorms"
+]
+},
+{
+"id": "w-world-04",
+"category": "world",
+"topic": "Spheres & Currency",
+"question": "How do sphere denominations convert?",
+"choices": [
+"1 mark = 10 chips; 1 broam = 10 marks",
+"1 mark = 5 chips; 1 broam = 4 marks (20 chips)",
+"1 mark = 4 chips; 1 broam = 5 marks",
+"1 broam = 2 marks = 8 chips"
+],
+"answer": 1,
+"explanation": "Spheres come as chips, marks and broams: one mark is five chips, and one broam is four marks (twenty chips).",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Spheres (Denominations)",
+"page": "6"
+},
+"verify": [
+"One mark equals five chips, and one broam equals four marks"
+]
+},
+{
+"id": "w-world-05",
+"category": "world",
+"topic": "Spheres & Currency",
+"question": "Which gem type makes the most valuable spheres, and which the least?",
+"choices": [
+"Diamond most, emerald least",
+"Emerald most, diamond least",
+"Ruby most, garnet least",
+"Sapphire most, topaz least"
+],
+"answer": 1,
+"explanation": "Value follows a gem's usefulness in Soulcasting. Emerald is top (an emerald mark is worth 50 diamond marks) and diamond is lowest, so the game prices everything in diamond marks ('clearmarks').",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Gem Types",
+"page": "6"
+},
+"verify": [
+"Diamond spheres are the least valuable"
+]
+},
+{
+"id": "w-world-06",
+"category": "world",
+"topic": "Highstorms & Stormlight",
+"question": "Which part of a highstorm is generally considered the most dangerous?",
+"choices": [
+"The riddens",
+"The stormwall",
+"The centerbeat",
+"The main body"
+],
+"answer": 1,
+"explanation": "The stormwall at the front carries tempestuous winds, debris and torrential rain. The main body is less deadly, and the riddens at the end bring light rain and mild wind.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Highstorms (Properties)",
+"page": "7"
+},
+"verify": [
+"This stormwall is generally considered the most dangerous part"
+]
+},
+{
+"id": "w-world-07",
+"category": "world",
+"topic": "Highstorms & Stormlight",
+"question": "Why was the Everstorm's first arrival so devastating to human settlements?",
+"choices": [
+"It carried far more crem than highstorms",
+"It blows west to east, hitting unprotected sides",
+"It only ever strikes at night",
+"It drains the Stormlight from all spheres"
+],
+"answer": 1,
+"explanation": "Highstorms blow east to west, so buildings have reinforced stormward (eastern) sides. The Everstorm moves west to east, hitting the vulnerable leeward sides.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › The Everstorm",
+"page": "8"
+},
+"verify": [
+"Because this unnatural storm travels west to east"
+]
+},
+{
+"id": "w-world-08",
+"category": "world",
+"topic": "Highstorms & Stormlight",
+"question": "Which describes the Everstorm?",
+"choices": [
+"White clouds and blue lightning; extra crem",
+"Black clouds, red lightning, no stormwall or crem",
+"A stationary storm over the Shattered Plains",
+"A highstorm that only comes during the Weeping"
+],
+"answer": 1,
+"explanation": "Driven by Odium, the Everstorm has black clouds and red lightning, lacks a stormwall and crem, and usually comes every nine days — though Odium can speed or stall it.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › The Everstorm (Properties)",
+"page": "8"
+},
+"verify": [
+"The Everstorm typically appears every nine days"
+]
+},
+{
+"id": "w-world-09",
+"category": "world",
+"topic": "Highstorms & Stormlight",
+"question": "Roughly how long can each of these hold Stormlight: a person, a sphere, a perfect gemstone?",
+"choices": [
+"Hours; weeks; years",
+"Minutes; days; indefinitely",
+"Seconds; hours; days",
+"Days; months; indefinitely"
+],
+"answer": 1,
+"explanation": "Stormlight leaks out over time: people hold it for minutes, spheres for days, larger gems longer, and rare perfect gemstones indefinitely.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Stormlight (Properties)",
+"page": "9"
+},
+"verify": [
+"People can only hold Stormlight for minutes"
+]
+},
+{
+"id": "w-world-10",
+"category": "world",
+"topic": "Spren",
+"question": "Why can the largest greatshells move at all despite their immense weight?",
+"choices": [
+"They live only in water",
+"They form symbiotic bonds with luckspren",
+"They draw Stormlight from highstorms",
+"Cultivation granted them Shardplate"
+],
+"answer": 1,
+"explanation": "Greatshells bond with luckspren; without these bonds, the largest would be crushed by their own weight.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Greatshells",
+"page": "13"
+},
+"verify": [
+"Greatshells can form symbiotic bonds with luckspren"
+]
+},
+{
+"id": "w-world-11",
+"category": "world",
+"topic": "Spren",
+"question": "Which Radiant order bonds lightspren, also called Reachers?",
+"choices": [
+"Windrunners",
+"Willshapers",
+"Lightweavers",
+"Truthwatchers"
+],
+"answer": 1,
+"explanation": "Lightspren (Reachers) grant surges to Willshapers. Lightweavers bond Cryptics (liespren); Truthwatchers bond mistspren.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Radiant Spren",
+"page": "16"
+},
+"verify": [
+"Lightspren (or Reachers) grant surges to Willshapers"
+]
+},
+{
+"id": "w-world-12",
+"category": "world",
+"topic": "Spren",
+"question": "The Sibling, the Bondsmith spren who manifests as Urithiru, is a Splinter of which Shard(s)?",
+"choices": [
+"Honor alone",
+"Cultivation alone",
+"Both Honor and Cultivation",
+"Odium alone"
+],
+"answer": 2,
+"explanation": "The Sibling is a Splinter of both Honor and Cultivation. The Stormfather is of Honor, and the Nightwatcher is of Cultivation.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Bondsmith Spren",
+"page": "16"
+},
+"verify": [
+"The Sibling is a Splinter of both Honor and Cultivation"
+]
+},
+{
+"id": "w-world-13",
+"category": "world",
+"topic": "Fabrials & Technology",
+"question": "Spanreeds are the most widespread use of which kind of fabrial?",
+"choices": [
+"Augmenters",
+"Conjoiners made from a split ruby",
+"Reversers made from amethyst",
+"Warning fabrials"
+],
+"answer": 1,
+"explanation": "Conjoiners, a type of pairing fabrial, are made from a split ruby and move in parallel over great distances. Spanreeds are their most common use.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Pairing Fabrials",
+"page": "20"
+},
+"verify": [
+"Conjoiners are made from a split ruby"
+]
+},
+{
+"id": "w-world-14",
+"category": "world",
+"topic": "Fabrials & Technology",
+"question": "What is a dead Shardblade?",
+"choices": [
+"A broken Honorblade",
+"A deadeye spren whose Radiant broke their oaths",
+"A Shardblade with no gemstone in its hilt",
+"A Blade that can no longer be summoned"
+],
+"answer": 1,
+"explanation": "Dead Shardblades are deadeye spren that perished when their Radiant broke their oaths. They can't change shape, but can still form a rudimentary bond and be summoned.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Shardblades",
+"page": "20"
+},
+"verify": [
+"Dead Shardblades are the bodies of deadeye spren"
+]
+},
+{
+"id": "w-world-15",
+"category": "world",
+"topic": "Fabrials & Technology",
+"question": "Towerlight is a hybrid of which two Lights?",
+"choices": [
+"Stormlight and Voidlight",
+"Stormlight and Lifelight",
+"Lifelight and Voidlight",
+"Stormlight and anti-Stormlight"
+],
+"answer": 1,
+"explanation": "Towerlight (the Sibling's essence) combines Stormlight and Lifelight. Warlight, discovered by Navani and Raboniel, combines Stormlight and Voidlight.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Hybrid Light",
+"page": "23"
+},
+"verify": [
+"This hybrid Light of Stormlight and Lifelight"
+]
+},
+{
+"id": "w-world-16",
+"category": "world",
+"topic": "Fabrials & Technology",
+"question": "What is raysium?",
+"choices": [
+"A soft metal used for fabrial frames",
+"A God Metal from Odium that siphons Stormlight",
+"A type of perfect gemstone",
+"The alloy that Shardplate is forged from"
+],
+"answer": 1,
+"explanation": "Raysium is a God Metal from the Shard Odium. The Fused make weapons from it that siphon Stormlight, and set with anti-Light gems they can kill Invested beings.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 1 The World › Raysium",
+"page": "23"
+},
+"verify": [
+"Raysium is a God Metal"
+]
+}
 ]

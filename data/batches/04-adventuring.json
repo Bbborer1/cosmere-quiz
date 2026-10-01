@@ -1,40 +1,838 @@
 [
-{"id":"r-cond-01","category":"rules","topic":"Conditions","question":"What does the Determined condition let you do?","choices":["Gain an advantage on your next test","When you fail a test, add an Opportunity to it (then the condition ends)","Ignore your next Complication","Reroll one failed test"],"answer":1,"explanation":"While Determined, you can add an Opportunity to a failed test. Doing so removes the condition.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Determined)","page":"293"},"verify":["when you fail a test, you can add an Opportunity"]},
-{"id":"r-cond-02","category":"rules","topic":"Conditions","question":"Which set of effects describes the Disoriented condition?","choices":["Movement halved; melee attacks against you gain an advantage","No reactions; your senses count as obscured; disadvantage on Perception and similar sense-based tests","Lose two actions on your turn","Disadvantage on all tests except escaping"],"answer":1,"explanation":"Disoriented means you can't use reactions, your senses always count as obscured, and Perception (and similar sensing tests) gain a disadvantage.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Disoriented)","page":"293"},"verify":["You can’t use reactions, your senses always count as obscured"]},
-{"id":"r-cond-03","category":"rules","topic":"Conditions","question":"A Radiant becomes Empowered after swearing an Ideal. What does that grant, and when does it end?","choices":["+2 to all tests until their next long rest","An advantage on all tests and Investiture refilling to max at the start of each of their turns, until the end of the scene","Double Investiture for 1 round","Immunity to damage until the end of their next turn"],"answer":1,"explanation":"Empowered grants an advantage on all tests and refills Investiture to maximum at the start of each of your turns. It's removed at the end of the current scene.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Empowered)","page":"293"},"verify":["you gain an advantage on all tests and your Investiture refills"]},
-{"id":"r-cond-04","category":"rules","topic":"Conditions","question":"Which is true of a Prone character?","choices":["Ranged attacks against them gain an advantage","They are Slowed, and melee attacks against them gain an advantage","They can't take actions until they stand","They are Immobilized"],"answer":1,"explanation":"While Prone you're Slowed and melee attacks against you gain an advantage. You can Brace without cover, and after standing up your movement rate is reduced by 5 until the start of your next turn.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Prone)","page":"294"},"verify":["you are Slowed and melee attacks against you gain an advantage"]},
-{"id":"r-cond-05","category":"rules","topic":"Conditions","question":"What does the Restrained condition do?","choices":["Movement 0 and a disadvantage on all tests except those to escape","Movement 0 only — tests are unaffected","Movement halved and no reactions","You can't be moved by other effects"],"answer":0,"explanation":"Restrained sets your movement rate to 0 and gives a disadvantage on all tests other than escaping your bonds. (Immobilized is the one that also stops other effects moving you.)","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Restrained)","page":"294"},"verify":["disadvantage on all tests other than those to escape your bonds"]},
-{"id":"r-cond-06","category":"rules","topic":"Conditions","question":"A character becomes Enhanced [+2 Strength]. Which of these does NOT change?","choices":["Athletics test results","Heavy Weaponry test results","Physical defense and maximum health","Talents that directly use Strength"],"answer":2,"explanation":"Enhanced boosts the attribute for skills, talents and things like movement, but explicitly doesn't change defenses, maximum health, maximum focus or maximum Investiture.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Enhanced)","page":"294"},"verify":["this bonus doesn’t change your defenses, maximum health"]},
-{"id":"r-cond-07","category":"rules","topic":"Conditions","question":"How does the Exhausted condition go away?","choices":["It ends at the end of the scene","After each long rest the penalty drops by 1; the condition ends at 0","A short rest removes it entirely","A DC 15 Discipline test ends it"],"answer":1,"explanation":"Each long rest reduces your Exhausted penalty by 1, and the condition is removed when the penalty reaches 0. Multiple instances add together.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Exhausted)","page":"294"},"verify":["After each long rest, reduce your Exhausted penalty by 1"]},
-{"id":"r-cond-08","category":"rules","topic":"Conditions","question":"What does the Focused condition do?","choices":["Grants an advantage on Discipline tests","Reduces the focus cost of your abilities by 1","Restores 1 focus per round","Prevents you from losing focus"],"answer":1,"explanation":"While Focused, abilities that cost focus cost 1 less.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Focused)","page":"294"},"verify":["its cost is reduced by 1"]},
-{"id":"r-cond-09","category":"rules","topic":"Conditions","question":"Which of these is NOT an effect of the Surprised condition?","choices":["You lose any reactions","You can't take a fast turn","You gain one fewer action","Attacks against you are automatically critical hits"],"answer":3,"explanation":"Surprised removes your reactions, stops you gaining a reaction at the start of combat or on your turn, bars fast turns, and costs you one action. It ends after your next turn. Nothing makes attacks auto-crit.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Surprised)","page":"295"},"verify":["you can’t take a fast turn"]},
-{"id":"r-cond-10","category":"rules","topic":"Conditions","question":"Can a character be Afflicted by more than one effect at the same time?","choices":["No — only the strongest applies","Yes — resolve each effect separately","Yes, but only two at once","Only if they're different damage types"],"answer":1,"explanation":"Unlike most conditions, you can be Afflicted by several effects at once, resolving each separately. In combat, the damage happens at the end of each of your turns.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Afflicted)","page":"293"},"verify":["you can be Afflicted by multiple effects simultaneously"]},
-{"id":"r-cond-11","category":"rules","topic":"Conditions","question":"When can an Unconscious PC choose to wake up?","choices":["Only when healed by another character","At the end of any of their turns (no action needed), or when healed to at least 1 health","After a successful DC 15 Discipline test","At the end of combat"],"answer":1,"explanation":"A PC can choose to regain consciousness at the end of any of their turns, or when an effect heals them to at least 1 health. If they're at 0, they recover 1 health. NPCs only wake when they recover 1 health.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Unconscious)","page":"295"},"verify":["choose to regain conscious­ ness at the end of any of your turns"]},
-{"id":"r-cond-12","category":"rules","topic":"Conditions","question":"An effect applies a condition to everything in an area that includes a cart and some crates. What happens to the objects?","choices":["They gain the condition too","Objects generally ignore conditions, unless the GM decides otherwise for the story","Objects take 1d4 damage instead","The condition fails for everyone"],"answer":1,"explanation":"Conditions generally only apply to characters; objects in the area ignore them, though the GM may apply a similar narrative effect when it fits.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions","page":"293"},"verify":["Conditions generally only apply to characters, not objects"]},
-{"id":"r-dmg-01","category":"rules","topic":"Damage & Injuries","question":"Which two damage types are NOT reduced by deflect?","choices":["Energy and keen","Spirit and vital","Impact and spirit","Vital and energy"],"answer":1,"explanation":"Deflect reduces energy, impact and keen. Spirit damage (usually from Shardblades) and vital damage (poison, suffocation, extreme cold) bypass it.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Damage Types","page":"296"},"verify":["This damage type is not reduced by your deflect value"]},
-{"id":"r-dmg-02","category":"rules","topic":"Damage & Injuries","question":"A PC is poisoned or exposed to extreme cold. What type of damage is that by default?","choices":["Energy","Impact","Spirit","Vital"],"answer":3,"explanation":"Vital damage covers effects that test your constitution, such as poison, suffocation and extreme cold.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Damage Types","page":"296"},"verify":["poison, suffocation, and extreme cold"]},
-{"id":"r-inj-01","category":"rules","topic":"Damage & Injuries","question":"How is an injury roll calculated?","choices":["d20 + Athletics modifier vs. DC 15","d20 + armor deflect + relevant ability modifiers − 5 per existing injury","d20 − damage taken","2d6 + Strength"],"answer":1,"explanation":"An injury roll isn't a skill test: roll a d20, add your armor's deflect and any relevant ability modifiers, and subtract 5 for each injury you already have. The result can be negative.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Injury Rolls","page":"296"},"verify":["Subtract 5 from the roll for each injury you already have"]},
-{"id":"r-inj-02","category":"rules","topic":"Damage & Injuries","question":"On the Injury Duration table, what does an injury roll result of 6 to 15 mean?","choices":["Flesh wound — lasts until after a long rest","Shallow injury — lasts 1d6 days","Vicious injury — lasts 6d6 days","Permanent injury"],"answer":1,"explanation":"Injury roll results: 16+ flesh wound (until after a long rest); 6–15 shallow (1d6 days); 1–5 vicious (6d6 days); −5 to 0 permanent; −6 or lower death.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Injury Duration","page":"296"},"verify":["6 to 15 Shallow Injury"]},
-{"id":"r-inj-03","category":"rules","topic":"Damage & Injuries","question":"What injury roll result kills a character?","choices":["0 or lower","−5 or lower","−6 or lower","−10 or lower"],"answer":2,"explanation":"A result of −6 or lower is death; −5 to 0 is a permanent injury.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Injury Duration","page":"296"},"verify":["−6 or lower Death"]},
-{"id":"r-inj-04","category":"rules","topic":"Damage & Injuries","question":"A minor NPC suffers an injury. What happens?","choices":["They make an injury roll like a PC","They're immediately defeated; the PC who caused it can choose death or Unconscious","They lose half their health","They flee the scene"],"answer":1,"explanation":"Minor NPCs are defeated as soon as they suffer an injury. The PC inflicting it can choose whether they die or fall Unconscious. Major NPCs make injury rolls like PCs.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Minor NPCs and Injuries","page":"297"},"verify":["If a minor NPC suffers an injury, they’re immediately defeated"]},
-{"id":"r-inj-05","category":"rules","topic":"Damage & Injuries","question":"How does recuperating during downtime affect injury healing?","choices":["No effect","Each day of dedicated rest counts as two days toward healing","It heals the injury after one day","It removes one injury per week"],"answer":1,"explanation":"Each downtime day spent on rest and recuperation counts as two days toward healing an injury, so you heal twice as fast.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Downtime (Recuperating)","page":"292"},"verify":["counts as two days toward healing an injury"]},
-{"id":"r-inj-06","category":"rules","topic":"Damage & Injuries","question":"When a PC suffers an injury, who decides what its effect is?","choices":["The GM, always","The player — they can pick from or roll on the Injury Effects table, or create a custom effect with the GM","It's always a d8 roll on the table","The character who dealt the damage"],"answer":1,"explanation":"The player decides the injury's effects, choosing or rolling (d8) on the Injury Effects table or working out a custom effect with the GM. The player has final say on how an injury affects their character.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Injury Effects","page":"296"},"verify":["When your character suffers an injury, you decide its effects"]},
-{"id":"r-rest-01","category":"rules","topic":"Resting","question":"What does a character recover after a short rest?","choices":["All health and focus","Their recovery die result, split however they like between health and focus","Half their maximum health","1 focus and 1 health"],"answer":1,"explanation":"A short rest (an uninterrupted hour or more) lets you roll your recovery die and add the result to health, focus or a mix of both.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Short Rest","page":"299"},"verify":["Add the roll result to your current health, your current focus, or a combination"]},
-{"id":"r-rest-02","category":"rules","topic":"Resting","question":"What does a long rest provide?","choices":["Recovery die × 2","All lost health and focus, and the Exhausted penalty drops by 1","All health, focus and Investiture, and all injuries heal","All health only"],"answer":1,"explanation":"A long rest (8+ uninterrupted hours) restores all lost health and focus and reduces your Exhausted penalty by 1.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Long Rest","page":"299"},"verify":["you recover all your lost health and focus"]},
-{"id":"r-rest-03","category":"rules","topic":"Resting","question":"During a short rest, a PC chooses Tend to Others instead of recovering. What do the allies they tend get?","choices":["They add the tender's Medicine modifier to their recovery die roll","They gain an advantage on their recovery die","They recover all focus","One injury is shortened by 1 day"],"answer":0,"explanation":"Tend to Others has you forgo your own recovery; the willing allies resting with you add your Medicine modifier to their recovery die rolls.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Short Rest (Alternative Benefits)","page":"299"},"verify":["they add your Medicine modifier to their recovery die roll"]},
-{"id":"r-dur-01","category":"rules","topic":"Combat Turns","question":"In combat, an effect lasts '1 round'. When does it end?","choices":["At the end of the current round","At the end of the affected character's next turn","At the beginning of the same turn phase (fast PC, fast NPC, etc.) on the next round","After 6 seconds of real time"],"answer":2,"explanation":"Note which phase the effect began in — fast PC, fast NPC, slow PC or slow NPC. It lasts until the start of that same phase on the next round.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Durations","page":"295"},"verify":["The effect lasts until the beginning of that phase on the next round"]},
-{"id":"r-food-01","category":"rules","topic":"Survival & Travel","question":"How long can a character go without food before suffering ill effects?","choices":["1 day","3 days","A number of days equal to their Willpower","A number of days equal to their Strength"],"answer":2,"explanation":"You can go days equal to your Willpower without food; each further day makes you Exhausted [−1]. Reaching Exhausted [−10] or worse is fatal. Water is harsher: Exhausted [−1] from the first day without it.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Food and Water","page":"295"},"verify":["up to your Willpower score before you begin to feel ill effects"]},
-{"id":"r-event-01","category":"rules","topic":"Events","question":"During a scene with an event track in play, how do the event's slots get filled?","choices":["The GM fills one slot each round","Players and GM spend Opportunities or Complications to fill slots instead of using them normally","Each failed test fills a slot automatically","Slots fill when a character takes an injury"],"answer":1,"explanation":"Opportunities can be spent to fill positive event slots and Complications (spent by the GM) to fill negative ones, giving up their usual effects. The event triggers when the last slot fills.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Contributing to Events","page":"290"},"verify":["spending Opportunities and Complications to fill slots"]},
-{"id":"r-down-01","category":"rules","topic":"Downtime","question":"Using the downtime Training activity, how long does it typically take to learn a new expertise, and at what cost?","choices":["5 days at 1 mark per day","10 days at 3 marks per day","20 days or longer at 5 marks per day","30 days, free"],"answer":2,"explanation":"Training for a new expertise (even a specialist one) usually takes 20+ days at 5 marks per day, and normally needs a relevant skill test. Research, by comparison, is about 10+ days at 3 marks per day.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Downtime (Training)","page":"293"},"verify":["It usually takes 20 days or longer to learn a new expertise"]},
-{"id":"r-down-02","category":"rules","topic":"Downtime","question":"What does the Self-Reflection downtime activity allow?","choices":["Swearing an Ideal without a goal","Rebuilding your character (e.g. swapping talents or skill ranks) at the same level, after 10+ days at 5 marks per day","Gaining a level","Removing all injuries"],"answer":1,"explanation":"Ten or more days of self-reflection (5 marks/day) let you rebuild your character at your current level with GM approval. Prerequisites still apply, and rewards don't count toward earlier-level prerequisites.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Downtime (Self-Reflection)","page":"293"},"verify":["If you dedicate 10 or more days to self-reflection"]},
-{"id":"s-inj-01","category":"scenario","topic":"Damage & Injuries","question":"A PC in armor with deflect 2 is reduced to 0 health. They already have one injury. They roll a 9 on the injury roll. What happens?","choices":["Flesh wound — heals after a long rest","Shallow injury lasting 1d6 days","Vicious injury lasting 6d6 days","Permanent injury"],"answer":1,"explanation":"9 + 2 (deflect) − 5 (one existing injury) = 6, which is in the 6–15 shallow injury band (1d6 days). They're also Unconscious.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Injury Rolls","page":"296"},"verify":["Add the deflect value of any armor you’re wearing"]},
-{"id":"s-inj-02","category":"scenario","topic":"Damage & Injuries","question":"An unarmored PC with two existing injuries suffers another and rolls a 7 on the injury roll. What's the outcome?","choices":["Shallow injury","Vicious injury","Permanent injury","Death"],"answer":2,"explanation":"7 − 10 (two existing injuries × 5) = −3, which falls in the −5 to 0 band: a permanent injury.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Injury Duration","page":"296"},"verify":["−5 to 0 Permanent Injury"]},
-{"id":"s-inj-03","category":"scenario","topic":"Damage & Injuries","question":"A PC lies Unconscious at 0 health. An enemy spends an attack on them and hits for 4 damage. What happens?","choices":["Nothing — they're already at 0","They suffer another injury and make another injury roll","They automatically die","They wake up from the pain"],"answer":1,"explanation":"Each time you take damage while at 0 health, you suffer another injury, with the −5 per existing injury making it more dangerous. (Enemies typically ignore Unconscious characters unless they have a strong reason.)","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Damage","page":"295"},"verify":["Each time you take damage while at 0 health, you suffer another injury"]},
-{"id":"s-cond-01","category":"scenario","topic":"Conditions","question":"A PC is Exhausted [−2] from travel, then a poison makes them Exhausted [−1]. They roll a Survival test totaling 16. What is the final result?","choices":["16 — only the worst penalty applies","14","13","15"],"answer":2,"explanation":"Exhausted is cumulative: −2 and −1 make a −3 penalty, applied after calculating the result. 16 − 3 = 13.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Exhausted)","page":"294"},"verify":["so you now subtract 3 from the result of all tests"]},
-{"id":"s-cond-02","category":"scenario","topic":"Conditions","question":"A PC with Speed 3 (30 ft movement) becomes Enhanced [+2 Speed]. What changes?","choices":["Movement rises to 40 ft and Speed-based skill tests get +2; Physical defense stays the same","Physical defense +2 and movement 40 ft","Only movement rises, to 35 ft","Everything Speed affects, including Physical defense, rises by 2"],"answer":0,"explanation":"Enhanced Speed 5 uses the 40 ft movement band and adds +2 to Agility, Light Weaponry, Stealth and Thievery tests — but Enhanced never changes defenses.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Enhanced)","page":"294"},"verify":["Increase your movement rate from 30 feet to 40 feet"]},
-{"id":"s-cond-03","category":"scenario","topic":"Conditions","question":"A PC with 30 ft of movement has moved 15 ft when a trap makes them Slowed. How much farther can they move with this Move?","choices":["0 ft","7 ft","8 ft","15 ft"],"answer":2,"explanation":"If you become Slowed mid-movement, halve your remaining movement, rounded up — an exception to the usual round-down rule. Half of 15 is 7.5, rounded up to 8.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Conditions (Slowed)","page":"295"},"verify":["halve your remaining movement (rounded up)"]},
-{"id":"s-dur-01","category":"scenario","topic":"Combat Turns","question":"During the fast PC phase, a PC's ability makes an enemy Disoriented for 1 round. When does it wear off?","choices":["At the end of the enemy's next turn","At the start of the fast PC phase on the next round","At the end of this round","At the start of the slow NPC phase this round"],"answer":1,"explanation":"Round-based durations last until the start of the same phase in which they began, on the next round. It began in the fast PC phase, so it ends when the next fast PC phase starts.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Durations","page":"295"},"verify":["the fast PC phase, the fast NPC phase, the slow PC phase, or the slow NPC phase"]},
-{"id":"s-event-01","category":"scenario","topic":"Events","question":"You've put a positive event, 'Reinforcements Arrive', on the table with Opportunity slots. An enemy NPC rolls a Complication. What can that Complication do?","choices":["Nothing — NPCs can't interact with events","It can fill a slot on the PCs' positive event","It must fill a negative event slot","It cancels a filled Opportunity slot"],"answer":1,"explanation":"NPC contributions are inverted: an enemy's Opportunities feed events that are bad for the PCs, and its Complications feed events that are good for them.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › NPC Contributions","page":"290"},"verify":["their Complications fill slots toward events with positive implications"]},
-{"id":"s-food-01","category":"scenario","topic":"Survival & Travel","question":"A PC with Willpower 2 is lost in the wilds with plenty of water but no food for 5 days. What's their condition?","choices":["No effect yet","Exhausted [−3]","Exhausted [−5]","Exhausted [−1]"],"answer":1,"explanation":"They can go 2 days (their Willpower) without food. Each day after that adds Exhausted [−1]: days 3, 4 and 5 make Exhausted [−3].","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Insufficient Food","page":"295"},"verify":["For each day beyond this that you go without sufficient food"]},
-{"id":"s-rest-01","category":"scenario","topic":"Resting","question":"After an hour's break between fights, a PC at low health and low focus rolls a 6 on their recovery die. What can they do with it?","choices":["Recover 6 health only — focus needs a long rest","Recover 6 focus only","Split the 6 between health and focus however they like (e.g. 4 and 2)","Recover 6 to each"],"answer":2,"explanation":"After a short rest you add the recovery die result to health, focus or any combination of the two.","cite":{"book":"handbook","section":"Ch. 9 Adventuring › Short Rest","page":"299"},"verify":["you might choose to recover 3 health and 2 focus"]}
+{
+"id": "r-cond-01",
+"category": "rules",
+"topic": "Conditions",
+"question": "What does the Determined condition let you do?",
+"choices": [
+"Gain an advantage on your next test",
+"Add an Opportunity to a failed test, then it ends",
+"Ignore the next Complication you would face",
+"Reroll one failed test, then it ends"
+],
+"answer": 1,
+"explanation": "While Determined, you can add an Opportunity to a failed test. Doing so removes the condition.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Determined)",
+"page": "293"
+},
+"verify": [
+"when you fail a test, you can add an Opportunity"
+]
+},
+{
+"id": "r-cond-02",
+"category": "rules",
+"topic": "Conditions",
+"question": "Which set of effects describes the Disoriented condition?",
+"choices": [
+"Movement halved; melee attacks vs. you gain an advantage",
+"No reactions; senses obscured; disadvantage to Perception",
+"You gain two fewer actions on your turn",
+"Disadvantage on all tests except to escape"
+],
+"answer": 1,
+"explanation": "Disoriented means you can't use reactions, your senses always count as obscured, and Perception (and similar sensing tests) gain a disadvantage.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Disoriented)",
+"page": "293"
+},
+"verify": [
+"You can’t use reactions, your senses always count as obscured"
+]
+},
+{
+"id": "r-cond-03",
+"category": "rules",
+"topic": "Conditions",
+"question": "A Radiant becomes Empowered after swearing an Ideal. What does that grant, and when does it end?",
+"choices": [
+"+2 to every test they make until their next long rest",
+"Advantage on all tests and full Investiture each turn; ends with the scene",
+"Double their maximum Investiture until the end of the round",
+"Immunity to all damage until the end of their next turn"
+],
+"answer": 1,
+"explanation": "Empowered grants an advantage on all tests and refills Investiture to maximum at the start of each of your turns. It's removed at the end of the current scene.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Empowered)",
+"page": "293"
+},
+"verify": [
+"you gain an advantage on all tests and your Investiture refills"
+]
+},
+{
+"id": "r-cond-04",
+"category": "rules",
+"topic": "Conditions",
+"question": "Which is true of a Prone character?",
+"choices": [
+"Ranged attacks against them gain an advantage",
+"Slowed, and melee attacks vs. them gain an advantage",
+"They can't take any actions until they stand",
+"They are Immobilized and can't be moved"
+],
+"answer": 1,
+"explanation": "While Prone you're Slowed and melee attacks against you gain an advantage. You can Brace without cover, and after standing up your movement rate is reduced by 5 until the start of your next turn.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Prone)",
+"page": "294"
+},
+"verify": [
+"you are Slowed and melee attacks against you gain an advantage"
+]
+},
+{
+"id": "r-cond-05",
+"category": "rules",
+"topic": "Conditions",
+"question": "What does the Restrained condition do?",
+"choices": [
+"Movement 0; disadvantage except to escape",
+"Movement 0 only — tests are unaffected",
+"Movement halved and no reactions",
+"You can't move or be moved by other effects"
+],
+"answer": 0,
+"explanation": "Restrained sets your movement rate to 0 and gives a disadvantage on all tests other than escaping your bonds. (Immobilized is the one that also stops other effects moving you.)",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Restrained)",
+"page": "294"
+},
+"verify": [
+"disadvantage on all tests other than those to escape your bonds"
+]
+},
+{
+"id": "r-cond-06",
+"category": "rules",
+"topic": "Conditions",
+"question": "A character becomes Enhanced [+2 Strength]. Which of these does NOT change?",
+"choices": [
+"Athletics test results",
+"Heavy Weaponry test results",
+"Physical defense and maximum health",
+"Talents that directly use Strength"
+],
+"answer": 2,
+"explanation": "Enhanced boosts the attribute for skills, talents and things like movement, but explicitly doesn't change defenses, maximum health, maximum focus or maximum Investiture.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Enhanced)",
+"page": "294"
+},
+"verify": [
+"this bonus doesn’t change your defenses, maximum health"
+]
+},
+{
+"id": "r-cond-07",
+"category": "rules",
+"topic": "Conditions",
+"question": "How does the Exhausted condition go away?",
+"choices": [
+"It ends automatically at the end of the scene",
+"Each long rest reduces it by 1 until it reaches 0",
+"A short rest removes it entirely",
+"A successful DC 15 Discipline test ends it"
+],
+"answer": 1,
+"explanation": "Each long rest reduces your Exhausted penalty by 1, and the condition is removed when the penalty reaches 0. Multiple instances add together.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Exhausted)",
+"page": "294"
+},
+"verify": [
+"After each long rest, reduce your Exhausted penalty by 1"
+]
+},
+{
+"id": "r-cond-08",
+"category": "rules",
+"topic": "Conditions",
+"question": "What does the Focused condition do?",
+"choices": [
+"Grants an advantage on Discipline tests",
+"Reduces the focus cost of your abilities by 1",
+"Restores 1 focus per round",
+"Prevents you from losing focus"
+],
+"answer": 1,
+"explanation": "While Focused, abilities that cost focus cost 1 less.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Focused)",
+"page": "294"
+},
+"verify": [
+"its cost is reduced by 1"
+]
+},
+{
+"id": "r-cond-09",
+"category": "rules",
+"topic": "Conditions",
+"question": "Which of these is NOT an effect of the Surprised condition?",
+"choices": [
+"You lose any reactions you have",
+"You can't take a fast turn",
+"You gain one fewer action on your turn",
+"Attacks vs. you become critical hits"
+],
+"answer": 3,
+"explanation": "Surprised removes your reactions, stops you gaining a reaction at the start of combat or on your turn, bars fast turns, and costs you one action. It ends after your next turn. Nothing makes attacks auto-crit.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Surprised)",
+"page": "295"
+},
+"verify": [
+"you can’t take a fast turn"
+]
+},
+{
+"id": "r-cond-10",
+"category": "rules",
+"topic": "Conditions",
+"question": "Can a character be Afflicted by more than one effect at the same time?",
+"choices": [
+"No — only the strongest applies",
+"Yes — resolve each effect separately",
+"Yes, but only two at once",
+"Only if they're different damage types"
+],
+"answer": 1,
+"explanation": "Unlike most conditions, you can be Afflicted by several effects at once, resolving each separately. In combat, the damage happens at the end of each of your turns.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Afflicted)",
+"page": "293"
+},
+"verify": [
+"you can be Afflicted by multiple effects simultaneously"
+]
+},
+{
+"id": "r-cond-11",
+"category": "rules",
+"topic": "Conditions",
+"question": "When can an Unconscious PC choose to wake up?",
+"choices": [
+"Only when another character heals them",
+"At the end of any of their turns, or when healed",
+"After a successful DC 15 Discipline test",
+"At the end of combat, or after a short rest"
+],
+"answer": 1,
+"explanation": "A PC can choose to regain consciousness at the end of any of their turns, or when an effect heals them to at least 1 health. If they're at 0, they recover 1 health. NPCs only wake when they recover 1 health.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Unconscious)",
+"page": "295"
+},
+"verify": [
+"choose to regain conscious­ ness at the end of any of your turns"
+]
+},
+{
+"id": "r-cond-12",
+"category": "rules",
+"topic": "Conditions",
+"question": "An effect applies a condition to everything in an area that includes a cart and some crates. What happens to the objects?",
+"choices": [
+"Each object gains the condition too",
+"Objects generally ignore conditions",
+"Objects take 1d4 damage instead of the condition",
+"The condition fails for every target in the area"
+],
+"answer": 1,
+"explanation": "Conditions generally only apply to characters; objects in the area ignore them, though the GM may apply a similar narrative effect when it fits.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions",
+"page": "293"
+},
+"verify": [
+"Conditions generally only apply to characters, not objects"
+]
+},
+{
+"id": "r-dmg-01",
+"category": "rules",
+"topic": "Damage & Injuries",
+"question": "Which two damage types are NOT reduced by deflect?",
+"choices": [
+"Energy and keen",
+"Spirit and vital",
+"Impact and spirit",
+"Vital and energy"
+],
+"answer": 1,
+"explanation": "Deflect reduces energy, impact and keen. Spirit damage (usually from Shardblades) and vital damage (poison, suffocation, extreme cold) bypass it.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Damage Types",
+"page": "296"
+},
+"verify": [
+"This damage type is not reduced by your deflect value"
+]
+},
+{
+"id": "r-dmg-02",
+"category": "rules",
+"topic": "Damage & Injuries",
+"question": "A PC is poisoned or exposed to extreme cold. What type of damage is that by default?",
+"choices": [
+"Energy",
+"Impact",
+"Spirit",
+"Vital"
+],
+"answer": 3,
+"explanation": "Vital damage covers effects that test your constitution, such as poison, suffocation and extreme cold.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Damage Types",
+"page": "296"
+},
+"verify": [
+"poison, suffocation, and extreme cold"
+]
+},
+{
+"id": "r-inj-01",
+"category": "rules",
+"topic": "Damage & Injuries",
+"question": "How is an injury roll calculated?",
+"choices": [
+"d20 + Athletics modifier against DC 15",
+"d20 + deflect + modifiers − 5 per existing injury",
+"d20 − the damage taken by the final blow",
+"2d6 + Strength − 2 per existing injury"
+],
+"answer": 1,
+"explanation": "An injury roll isn't a skill test: roll a d20, add your armor's deflect and any relevant ability modifiers, and subtract 5 for each injury you already have. The result can be negative.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Injury Rolls",
+"page": "296"
+},
+"verify": [
+"Subtract 5 from the roll for each injury you already have"
+]
+},
+{
+"id": "r-inj-02",
+"category": "rules",
+"topic": "Damage & Injuries",
+"question": "On the Injury Duration table, what does an injury roll result of 6 to 15 mean?",
+"choices": [
+"Flesh wound — lasts until after a long rest",
+"Shallow injury — lasts 1d6 days",
+"Vicious injury — lasts 6d6 days",
+"Permanent injury"
+],
+"answer": 1,
+"explanation": "Injury roll results: 16+ flesh wound (until after a long rest); 6–15 shallow (1d6 days); 1–5 vicious (6d6 days); −5 to 0 permanent; −6 or lower death.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Injury Duration",
+"page": "296"
+},
+"verify": [
+"6 to 15 Shallow Injury"
+]
+},
+{
+"id": "r-inj-03",
+"category": "rules",
+"topic": "Damage & Injuries",
+"question": "What injury roll result kills a character?",
+"choices": [
+"0 or lower",
+"−5 or lower",
+"−6 or lower",
+"−10 or lower"
+],
+"answer": 2,
+"explanation": "A result of −6 or lower is death; −5 to 0 is a permanent injury.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Injury Duration",
+"page": "296"
+},
+"verify": [
+"−6 or lower Death"
+]
+},
+{
+"id": "r-inj-04",
+"category": "rules",
+"topic": "Damage & Injuries",
+"question": "A minor NPC suffers an injury. What happens?",
+"choices": [
+"They make an injury roll just like a PC",
+"Defeated; the PC chooses death or Unconscious",
+"They lose half their maximum health instead",
+"They flee the scene and can't return"
+],
+"answer": 1,
+"explanation": "Minor NPCs are defeated as soon as they suffer an injury. The PC inflicting it can choose whether they die or fall Unconscious. Major NPCs make injury rolls like PCs.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Minor NPCs and Injuries",
+"page": "297"
+},
+"verify": [
+"If a minor NPC suffers an injury, they’re immediately defeated"
+]
+},
+{
+"id": "r-inj-05",
+"category": "rules",
+"topic": "Damage & Injuries",
+"question": "How does recuperating during downtime affect injury healing?",
+"choices": [
+"No effect — injuries heal at a fixed rate",
+"Each recuperating day counts as two",
+"The injury heals after a single day",
+"One injury is removed per full week"
+],
+"answer": 1,
+"explanation": "Each downtime day spent on rest and recuperation counts as two days toward healing an injury, so you heal twice as fast.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Downtime (Recuperating)",
+"page": "292"
+},
+"verify": [
+"counts as two days toward healing an injury"
+]
+},
+{
+"id": "r-inj-06",
+"category": "rules",
+"topic": "Damage & Injuries",
+"question": "When a PC suffers an injury, who decides what its effect is?",
+"choices": [
+"The GM, always — it's part of the narrative",
+"The player, using the table or a custom effect",
+"Always a random d8 roll on the Injury Effects table",
+"The character who dealt the damage that caused it"
+],
+"answer": 1,
+"explanation": "The player decides the injury's effects, choosing or rolling (d8) on the Injury Effects table or working out a custom effect with the GM. The player has final say on how an injury affects their character.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Injury Effects",
+"page": "296"
+},
+"verify": [
+"When your character suffers an injury, you decide its effects"
+]
+},
+{
+"id": "r-rest-01",
+"category": "rules",
+"topic": "Resting",
+"question": "What does a character recover after a short rest?",
+"choices": [
+"All of their lost health and focus",
+"Their recovery die, split between health and focus",
+"Half their maximum health, but no focus",
+"1 focus and 1 health, plus 1 per tier"
+],
+"answer": 1,
+"explanation": "A short rest (an uninterrupted hour or more) lets you roll your recovery die and add the result to health, focus or a mix of both.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Short Rest",
+"page": "299"
+},
+"verify": [
+"Add the roll result to your current health, your current focus, or a combination"
+]
+},
+{
+"id": "r-rest-02",
+"category": "rules",
+"topic": "Resting",
+"question": "What does a long rest provide?",
+"choices": [
+"Recovery die × 2",
+"All lost health and focus, and the Exhausted penalty drops by 1",
+"All health, focus and Investiture, and all injuries heal",
+"All health only"
+],
+"answer": 1,
+"explanation": "A long rest (8+ uninterrupted hours) restores all lost health and focus and reduces your Exhausted penalty by 1.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Long Rest",
+"page": "299"
+},
+"verify": [
+"you recover all your lost health and focus"
+]
+},
+{
+"id": "r-rest-03",
+"category": "rules",
+"topic": "Resting",
+"question": "During a short rest, a PC chooses Tend to Others instead of recovering. What do the allies they tend get?",
+"choices": [
+"Add the tender's Medicine modifier to recovery rolls",
+"Gain an advantage on their recovery die rolls",
+"Recover all of their focus immediately",
+"Shorten one of their injuries by 1 day"
+],
+"answer": 0,
+"explanation": "Tend to Others has you forgo your own recovery; the willing allies resting with you add your Medicine modifier to their recovery die rolls.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Short Rest (Alternative Benefits)",
+"page": "299"
+},
+"verify": [
+"they add your Medicine modifier to their recovery die roll"
+]
+},
+{
+"id": "r-dur-01",
+"category": "rules",
+"topic": "Combat Turns",
+"question": "In combat, an effect lasts '1 round'. When does it end?",
+"choices": [
+"At the end of the current round",
+"At the end of the affected character's next turn",
+"At the start of the same phase next round",
+"After 6 seconds of real time at the table"
+],
+"answer": 2,
+"explanation": "Note which phase the effect began in — fast PC, fast NPC, slow PC or slow NPC. It lasts until the start of that same phase on the next round.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Durations",
+"page": "295"
+},
+"verify": [
+"The effect lasts until the beginning of that phase on the next round"
+]
+},
+{
+"id": "r-food-01",
+"category": "rules",
+"topic": "Survival & Travel",
+"question": "How long can a character go without food before suffering ill effects?",
+"choices": [
+"1 day",
+"3 days",
+"A number of days equal to their Willpower",
+"A number of days equal to their Strength"
+],
+"answer": 2,
+"explanation": "You can go days equal to your Willpower without food; each further day makes you Exhausted [−1]. Reaching Exhausted [−10] or worse is fatal. Water is harsher: Exhausted [−1] from the first day without it.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Food and Water",
+"page": "295"
+},
+"verify": [
+"up to your Willpower score before you begin to feel ill effects"
+]
+},
+{
+"id": "r-event-01",
+"category": "rules",
+"topic": "Events",
+"question": "During a scene with an event track in play, how do the event's slots get filled?",
+"choices": [
+"The GM fills one slot at the end of each round",
+"By spending Opportunities or Complications on them",
+"Each failed test fills a slot automatically",
+"A slot fills whenever a character takes an injury"
+],
+"answer": 1,
+"explanation": "Opportunities can be spent to fill positive event slots and Complications (spent by the GM) to fill negative ones, giving up their usual effects. The event triggers when the last slot fills.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Contributing to Events",
+"page": "290"
+},
+"verify": [
+"spending Opportunities and Complications to fill slots"
+]
+},
+{
+"id": "r-down-01",
+"category": "rules",
+"topic": "Downtime",
+"question": "Using the downtime Training activity, how long does it typically take to learn a new expertise, and at what cost?",
+"choices": [
+"5 days at 1 mark per day",
+"10 days at 3 marks per day",
+"20+ days at 5 marks per day",
+"30 days at no cost if a mentor helps"
+],
+"answer": 2,
+"explanation": "Training for a new expertise (even a specialist one) usually takes 20+ days at 5 marks per day, and normally needs a relevant skill test. Research, by comparison, is about 10+ days at 3 marks per day.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Downtime (Training)",
+"page": "293"
+},
+"verify": [
+"It usually takes 20 days or longer to learn a new expertise"
+]
+},
+{
+"id": "r-down-02",
+"category": "rules",
+"topic": "Downtime",
+"question": "What does the Self-Reflection downtime activity allow?",
+"choices": [
+"Swearing an Ideal without completing its goal",
+"A rebuild at the same level; 10+ days at 5 marks/day",
+"Gaining a level after 20 days of reflection",
+"Removing all injuries and Exhausted penalties"
+],
+"answer": 1,
+"explanation": "Ten or more days of self-reflection (5 marks/day) let you rebuild your character at your current level with GM approval. Prerequisites still apply, and rewards don't count toward earlier-level prerequisites.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Downtime (Self-Reflection)",
+"page": "293"
+},
+"verify": [
+"If you dedicate 10 or more days to self-reflection"
+]
+},
+{
+"id": "s-inj-01",
+"category": "scenario",
+"topic": "Damage & Injuries",
+"question": "A PC in armor with deflect 2 is reduced to 0 health. They already have one injury. They roll a 9 on the injury roll. What happens?",
+"choices": [
+"Flesh wound — heals after a long rest",
+"Shallow injury lasting 1d6 days",
+"Vicious injury lasting 6d6 days",
+"Permanent injury"
+],
+"answer": 1,
+"explanation": "9 + 2 (deflect) − 5 (one existing injury) = 6, which is in the 6–15 shallow injury band (1d6 days). They're also Unconscious.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Injury Rolls",
+"page": "296"
+},
+"verify": [
+"Add the deflect value of any armor you’re wearing"
+]
+},
+{
+"id": "s-inj-02",
+"category": "scenario",
+"topic": "Damage & Injuries",
+"question": "An unarmored PC with two existing injuries suffers another and rolls a 7 on the injury roll. What's the outcome?",
+"choices": [
+"Shallow injury",
+"Vicious injury",
+"Permanent injury",
+"Death"
+],
+"answer": 2,
+"explanation": "7 − 10 (two existing injuries × 5) = −3, which falls in the −5 to 0 band: a permanent injury.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Injury Duration",
+"page": "296"
+},
+"verify": [
+"−5 to 0 Permanent Injury"
+]
+},
+{
+"id": "s-inj-03",
+"category": "scenario",
+"topic": "Damage & Injuries",
+"question": "A PC lies Unconscious at 0 health. An enemy spends an attack on them and hits for 4 damage. What happens?",
+"choices": [
+"Nothing — they're already at 0 health",
+"They suffer another injury",
+"They die automatically",
+"The pain wakes them, with 1 health"
+],
+"answer": 1,
+"explanation": "Each time you take damage while at 0 health, you suffer another injury, with the −5 per existing injury making it more dangerous. (Enemies typically ignore Unconscious characters unless they have a strong reason.)",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Damage",
+"page": "295"
+},
+"verify": [
+"Each time you take damage while at 0 health, you suffer another injury"
+]
+},
+{
+"id": "s-cond-01",
+"category": "scenario",
+"topic": "Conditions",
+"question": "A PC is Exhausted [−2] from travel, then a poison makes them Exhausted [−1]. They roll a Survival test totaling 16. What is the final result?",
+"choices": [
+"16 — only the worst penalty applies",
+"14",
+"13",
+"15"
+],
+"answer": 2,
+"explanation": "Exhausted is cumulative: −2 and −1 make a −3 penalty, applied after calculating the result. 16 − 3 = 13.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Exhausted)",
+"page": "294"
+},
+"verify": [
+"so you now subtract 3 from the result of all tests"
+]
+},
+{
+"id": "s-cond-02",
+"category": "scenario",
+"topic": "Conditions",
+"question": "A PC with Speed 3 (30 ft movement) becomes Enhanced [+2 Speed]. What changes?",
+"choices": [
+"40 ft movement and +2 to Speed skills; same defense",
+"40 ft movement and +2 Physical defense",
+"Only movement rises, to 35 ft",
+"Everything Speed affects rises, including defense"
+],
+"answer": 0,
+"explanation": "Enhanced Speed 5 uses the 40 ft movement band and adds +2 to Agility, Light Weaponry, Stealth and Thievery tests — but Enhanced never changes defenses.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Enhanced)",
+"page": "294"
+},
+"verify": [
+"Increase your movement rate from 30 feet to 40 feet"
+]
+},
+{
+"id": "s-cond-03",
+"category": "scenario",
+"topic": "Conditions",
+"question": "A PC with 30 ft of movement has moved 15 ft when a trap makes them Slowed. How much farther can they move with this Move?",
+"choices": [
+"0 ft",
+"7 ft",
+"8 ft",
+"15 ft"
+],
+"answer": 2,
+"explanation": "If you become Slowed mid-movement, halve your remaining movement, rounded up — an exception to the usual round-down rule. Half of 15 is 7.5, rounded up to 8.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Conditions (Slowed)",
+"page": "295"
+},
+"verify": [
+"halve your remaining movement (rounded up)"
+]
+},
+{
+"id": "s-dur-01",
+"category": "scenario",
+"topic": "Combat Turns",
+"question": "During the fast PC phase, a PC's ability makes an enemy Disoriented for 1 round. When does it wear off?",
+"choices": [
+"At the end of the enemy's next turn",
+"At the start of the fast PC phase on the next round",
+"At the end of this round",
+"At the start of the slow NPC phase this round"
+],
+"answer": 1,
+"explanation": "Round-based durations last until the start of the same phase in which they began, on the next round. It began in the fast PC phase, so it ends when the next fast PC phase starts.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Durations",
+"page": "295"
+},
+"verify": [
+"the fast PC phase, the fast NPC phase, the slow PC phase, or the slow NPC phase"
+]
+},
+{
+"id": "s-event-01",
+"category": "scenario",
+"topic": "Events",
+"question": "You've put a positive event, 'Reinforcements Arrive', on the table with Opportunity slots. An enemy NPC rolls a Complication. What can that Complication do?",
+"choices": [
+"Nothing — NPCs can't interact with events",
+"It can fill a slot on the PCs' positive event",
+"It must fill a negative event slot",
+"It cancels a filled Opportunity slot"
+],
+"answer": 1,
+"explanation": "NPC contributions are inverted: an enemy's Opportunities feed events that are bad for the PCs, and its Complications feed events that are good for them.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › NPC Contributions",
+"page": "290"
+},
+"verify": [
+"their Complications fill slots toward events with positive implications"
+]
+},
+{
+"id": "s-food-01",
+"category": "scenario",
+"topic": "Survival & Travel",
+"question": "A PC with Willpower 2 is lost in the wilds with plenty of water but no food for 5 days. What's their condition?",
+"choices": [
+"No effect yet",
+"Exhausted [−3]",
+"Exhausted [−5]",
+"Exhausted [−1]"
+],
+"answer": 1,
+"explanation": "They can go 2 days (their Willpower) without food. Each day after that adds Exhausted [−1]: days 3, 4 and 5 make Exhausted [−3].",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Insufficient Food",
+"page": "295"
+},
+"verify": [
+"For each day beyond this that you go without sufficient food"
+]
+},
+{
+"id": "s-rest-01",
+"category": "scenario",
+"topic": "Resting",
+"question": "After an hour's break between fights, a PC at low health and low focus rolls a 6 on their recovery die. What can they do with it?",
+"choices": [
+"6 health only — focus needs a long rest",
+"6 focus only — health needs a long rest",
+"Any split of the 6 between health and focus",
+"6 health and 6 focus"
+],
+"answer": 2,
+"explanation": "After a short rest you add the recovery die result to health, focus or any combination of the two.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 9 Adventuring › Short Rest",
+"page": "299"
+},
+"verify": [
+"you might choose to recover 3 health and 2 focus"
+]
+}
 ]

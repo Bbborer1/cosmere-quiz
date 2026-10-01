@@ -1,22 +1,442 @@
 [
-{"id":"w-nat-01","category":"world","topic":"Alethkar","question":"What natural rock formations protect Kholinar from highstorms?","choices":["The Misted Mountains","Windblades","Laits","Chasms"],"answer":1,"explanation":"Kholinar, Alethkar's symmetrical capital from the Silver Kingdoms era, is built around large rock formations called windblades.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Alethkar","page":"28"},"verify":["windblades, which protect it from highstorms"]},
-{"id":"w-nat-02","category":"world","topic":"Alethkar","question":"Which revived Alethi title has authority over criminal investigations, policing and appointing judges?","choices":["Highprince of War","Highprince of Commerce","Highprince of Information","Highprince of Works"],"answer":2,"explanation":"The Highprince of Information oversees investigations, policing and judicial appointments. Commerce covers merchants and roads, War covers military matters, and Works covers infrastructure, including Stormlight management.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Alethkar (Government)","page":"28"},"verify":["Highprince of Information, who has authority over criminal investigations"]},
-{"id":"w-nat-03","category":"world","topic":"Alethkar","question":"In the Vorin caste system, who holds the first dahn?","choices":["The highprinces","The monarch alone","Shardbearers","The ardents"],"answer":1,"explanation":"Lighteyes are ranked in dahns (first highest). The first dahn belongs solely to the monarch, the second to the highprinces. Darkeyes are ranked in nahns, and the tenth nahn can be sold into slavery.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Alethkar (Dahns)","page":"31"},"verify":["The first dahn is held solely by a nation’s monarch"]},
-{"id":"w-nat-04","category":"world","topic":"Alethkar","question":"In Vorin Alethkar, who are the only people permitted to use Soulcasters?","choices":["Highprinces","Ardents","Stormwardens","Shardbearers"],"answer":1,"explanation":"Ardents — Vorin priests who can't own property or hold political office — are the only ones allowed to use Soulcasters, which gives them great influence.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Alethkar (Religion)","page":"33"},"verify":["as the only people permitted to use Soulcasters"]},
-{"id":"w-nat-05","category":"world","topic":"Alethkar","question":"The Thrill, the battle rage concentrated in Alethkar, was caused by which Unmade?","choices":["Moelach","Sja-anat","Nergaoul","Ba-Ado-Mishram"],"answer":2,"explanation":"The Thrill came from the Unmade Nergaoul, whose influence was concentrated in Alethkar during the Era of Solitude.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Alethkar (Military)","page":"29"},"verify":["caused by the Unmade Nergaoul"]},
-{"id":"w-nat-06","category":"world","topic":"Azish Empire","question":"How much real power does the Prime Aqasix of Azir hold?","choices":["Absolute power over the empire","A revered figurehead with limited power, elected by — and overrulable by — the viziers","Command of the military only","None; the office is hereditary and ceremonial"],"answer":1,"explanation":"The viziers elect the Prime Aqasix, who is a revered figurehead with limited power. Viziers guide the Prime and can even overrule them.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Azir (Government)","page":"36"},"verify":["the Prime is a revered figurehead with limited power"]},
-{"id":"w-nat-07","category":"world","topic":"Azish Empire","question":"Why do Tashikki people wear shiquas, full-body wraps?","choices":["Protection from highstorm debris","To shield themselves from the hateful gaze of Nun Raylisi","To show their rank in the bureaucracy","For mourning"],"answer":1,"explanation":"Tashikki worship Tashi (the Herald Ishar) and believe in an evil god, Nun Raylisi (based on Odium). Shiquas shield the wearer from his hateful gaze.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Tashikk","page":"40"},"verify":["shielding them from the hateful gaze of Nun Raylisi"]},
-{"id":"w-nat-08","category":"world","topic":"Azish Empire","question":"Who is Tezim, the veiled god-priest of Tukar, secretly?","choices":["The Herald Nale","The Herald Ishar","Taravangian","A Fused"],"answer":1,"explanation":"Unknown to the Tukari, their god-priest Tezim is the Herald Ishar.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Tukar","page":"42"},"verify":["Tezim is secretly the Herald Ishar"]},
-{"id":"w-nat-09","category":"world","topic":"Herdaz","question":"What is unusual about Herdazian fingernails?","choices":["They glow faintly in darkness","They're crystalline and can strike sparks from steel like flint","They grow carapace","They're naturally blue"],"answer":1,"explanation":"Thanks to distant singer ancestry, Herdazian nails are crystalline and spark like flint against steel. Herdazians use them with 'sparkflickers' to start fires.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Herdazian Culture","page":"44"},"verify":["Herdazian fingernails replicate the properties of flint"]},
-{"id":"w-nat-10","category":"world","topic":"Horneater Peaks","question":"In an Unkalaki family, which son is tasked with becoming a warrior?","choices":["The first son","The second son","The third son","The fourth son"],"answer":3,"explanation":"First and second sons farm, raise livestock or hunt; third sons become craftsmen; fourth sons become warriors. Younger brothers shift up if an older son can't serve.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Horneater Peaks (Family Structure)","page":"50"},"verify":["If there happens to be a fourth son, they’re tasked with becoming a warrior"]},
-{"id":"w-nat-11","category":"world","topic":"Horneater Peaks","question":"Where is the only stable entry point to Roshar for offworld visitors?","choices":["The Origin of Storms","Cultivation's Perpendicularity in the Pool, atop the Horneater Peaks","The Oathgate in Thaylen City","Honor's Perpendicularity at Urithiru"],"answer":1,"explanation":"Cultivation's Perpendicularity lies in the Unkalaki crater lake called the Pool. It's the only stable entry for worldhoppers, whom the Unkalaki greet as 'strange gods.'","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Offworld Visitors","page":"50"},"verify":["The only stable entry point for offworlders"]},
-{"id":"w-nat-12","category":"world","topic":"Iri & Rira","question":"According to the Iriali Long Trail, what is Roshar?","choices":["The final world, where the One reunites","The fourth of seven worlds on their journey","Their original homeworld","A prison world"],"answer":1,"explanation":"The Iriali believe Roshar is the fourth world on a seven-world journey, after which they'll reunite as the One. Many keep packs ready to leave at a moment's notice.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Iri (Religion)","page":"53"},"verify":["Roshar is the fourth world"]},
-{"id":"w-nat-13","category":"world","topic":"Iri & Rira","question":"Of the nations that enslaved singers, which is the only one where humans and singers achieved peace after the Everstorm?","choices":["Azir","Thaylenah","Iri","Jah Keved"],"answer":2,"explanation":"Iriali humans acknowledged the singers as the land's rightful stewards and began a peaceful surrender, complicated later by the Fused taking control of Iri's military.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Iriali and Riran Singers","page":"54"},"verify":["Iri is the only one where humans and singers achieved peace after the Everstorm"]},
-{"id":"w-nat-14","category":"world","topic":"Kharbranth & Frostlands","question":"How are Kharbranth's free public hospitals funded?","choices":["Taxes on spanreed traffic","Revenue from the Palanaeum","Donations from the Vorin church","Sale of Soulcast grain"],"answer":1,"explanation":"Treatment is free because the hospitals are fully funded by revenue from the Palanaeum, Roshar's largest library, which charges expensive admission.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Kharbranth (Medical Prowess)","page":"59"},"verify":["fully funded by revenue from the Palanaeum"]},
-{"id":"w-nat-15","category":"world","topic":"Purelake","question":"How do the Selay of the Purelake handle their two brother gods?","choices":["They worship both equally","They openly honor Vun Makak and secretly worship Nu Ralik in holy grottos","They reject both","They worship Vun Makak and fear Nu Ralik"],"answer":1,"explanation":"Their true god is the upright Nu Ralik, but to avoid his jealous brother's ire they pretend to venerate Vun Makak, saving worship of Nu Ralik for holy grottos.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Selay Culture (Religion)","page":"62"},"verify":["They worship the upright brother, Nu Ralik"]},
-{"id":"w-nat-16","category":"world","topic":"Shinovar","question":"Where do warriors rank in Shin society?","choices":["At the top, as protectors","At the bottom — they're 'those who subtract'","Equal to farmers","Just below the Honorbearers"],"answer":1,"explanation":"The Shin divide people into 'those who add' (farmers are highly respected) and 'those who subtract.' Anyone who takes up a weapon is forever a lowly warrior in brown, subject to the Stone Shamans.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Shinovar (Social Ranking)","page":"69"},"verify":["warriors are thought of as destroyers"]},
-{"id":"w-nat-17","category":"world","topic":"Thaylenah","question":"What is a 'babsk' in Thaylen merchant culture?","choices":["A ship captain's rope","A master merchant who takes legal responsibility for an apprentice as their legal parent","A merchant guild tax","A Thaylen gemstone bank note"],"answer":1,"explanation":"Would-be merchants apprentice to a master merchant who becomes their babsk — their legal parent — until declaring them ready to strike out on their own.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Thaylenah (Resources and Trade)","page":"71"},"verify":["becoming their babsk—their legal parent"]},
-{"id":"w-nat-18","category":"world","topic":"Singers","question":"Which spren must a singer bond during a highstorm to take warform?","choices":["Windspren","Gravitationspren","Painspren","Lifespren"],"answer":2,"explanation":"Warform comes from bonding a painspren. Nimbleform uses windspren, workform gravitationspren, and mateform lifespren.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Recovered Forms","page":"76"},"verify":["A singer can take warform by bonding a painspren"]},
-{"id":"w-nat-19","category":"world","topic":"Singers","question":"Why did the listeners retain their free will when other singers lost theirs?","choices":["They lived beyond the reach of the Everstorm","They refused Ba-Ado-Mishram's offer of Regal forms and Connection, so her imprisonment didn't sever them","They bonded honorspren","The Heralds protected them"],"answer":1,"explanation":"The listeners rejected Ba-Ado-Mishram's offer and Connection. When the Radiants imprisoned her, every singer Connected to her was severed — but not the listeners, who were left with only dullform and mateform.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › The Listeners","page":"75"},"verify":["Only the listeners survived with their free will and autonomy intact"]},
-{"id":"w-nat-20","category":"world","topic":"Singers","question":"What notable ability does the Regal envoyform grant?","choices":["Channeling red lightning","Understanding and speaking any human or singer language after hearing only a few sentences","Flight","Heavy armor-like carapace"],"answer":1,"explanation":"Envoyform Regals can speak, read and understand any human or singer language after hearing just a few sentences. Stormform is the one that channels red lightning.","cite":{"book":"worldguide","section":"Ch. 2 Nations and Cultures › Regal Forms","page":"77"},"verify":["Regals can speak, read, and understand any human or singer language"]}
+{
+"id": "w-nat-01",
+"category": "world",
+"topic": "Alethkar",
+"question": "What natural rock formations protect Kholinar from highstorms?",
+"choices": [
+"The Misted Mountains",
+"Windblades",
+"Laits",
+"Chasms"
+],
+"answer": 1,
+"explanation": "Kholinar, Alethkar's symmetrical capital from the Silver Kingdoms era, is built around large rock formations called windblades.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Alethkar",
+"page": "28"
+},
+"verify": [
+"windblades, which protect it from highstorms"
+]
+},
+{
+"id": "w-nat-02",
+"category": "world",
+"topic": "Alethkar",
+"question": "Which revived Alethi title has authority over criminal investigations, policing and appointing judges?",
+"choices": [
+"Highprince of War",
+"Highprince of Commerce",
+"Highprince of Information",
+"Highprince of Works"
+],
+"answer": 2,
+"explanation": "The Highprince of Information oversees investigations, policing and judicial appointments. Commerce covers merchants and roads, War covers military matters, and Works covers infrastructure, including Stormlight management.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Alethkar (Government)",
+"page": "28"
+},
+"verify": [
+"Highprince of Information, who has authority over criminal investigations"
+]
+},
+{
+"id": "w-nat-03",
+"category": "world",
+"topic": "Alethkar",
+"question": "In the Vorin caste system, who holds the first dahn?",
+"choices": [
+"The highprinces",
+"The monarch alone",
+"Shardbearers",
+"The ardents"
+],
+"answer": 1,
+"explanation": "Lighteyes are ranked in dahns (first highest). The first dahn belongs solely to the monarch, the second to the highprinces. Darkeyes are ranked in nahns, and the tenth nahn can be sold into slavery.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Alethkar (Dahns)",
+"page": "31"
+},
+"verify": [
+"The first dahn is held solely by a nation’s monarch"
+]
+},
+{
+"id": "w-nat-04",
+"category": "world",
+"topic": "Alethkar",
+"question": "In Vorin Alethkar, who are the only people permitted to use Soulcasters?",
+"choices": [
+"Highprinces",
+"Ardents",
+"Stormwardens",
+"Shardbearers"
+],
+"answer": 1,
+"explanation": "Ardents — Vorin priests who can't own property or hold political office — are the only ones allowed to use Soulcasters, which gives them great influence.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Alethkar (Religion)",
+"page": "33"
+},
+"verify": [
+"as the only people permitted to use Soulcasters"
+]
+},
+{
+"id": "w-nat-05",
+"category": "world",
+"topic": "Alethkar",
+"question": "The Thrill, the battle rage concentrated in Alethkar, was caused by which Unmade?",
+"choices": [
+"Moelach",
+"Sja-anat",
+"Nergaoul",
+"Ba-Ado-Mishram"
+],
+"answer": 2,
+"explanation": "The Thrill came from the Unmade Nergaoul, whose influence was concentrated in Alethkar during the Era of Solitude.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Alethkar (Military)",
+"page": "29"
+},
+"verify": [
+"caused by the Unmade Nergaoul"
+]
+},
+{
+"id": "w-nat-06",
+"category": "world",
+"topic": "Azish Empire",
+"question": "How much real power does the Prime Aqasix of Azir hold?",
+"choices": [
+"Absolute power over the whole empire",
+"A figurehead whom the viziers can overrule",
+"Command of the military, and nothing else",
+"None; the office is purely hereditary"
+],
+"answer": 1,
+"explanation": "The viziers elect the Prime Aqasix, who is a revered figurehead with limited power. Viziers guide the Prime and can even overrule them.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Azir (Government)",
+"page": "36"
+},
+"verify": [
+"the Prime is a revered figurehead with limited power"
+]
+},
+{
+"id": "w-nat-07",
+"category": "world",
+"topic": "Azish Empire",
+"question": "Why do Tashikki people wear shiquas, full-body wraps?",
+"choices": [
+"To protect themselves from highstorm debris",
+"To hide from Nun Raylisi's hateful gaze",
+"To show their rank in the bureaucracy",
+"As a sign of mourning for the Heralds"
+],
+"answer": 1,
+"explanation": "Tashikki worship Tashi (the Herald Ishar) and believe in an evil god, Nun Raylisi (based on Odium). Shiquas shield the wearer from his hateful gaze.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Tashikk",
+"page": "40"
+},
+"verify": [
+"shielding them from the hateful gaze of Nun Raylisi"
+]
+},
+{
+"id": "w-nat-08",
+"category": "world",
+"topic": "Azish Empire",
+"question": "Who is Tezim, the veiled god-priest of Tukar, secretly?",
+"choices": [
+"The Herald Nale",
+"The Herald Ishar",
+"Taravangian",
+"A Fused"
+],
+"answer": 1,
+"explanation": "Unknown to the Tukari, their god-priest Tezim is the Herald Ishar.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Tukar",
+"page": "42"
+},
+"verify": [
+"Tezim is secretly the Herald Ishar"
+]
+},
+{
+"id": "w-nat-09",
+"category": "world",
+"topic": "Herdaz",
+"question": "What is unusual about Herdazian fingernails?",
+"choices": [
+"They glow faintly in total darkness",
+"They're crystalline and spark like flint",
+"They grow into hard carapace plates",
+"They're naturally a deep blue color"
+],
+"answer": 1,
+"explanation": "Thanks to distant singer ancestry, Herdazian nails are crystalline and spark like flint against steel. Herdazians use them with 'sparkflickers' to start fires.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Herdazian Culture",
+"page": "44"
+},
+"verify": [
+"Herdazian fingernails replicate the properties of flint"
+]
+},
+{
+"id": "w-nat-10",
+"category": "world",
+"topic": "Horneater Peaks",
+"question": "In an Unkalaki family, which son is tasked with becoming a warrior?",
+"choices": [
+"The first son",
+"The second son",
+"The third son",
+"The fourth son"
+],
+"answer": 3,
+"explanation": "First and second sons farm, raise livestock or hunt; third sons become craftsmen; fourth sons become warriors. Younger brothers shift up if an older son can't serve.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Horneater Peaks (Family Structure)",
+"page": "50"
+},
+"verify": [
+"If there happens to be a fourth son, they’re tasked with becoming a warrior"
+]
+},
+{
+"id": "w-nat-11",
+"category": "world",
+"topic": "Horneater Peaks",
+"question": "Where is the only stable entry point to Roshar for offworld visitors?",
+"choices": [
+"The Origin of Storms, far to the east",
+"Cultivation's Perpendicularity in the Pool",
+"The Oathgate in Thaylen City",
+"Honor's Perpendicularity at Urithiru"
+],
+"answer": 1,
+"explanation": "Cultivation's Perpendicularity lies in the Unkalaki crater lake called the Pool. It's the only stable entry for worldhoppers, whom the Unkalaki greet as 'strange gods.'",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Offworld Visitors",
+"page": "50"
+},
+"verify": [
+"The only stable entry point for offworlders"
+]
+},
+{
+"id": "w-nat-12",
+"category": "world",
+"topic": "Iri & Rira",
+"question": "According to the Iriali Long Trail, what is Roshar?",
+"choices": [
+"The final world, where the One reunites",
+"The fourth of seven worlds on their journey",
+"Their original homeworld",
+"A prison world"
+],
+"answer": 1,
+"explanation": "The Iriali believe Roshar is the fourth world on a seven-world journey, after which they'll reunite as the One. Many keep packs ready to leave at a moment's notice.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Iri (Religion)",
+"page": "53"
+},
+"verify": [
+"Roshar is the fourth world"
+]
+},
+{
+"id": "w-nat-13",
+"category": "world",
+"topic": "Iri & Rira",
+"question": "Of the nations that enslaved singers, which is the only one where humans and singers achieved peace after the Everstorm?",
+"choices": [
+"Azir",
+"Thaylenah",
+"Iri",
+"Jah Keved"
+],
+"answer": 2,
+"explanation": "Iriali humans acknowledged the singers as the land's rightful stewards and began a peaceful surrender, complicated later by the Fused taking control of Iri's military.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Iriali and Riran Singers",
+"page": "54"
+},
+"verify": [
+"Iri is the only one where humans and singers achieved peace after the Everstorm"
+]
+},
+{
+"id": "w-nat-14",
+"category": "world",
+"topic": "Kharbranth & Frostlands",
+"question": "How are Kharbranth's free public hospitals funded?",
+"choices": [
+"Taxes on spanreed traffic",
+"Revenue from the Palanaeum",
+"Donations from the Vorin church",
+"Sale of Soulcast grain"
+],
+"answer": 1,
+"explanation": "Treatment is free because the hospitals are fully funded by revenue from the Palanaeum, Roshar's largest library, which charges expensive admission.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Kharbranth (Medical Prowess)",
+"page": "59"
+},
+"verify": [
+"fully funded by revenue from the Palanaeum"
+]
+},
+{
+"id": "w-nat-15",
+"category": "world",
+"topic": "Purelake",
+"question": "How do the Selay of the Purelake handle their two brother gods?",
+"choices": [
+"They worship both brothers equally",
+"Honor Vun Makak openly; worship Nu Ralik in secret",
+"They reject both gods entirely",
+"Worship Vun Makak openly and fear Nu Ralik"
+],
+"answer": 1,
+"explanation": "Their true god is the upright Nu Ralik, but to avoid his jealous brother's ire they pretend to venerate Vun Makak, saving worship of Nu Ralik for holy grottos.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Selay Culture (Religion)",
+"page": "62"
+},
+"verify": [
+"They worship the upright brother, Nu Ralik"
+]
+},
+{
+"id": "w-nat-16",
+"category": "world",
+"topic": "Shinovar",
+"question": "Where do warriors rank in Shin society?",
+"choices": [
+"At the top, as honored protectors",
+"At the bottom, as 'those who subtract'",
+"Equal to farmers, as 'those who add'",
+"Just below the Honorbearers"
+],
+"answer": 1,
+"explanation": "The Shin divide people into 'those who add' (farmers are highly respected) and 'those who subtract.' Anyone who takes up a weapon is forever a lowly warrior in brown, subject to the Stone Shamans.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Shinovar (Social Ranking)",
+"page": "69"
+},
+"verify": [
+"warriors are thought of as destroyers"
+]
+},
+{
+"id": "w-nat-17",
+"category": "world",
+"topic": "Thaylenah",
+"question": "What is a 'babsk' in Thaylen merchant culture?",
+"choices": [
+"A captain's twenty-foot ownership rope",
+"A master merchant who is an apprentice's legal parent",
+"A tax paid to the merchant guilds",
+"A note drawn on the Thaylen Gemstone Reserve"
+],
+"answer": 1,
+"explanation": "Would-be merchants apprentice to a master merchant who becomes their babsk — their legal parent — until declaring them ready to strike out on their own.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Thaylenah (Resources and Trade)",
+"page": "71"
+},
+"verify": [
+"becoming their babsk—their legal parent"
+]
+},
+{
+"id": "w-nat-18",
+"category": "world",
+"topic": "Singers",
+"question": "Which spren must a singer bond during a highstorm to take warform?",
+"choices": [
+"Windspren",
+"Gravitationspren",
+"Painspren",
+"Lifespren"
+],
+"answer": 2,
+"explanation": "Warform comes from bonding a painspren. Nimbleform uses windspren, workform gravitationspren, and mateform lifespren.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Recovered Forms",
+"page": "76"
+},
+"verify": [
+"A singer can take warform by bonding a painspren"
+]
+},
+{
+"id": "w-nat-19",
+"category": "world",
+"topic": "Singers",
+"question": "Why did the listeners retain their free will when other singers lost theirs?",
+"choices": [
+"They lived beyond the Everstorm's reach",
+"They had refused Ba-Ado-Mishram's Connection",
+"They had bonded honorspren as protectors",
+"The Heralds personally shielded them"
+],
+"answer": 1,
+"explanation": "The listeners rejected Ba-Ado-Mishram's offer and Connection. When the Radiants imprisoned her, every singer Connected to her was severed — but not the listeners, who were left with only dullform and mateform.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › The Listeners",
+"page": "75"
+},
+"verify": [
+"Only the listeners survived with their free will and autonomy intact"
+]
+},
+{
+"id": "w-nat-20",
+"category": "world",
+"topic": "Singers",
+"question": "What notable ability does the Regal envoyform grant?",
+"choices": [
+"Channeling red lightning to strike at foes",
+"Understanding any language after a few sentences",
+"Flight through the open air on Voidlight",
+"Heavy, armor-like carapace over the whole body"
+],
+"answer": 1,
+"explanation": "Envoyform Regals can speak, read and understand any human or singer language after hearing just a few sentences. Stormform is the one that channels red lightning.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 2 Nations and Cultures › Regal Forms",
+"page": "77"
+},
+"verify": [
+"Regals can speak, read, and understand any human or singer language"
+]
+}
 ]

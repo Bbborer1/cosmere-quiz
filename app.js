@@ -389,6 +389,11 @@ async function boot() {
   else render();
 
   if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+    // When a new version's service worker takes over, reload once to pick up fresh files.
+    const hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (hadController) location.reload();
+    });
     navigator.serviceWorker.register('sw.js').catch(() => {});
   }
 }

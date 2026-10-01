@@ -1,19 +1,377 @@
 [
-{"id":"r-talk-01","category":"rules","topic":"Conversations","question":"After a PC succeeds on a social test against an NPC, how much focus must the NPC spend to resist being influenced?","choices":["1 focus, always","2 focus if the argument is reasonably persuasive; 4 if it's extremely strong","Focus equal to the amount the PC beat the DC by","They can't resist a successful test"],"answer":1,"explanation":"The GM decides how persuasive the contribution was: reasonably persuasive costs 2 focus to resist, extremely strong costs 4. Some arguments are so compelling the NPC might not resist at all.","cite":{"book":"handbook","section":"Ch. 11 Conversations › Resisting Influence","page":"317"},"verify":["an opponent must spend 2 focus to remain resolute","the opponent must spend 4 focus instead"]},
-{"id":"r-talk-02","category":"rules","topic":"Conversations","question":"What happens when an NPC in a conversation is reduced to 0 focus?","choices":["They fall Unconscious","They can no longer resist being influenced and may check out of the conversation","They must attack","They automatically agree to everything"],"answer":1,"explanation":"At 0 focus an NPC is too frustrated or scattered to contribute effectively. They can't resist influence any more and might disengage entirely, generally conceding the point or opening to compromise.","cite":{"book":"handbook","section":"Ch. 11 Conversations › Running Out of Focus","page":"318"},"verify":["They can no longer resist being influenced"]},
-{"id":"r-talk-03","category":"rules","topic":"Conversations","question":"Which of these is NOT one of the conversation types the Handbook describes?","choices":["Inquiry","Negotiation","Interrogation","Scheme"],"answer":2,"explanation":"The four described conversation types are Inquiry, Negotiation, Scheme and Social. Interrogations would usually be run as an Inquiry.","cite":{"book":"handbook","section":"Ch. 11 Conversations › Conversation Types","page":"318"},"verify":["Inquiry In an Inquiry"]},
-{"id":"r-talk-04","category":"rules","topic":"Conversations","question":"To influence a character in a conversation, what generally sets the DC of your test?","choices":["A flat DC 15","Their Spiritual or Cognitive defense, depending on the skill used","Their current focus + 10","Their Physical defense"],"answer":1,"explanation":"Influence tests generally target the person's Spiritual or Cognitive defense, matching the skill's category (e.g. Persuasion → Spiritual, Intimidation → Cognitive). The GM can adjust it.","cite":{"book":"handbook","section":"Ch. 11 Conversations › Contribution Outcomes","page":"316"},"verify":["DC equal to their Spiritual or Cognitive defense"]},
-{"id":"r-talk-05","category":"rules","topic":"Conversations","question":"An effect says it targets 'a character you can influence.' Can the target resist it?","choices":["No, never","Yes — unless the effect says otherwise, such a target can resist it (typically by spending 2 focus)","Only PCs can resist","Only if they pass a Discipline test"],"answer":1,"explanation":"Effects targeting a character you can influence can be resisted by that character unless stated otherwise, by spending focus as if it were a social skill test.","cite":{"book":"handbook","section":"Ch. 11 Conversations › Resisting Mechanical Effects","page":"318"},"verify":["Any effect targeting a “character you can influence” can be resisted"]},
-{"id":"r-endv-01","category":"rules","topic":"Endeavors","question":"Which four endeavor types does the Handbook give specific guidance for?","choices":["Discovery, Exploration, Mission, Pursuit","Investigation, Travel, Heist, Chase","Discovery, Survival, Infiltration, Pursuit","Exploration, Mission, Negotiation, Siege"],"answer":0,"explanation":"Chapter 12 covers Discovery, Exploration, Mission and Pursuit endeavors, while noting these are just starting points.","cite":{"book":"handbook","section":"Ch. 12 Endeavors (intro)","page":"323"},"verify":["Discovery, Exploration, Mission, and Pursuit"]},
-{"id":"r-endv-02","category":"rules","topic":"Endeavors","question":"How does a Discovery endeavor track progress instead of a collective success threshold?","choices":["A distance track","An investigative web of leads and clues","A ticking clock","An event track"],"answer":1,"explanation":"A Discovery uses an investigative web: the party starts with leads (usually two to four), each opening a line of clues toward the objective. The GM may still track failures.","cite":{"book":"handbook","section":"Ch. 12 Endeavors › Discovery Endeavors (No Threshold for Success)","page":"326"},"verify":["The investigative web replaces the need for a collective success threshold"]},
-{"id":"r-endv-03","category":"rules","topic":"Endeavors","question":"In a Pursuit's distance track, what happens when a pursuer fails a test?","choices":["The gap widens by 1","The gap closes by 1","Nothing — only successes count","The target escapes immediately"],"answer":0,"explanation":"Pursuer success closes the gap by 1 and failure widens it by 1. For the target, it's the reverse. The chase ends when the gap hits 0 (caught) or the escape distance (escaped).","cite":{"book":"handbook","section":"Ch. 12 Endeavors › Special Rule: Closing the Distance","page":"333"},"verify":["When a pursuer succeeds on a test, the gap closes by 1"]},
-{"id":"r-endv-04","category":"rules","topic":"Endeavors","question":"What is the 'Against the Odds' special rule?","choices":["Once per Exploration, every character tests against a serious peril and suffers its effect if they fail","A Mission rule that doubles Complications","A Pursuit rule for opposed tests","A once-per-session reroll for the party"],"answer":0,"explanation":"Once per Exploration, the GM can introduce exceptional perils. Each character makes a related test (e.g. Survival, Athletics, Leadership), and those who fail suffer that peril's effect.","cite":{"book":"handbook","section":"Ch. 12 Endeavors › Special Rule: Against the Odds","page":"330"},"verify":["Once per Exploration"]},
-{"id":"r-endv-05","category":"rules","topic":"Endeavors","question":"In a Mission endeavor, what can the GM do with a Complication a PC rolls?","choices":["Nothing special","Spend it to advance the ticking clock","Add 2 to the failure threshold","End the Mission immediately"],"answer":1,"explanation":"Missions use a ticking clock that advances each round. The GM can also spend PC Complications to advance it further, by an amount of their choosing.","cite":{"book":"handbook","section":"Ch. 12 Endeavors › Special Rule: The Ticking Clock","page":"331"},"verify":["the GM can spend it to advance the clock"]},
-{"id":"s-talk-01","category":"scenario","topic":"Conversations","question":"A stubborn highlady has 4 focus. The PCs make two successful, reasonably persuasive arguments, and she resists both. A third PC then succeeds on a strong Persuasion test. What happens?","choices":["She resists again for 2 focus","She can't resist — at 0 focus she can no longer resist influence","She resists for free since she's stubborn","She ends the conversation"],"answer":1,"explanation":"Each resisted argument cost her 2 focus (4 → 2 → 0). At 0 focus she can't resist influence, so the third success lands, and she'll likely concede or seek a compromise.","cite":{"book":"handbook","section":"Ch. 11 Conversations › Running Out of Focus","page":"318"},"verify":["When an NPC is reduced to 0 focus"]},
-{"id":"s-talk-02","category":"scenario","topic":"Conversations","question":"An NPC succeeds on a Persuasion test to convince a PC to abandon their mission. The PC is at 0 focus. What does the player have to do?","choices":["Their character must agree","Nothing — PCs are never forced to believe or do something that doesn't fit their story; the player decides","Make a DC 15 Discipline test","Take Exhausted [−1] to refuse"],"answer":1,"explanation":"PCs are never forced to choose between spending focus and acting against their story. Even at 0 focus, the player decides how their character responds.","cite":{"book":"handbook","section":"Ch. 11 Conversations › Player Characters and Influence","page":"318"},"verify":["you’re never forced to choose between spending focus"]},
-{"id":"s-talk-03","category":"scenario","topic":"Conversations","question":"In a Negotiation, a merchant NPC rolls Persuasion to talk a PC into paying a 'danger commission.' What sets the DC?","choices":["The PC's Cognitive defense","The PC's Spiritual defense","The PC's Persuasion result in an opposed test, always","DC 15"],"answer":1,"explanation":"Persuasion is a Presence (spiritual) skill, so an NPC persuading a PC tests against the PC's Spiritual defense, just as the Handbook's example conversation shows.","cite":{"book":"handbook","section":"Ch. 11 Conversations › Example Conversation","page":"321"},"verify":["sets the DC as Lisiril’s Spiritual defense"]},
-{"id":"s-endv-01","category":"scenario","topic":"Endeavors","question":"In a Pursuit with an escape distance of 6, the current distance is 2. A pursuing PC succeeds on an Agility test, then the fleeing target fails its Stealth test. What's the result?","choices":["Distance 2 — they cancel out","Distance 0 — the target is caught","Distance 4","Distance 1"],"answer":1,"explanation":"A pursuer's success closes the gap by 1 (2 → 1), and a target's failure also closes it by 1 (1 → 0). At 0 the target is caught.","cite":{"book":"handbook","section":"Ch. 12 Endeavors › Special Rule: Closing the Distance","page":"333"},"verify":["when they fail, the gap lessens by 1"]},
-{"id":"s-endv-02","category":"scenario","topic":"Endeavors","question":"During an endeavor to cross a flooded canyon, a Windrunner simply Lashes the party across. Do you need a test?","choices":["Yes — every contribution needs a test","Not necessarily — for abilities like surges that make a clear contribution, the GM can add a success without a test","Only a DC 20 Gravitation test","No, and the endeavor ends in automatic success"],"answer":1,"explanation":"Some abilities, especially surges, make demonstrable progress without needing a test; the GM may simply add a success toward the threshold.","cite":{"book":"handbook","section":"Ch. 12 Endeavors › Interpreting Skill Tests","page":"325"},"verify":["the GM may add a success to the threshold without requiring any kind of test"]},
-{"id":"s-endv-03","category":"scenario","topic":"Endeavors","question":"A party hits the failure threshold in a Discovery endeavor but wants to propose who stole the schematics anyway. What rule covers this?","choices":["None — the Discovery simply fails","Betting on a Hunch: if their guess is right, treat it as a success; if wrong, introduce twists and consequences later","They may reroll their last failed test","They can pay 5 marks per day to keep researching"],"answer":1,"explanation":"Betting on a Hunch lets the group make an educated guess after failing. A correct guess counts as success; a wrong one feeds story twists and eventual consequences.","cite":{"book":"handbook","section":"Ch. 12 Endeavors › Special Rule: Betting on a Hunch","page":"327"},"verify":["Betting on a Hunch"]},
-{"id":"s-endv-04","category":"scenario","topic":"Endeavors","question":"During an Exploration through a region where a PC's powerful patron holds sway, the PC wants to secure safe passage through a checkpoint. What can you do as GM?","choices":["Require a DC 20 Persuasion test with a disadvantage","Let the relevant reward or expertise grant an automatic success on that test","Make them spend Investiture","Nothing — patrons don't apply in endeavors"],"answer":1,"explanation":"In an Exploration, a relevant expertise or reward (like a patron with regional influence) can grant automatic success on certain tests, at the GM's discretion.","cite":{"book":"handbook","section":"Ch. 12 Endeavors › Progressing an Exploration","page":"330"},"verify":["automatically succeed on certain tests"]}
+{
+"id": "r-talk-01",
+"category": "rules",
+"topic": "Conversations",
+"question": "After a PC succeeds on a social test against an NPC, how much focus must the NPC spend to resist being influenced?",
+"choices": [
+"1 focus, always",
+"2 if reasonably persuasive; 4 if extremely strong",
+"Focus equal to how much the PC beat the DC by",
+"None — they can't resist a successful test"
+],
+"answer": 1,
+"explanation": "The GM decides how persuasive the contribution was: reasonably persuasive costs 2 focus to resist, extremely strong costs 4. Some arguments are so compelling the NPC might not resist at all.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 11 Conversations › Resisting Influence",
+"page": "317"
+},
+"verify": [
+"an opponent must spend 2 focus to remain resolute",
+"the opponent must spend 4 focus instead"
+]
+},
+{
+"id": "r-talk-02",
+"category": "rules",
+"topic": "Conversations",
+"question": "What happens when an NPC in a conversation is reduced to 0 focus?",
+"choices": [
+"They fall Unconscious from the strain",
+"They can no longer resist being influenced",
+"They must attack or leave immediately",
+"They automatically agree to everything"
+],
+"answer": 1,
+"explanation": "At 0 focus an NPC is too frustrated or scattered to contribute effectively. They can't resist influence any more and might disengage entirely, generally conceding the point or opening to compromise.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 11 Conversations › Running Out of Focus",
+"page": "318"
+},
+"verify": [
+"They can no longer resist being influenced"
+]
+},
+{
+"id": "r-talk-03",
+"category": "rules",
+"topic": "Conversations",
+"question": "Which of these is NOT one of the conversation types the Handbook describes?",
+"choices": [
+"Inquiry",
+"Negotiation",
+"Interrogation",
+"Scheme"
+],
+"answer": 2,
+"explanation": "The four described conversation types are Inquiry, Negotiation, Scheme and Social. Interrogations would usually be run as an Inquiry.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 11 Conversations › Conversation Types",
+"page": "318"
+},
+"verify": [
+"Inquiry In an Inquiry"
+]
+},
+{
+"id": "r-talk-04",
+"category": "rules",
+"topic": "Conversations",
+"question": "To influence a character in a conversation, what generally sets the DC of your test?",
+"choices": [
+"A flat DC 15 for any social test",
+"Their Spiritual or Cognitive defense",
+"Their current focus + 10",
+"Their Physical defense, if they're hostile"
+],
+"answer": 1,
+"explanation": "Influence tests generally target the person's Spiritual or Cognitive defense, matching the skill's category (e.g. Persuasion → Spiritual, Intimidation → Cognitive). The GM can adjust it.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 11 Conversations › Contribution Outcomes",
+"page": "316"
+},
+"verify": [
+"DC equal to their Spiritual or Cognitive defense"
+]
+},
+{
+"id": "r-talk-05",
+"category": "rules",
+"topic": "Conversations",
+"question": "An effect says it targets 'a character you can influence.' Can the target resist it?",
+"choices": [
+"No — mechanical effects can't be resisted",
+"Yes, unless it says otherwise (usually 2 focus)",
+"Only PCs can resist such effects",
+"Only with a successful Discipline test"
+],
+"answer": 1,
+"explanation": "Effects targeting a character you can influence can be resisted by that character unless stated otherwise, by spending focus as if it were a social skill test.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 11 Conversations › Resisting Mechanical Effects",
+"page": "318"
+},
+"verify": [
+"Any effect targeting a “character you can influence” can be resisted"
+]
+},
+{
+"id": "r-endv-01",
+"category": "rules",
+"topic": "Endeavors",
+"question": "Which four endeavor types does the Handbook give specific guidance for?",
+"choices": [
+"Discovery, Exploration, Mission, Pursuit",
+"Investigation, Travel, Heist, Chase",
+"Discovery, Survival, Infiltration, Pursuit",
+"Exploration, Mission, Negotiation, Siege"
+],
+"answer": 0,
+"explanation": "Chapter 12 covers Discovery, Exploration, Mission and Pursuit endeavors, while noting these are just starting points.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 12 Endeavors (intro)",
+"page": "323"
+},
+"verify": [
+"Discovery, Exploration, Mission, and Pursuit"
+]
+},
+{
+"id": "r-endv-02",
+"category": "rules",
+"topic": "Endeavors",
+"question": "How does a Discovery endeavor track progress instead of a collective success threshold?",
+"choices": [
+"A distance track between pursuer and target",
+"An investigative web of leads and clues",
+"A ticking clock advanced each round",
+"An event track filled with Opportunities"
+],
+"answer": 1,
+"explanation": "A Discovery uses an investigative web: the party starts with leads (usually two to four), each opening a line of clues toward the objective. The GM may still track failures.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 12 Endeavors › Discovery Endeavors (No Threshold for Success)",
+"page": "326"
+},
+"verify": [
+"The investigative web replaces the need for a collective success threshold"
+]
+},
+{
+"id": "r-endv-03",
+"category": "rules",
+"topic": "Endeavors",
+"question": "In a Pursuit's distance track, what happens when a pursuer fails a test?",
+"choices": [
+"The gap widens by 1",
+"The gap closes by 1",
+"Nothing — only successes count",
+"The target escapes immediately"
+],
+"answer": 0,
+"explanation": "Pursuer success closes the gap by 1 and failure widens it by 1. For the target, it's the reverse. The chase ends when the gap hits 0 (caught) or the escape distance (escaped).",
+"cite": {
+"book": "handbook",
+"section": "Ch. 12 Endeavors › Special Rule: Closing the Distance",
+"page": "333"
+},
+"verify": [
+"When a pursuer succeeds on a test, the gap closes by 1"
+]
+},
+{
+"id": "r-endv-04",
+"category": "rules",
+"topic": "Endeavors",
+"question": "What is the 'Against the Odds' special rule?",
+"choices": [
+"Once per Exploration, everyone tests vs. a peril",
+"A Mission rule that doubles Complications",
+"A Pursuit rule that forces opposed tests",
+"A once-per-session reroll for the party"
+],
+"answer": 0,
+"explanation": "Once per Exploration, the GM can introduce exceptional perils. Each character makes a related test (e.g. Survival, Athletics, Leadership), and those who fail suffer that peril's effect.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 12 Endeavors › Special Rule: Against the Odds",
+"page": "330"
+},
+"verify": [
+"Once per Exploration"
+]
+},
+{
+"id": "r-endv-05",
+"category": "rules",
+"topic": "Endeavors",
+"question": "In a Mission endeavor, what can the GM do with a Complication a PC rolls?",
+"choices": [
+"Nothing special",
+"Spend it to advance the ticking clock",
+"Add 2 to the failure threshold",
+"End the Mission immediately"
+],
+"answer": 1,
+"explanation": "Missions use a ticking clock that advances each round. The GM can also spend PC Complications to advance it further, by an amount of their choosing.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 12 Endeavors › Special Rule: The Ticking Clock",
+"page": "331"
+},
+"verify": [
+"the GM can spend it to advance the clock"
+]
+},
+{
+"id": "s-talk-01",
+"category": "scenario",
+"topic": "Conversations",
+"question": "A stubborn highlady has 4 focus. The PCs make two successful, reasonably persuasive arguments, and she resists both. A third PC then succeeds on a strong Persuasion test. What happens?",
+"choices": [
+"She resists again, spending 2 focus",
+"She can't resist at 0 focus",
+"She resists for free because she's stubborn",
+"She ends the conversation immediately"
+],
+"answer": 1,
+"explanation": "Each resisted argument cost her 2 focus (4 → 2 → 0). At 0 focus she can't resist influence, so the third success lands, and she'll likely concede or seek a compromise.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 11 Conversations › Running Out of Focus",
+"page": "318"
+},
+"verify": [
+"When an NPC is reduced to 0 focus"
+]
+},
+{
+"id": "s-talk-02",
+"category": "scenario",
+"topic": "Conversations",
+"question": "An NPC succeeds on a Persuasion test to convince a PC to abandon their mission. The PC is at 0 focus. What does the player have to do?",
+"choices": [
+"Their character must agree to abandon it",
+"Nothing — the player decides how they respond",
+"Make a DC 15 Discipline test to refuse",
+"Take Exhausted [−1] to refuse"
+],
+"answer": 1,
+"explanation": "PCs are never forced to choose between spending focus and acting against their story. Even at 0 focus, the player decides how their character responds.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 11 Conversations › Player Characters and Influence",
+"page": "318"
+},
+"verify": [
+"you’re never forced to choose between spending focus"
+]
+},
+{
+"id": "s-talk-03",
+"category": "scenario",
+"topic": "Conversations",
+"question": "In a Negotiation, a merchant NPC rolls Persuasion to talk a PC into paying a 'danger commission.' What sets the DC?",
+"choices": [
+"The PC's Cognitive defense",
+"The PC's Spiritual defense",
+"The PC's Persuasion result in an opposed test, always",
+"DC 15"
+],
+"answer": 1,
+"explanation": "Persuasion is a Presence (spiritual) skill, so an NPC persuading a PC tests against the PC's Spiritual defense, just as the Handbook's example conversation shows.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 11 Conversations › Example Conversation",
+"page": "321"
+},
+"verify": [
+"sets the DC as Lisiril’s Spiritual defense"
+]
+},
+{
+"id": "s-endv-01",
+"category": "scenario",
+"topic": "Endeavors",
+"question": "In a Pursuit with an escape distance of 6, the current distance is 2. A pursuing PC succeeds on an Agility test, then the fleeing target fails its Stealth test. What's the result?",
+"choices": [
+"Distance 2 — they cancel out",
+"Distance 0 — the target is caught",
+"Distance 4",
+"Distance 1"
+],
+"answer": 1,
+"explanation": "A pursuer's success closes the gap by 1 (2 → 1), and a target's failure also closes it by 1 (1 → 0). At 0 the target is caught.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 12 Endeavors › Special Rule: Closing the Distance",
+"page": "333"
+},
+"verify": [
+"when they fail, the gap lessens by 1"
+]
+},
+{
+"id": "s-endv-02",
+"category": "scenario",
+"topic": "Endeavors",
+"question": "During an endeavor to cross a flooded canyon, a Windrunner simply Lashes the party across. Do you need a test?",
+"choices": [
+"Yes — every contribution needs a test",
+"Not necessarily; the GM can just add a success",
+"Yes, a DC 20 Gravitation test",
+"No, and the endeavor ends in automatic success"
+],
+"answer": 1,
+"explanation": "Some abilities, especially surges, make demonstrable progress without needing a test; the GM may simply add a success toward the threshold.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 12 Endeavors › Interpreting Skill Tests",
+"page": "325"
+},
+"verify": [
+"the GM may add a success to the threshold without requiring any kind of test"
+]
+},
+{
+"id": "s-endv-03",
+"category": "scenario",
+"topic": "Endeavors",
+"question": "A party hits the failure threshold in a Discovery endeavor but wants to propose who stole the schematics anyway. What rule covers this?",
+"choices": [
+"None — the Discovery simply fails",
+"Betting on a Hunch",
+"Reroll the last failed test with an advantage",
+"Pay 5 marks a day to keep researching"
+],
+"answer": 1,
+"explanation": "Betting on a Hunch lets the group make an educated guess after failing. A correct guess counts as success; a wrong one feeds story twists and eventual consequences.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 12 Endeavors › Special Rule: Betting on a Hunch",
+"page": "327"
+},
+"verify": [
+"Betting on a Hunch"
+]
+},
+{
+"id": "s-endv-04",
+"category": "scenario",
+"topic": "Endeavors",
+"question": "During an Exploration through a region where a PC's powerful patron holds sway, the PC wants to secure safe passage through a checkpoint. What can you do as GM?",
+"choices": [
+"Require a DC 20 Persuasion test with a disadvantage",
+"Grant an automatic success on that test",
+"Make them spend Investiture for safe passage",
+"Nothing — patrons don't apply in endeavors"
+],
+"answer": 1,
+"explanation": "In an Exploration, a relevant expertise or reward (like a patron with regional influence) can grant automatic success on certain tests, at the GM's discretion.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 12 Endeavors › Progressing an Exploration",
+"page": "330"
+},
+"verify": [
+"automatically succeed on certain tests"
+]
+}
 ]

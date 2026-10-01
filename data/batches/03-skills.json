@@ -1,21 +1,422 @@
 [
-{"id":"r-skill-10","category":"rules","topic":"Skill Tests","question":"Outside combat, several characters work together on one task. How is it resolved by default?","choices":["Everyone tests and the best result counts","Everyone tests and the average counts","The leader makes one test and gains an advantage for each character helping","The leader tests with +2 per helper"],"answer":2,"explanation":"The person leading the effort makes a single test and gains one advantage per helper. Helpers must be able to reasonably do the task themselves; complex group tasks may become an endeavor instead.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Working Together","page":"59"},"verify":["gain an advantage for each character helping them"]},
-{"id":"r-skill-11","category":"rules","topic":"Skill Tests","question":"How does a character help an ally's test during combat?","choices":["By spending 1 focus","By using the Aid reaction","By using the Gain Advantage action on the ally","They can't help in combat"],"answer":1,"explanation":"Helping in combat requires the Aid reaction; the 'one advantage per helper' rule is for working together outside combat.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Helping in Combat","page":"59"},"verify":["you must use the Aid reaction"]},
-{"id":"r-skill-12","category":"rules","topic":"Dice","question":"An ability increases the die size of an attack that normally deals 1d4. What do you roll now?","choices":["2d4","1d4+1","1d6","1d8"],"answer":2,"explanation":"Increasing die size swaps the die for the next largest one: d4 → d6 → d8 → d10 → d12.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Changing Die Size","page":"59"},"verify":["replace it with the next largest die"]},
-{"id":"r-skill-13","category":"rules","topic":"Senses","question":"In general, what happens when you make a test to directly affect a character you can't sense (e.g. a surge or weapon attack)?","choices":["The test automatically fails","You usually gain a disadvantage","The target gains +5 to its defenses","Nothing, as long as you know where they are"],"answer":1,"explanation":"If you can't sense a character, you usually gain a disadvantage on tests made to directly affect them.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Targeting From a Distance","page":"59"},"verify":["you usually gain a disadvantage on tests made to directly affect them"]},
-{"id":"r-skill-14","category":"rules","topic":"Skills","question":"A PC tries to deceive someone by letter. What's the rule?","choices":["Deception can't be used at a distance","Test Deception with a disadvantage if the target can't sense you","Test Lore instead of Deception","Test normally, but the DC is +5"],"answer":1,"explanation":"Long-distance deception (spanreed, letters, messengers) is harder: you test Deception with a disadvantage if the target can't sense you.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Deception (Long-Distance Deception)","page":"61"},"verify":["Long-Distance Deception"]},
-{"id":"r-skill-15","category":"rules","topic":"Movement","question":"Without making a test, how far can a moving character generally jump?","choices":["5 feet in any direction","Horizontally equal to their size, vertically half their size","Horizontally half their movement rate","Horizontally 10 feet, vertically 3 feet"],"answer":1,"explanation":"A moving character can jump a horizontal distance equal to their size and a vertical distance equal to half their size without a test. Longer jumps need an Athletics test.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Athletics (Jumping)","page":"60"},"verify":["a vertical distance equal to half their size"]},
-{"id":"r-skill-16","category":"rules","topic":"Medicine","question":"What's needed to treat a conscious ally with Medicine during combat?","choices":["A healing kit and 1 action, no test","At least 1 rank in Medicine, 2 focus and Use a Skill for a DC 15 Medicine test","Any character can make a DC 10 Medicine test as a reaction","3 actions and a DC 20 Medicine test"],"answer":1,"explanation":"With at least 1 rank in Medicine, you spend 2 focus and Use a Skill for a DC 15 test on a conscious ally within reach (yourself with a disadvantage). On a success they recover health equal to your Medicine ranks.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Medicine (Using Medicine in Combat)","page":"63"},"verify":["spend 2 focus and Use a Skill","DC 15 Medicine test"]},
-{"id":"r-skill-17","category":"rules","topic":"Medicine","question":"During a long rest, what does a successful DC 20 Medicine test on an injured ally do?","choices":["Removes the injury entirely","Reduces a shallow or vicious injury's duration by 1d4 days","Restores health equal to Medicine ranks","Converts a vicious injury into a shallow one"],"answer":1,"explanation":"Treating an injury during a long rest (DC 20; with a disadvantage on yourself) cuts a shallow or vicious injury's duration by 1d4 days. Each character can only be treated this way once per long rest.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Medicine (Using Medicine While Resting)","page":"63"},"verify":["reduced by 1d4 days"]},
-{"id":"r-skill-18","category":"rules","topic":"Stealth","question":"In combat, what must be true for a character to attempt to hide from someone?","choices":["They must be at least 30 feet away","They must be in cover, in an area that obscures the target's primary sense, or out of the target's line of effect","They must spend 1 focus","They must not have attacked this round"],"answer":1,"explanation":"Hiding in combat (Use a Skill: Stealth vs. Spiritual defense) requires cover, an area obscuring the target's primary sense (like darkness), or no line of effect to the target.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Stealth (Hiding in Combat)","page":"64"},"verify":["You can hide only if you’re in cover"]},
-{"id":"r-skill-19","category":"rules","topic":"Stealth","question":"When a hiding character tests Stealth in combat, which defense of the searcher do they test against?","choices":["Physical","Cognitive","Spiritual","None — it's always an opposed Perception test"],"answer":2,"explanation":"Hiding in combat is a Stealth test against each character's Spiritual defense. Anyone you beat loses track of you.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Stealth (Hiding in Combat)","page":"64"},"verify":["making a Stealth test against their Spiritual defense"]},
-{"id":"r-skill-20","category":"rules","topic":"Skills","question":"Which is true about pickpocketing in combat with Thievery?","choices":["It's a free action","The stakes are always raised, the DC is the target's Spiritual defense, and you have a disadvantage if the target is aware of you","It targets Physical defense with an advantage","It can only be done against Unconscious targets"],"answer":1,"explanation":"Pickpocketing in combat uses Use a Skill against a target within reach. You always raise the stakes, the DC is their Spiritual defense, and you gain a disadvantage if they're aware of your presence.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Thievery (Pickpocketing in Combat)","page":"65"},"verify":["Pickpocketing in Combat","raise the stakes"]},
-{"id":"r-skill-21","category":"rules","topic":"Skills","question":"What does a character give up to forage with Survival during a short rest?","choices":["Nothing","The other benefits of resting","1 focus","Their next reaction"],"answer":1,"explanation":"Foraging during a short rest means giving up that rest's normal benefits to test Survival and collect resources.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Survival (Foraging in Nature)","page":"65"},"verify":["you forgo the other benefits of resting"]},
-{"id":"r-skill-22","category":"rules","topic":"Skills","question":"A visibly sick PC who can barely stand threatens a thug by claiming to be a fearsome warrior. How does that affect the Intimidation test?","choices":["No effect — bluffing never matters","The test gains a disadvantage","The test is impossible","Use Deception instead, with an advantage"],"answer":1,"explanation":"Plausible exaggeration doesn't change the test, but an obviously preposterous threat gives a disadvantage on the Intimidation test.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Intimidation (Insincere Threats)","page":"62"},"verify":["Insincere Threats"]},
-{"id":"r-skill-23","category":"rules","topic":"Crafting","question":"What does a character need before they can make a Crafting test to build a weapon, armor or a fabrial?","choices":["Nothing beyond a rank in Crafting","A corresponding expertise","A specialist workshop and 3 ranks","Intellect 3 or higher"],"answer":1,"explanation":"Commonplace items just need a Crafting test, but complex items like weapons, armor, equipment, grand works of art and fabrials need a corresponding expertise.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Crafting (Crafting Complex Items)","page":"61"},"verify":["you need to have a corresponding expertise"]},
-{"id":"s-skill-04","category":"scenario","topic":"Skill Tests","question":"Outside combat, a PC leads an effort to decipher an enemy fabrial. Three allies want to help, but one lacks the Fabrial Crafting expertise the task needs. How many advantages does the leader get?","choices":["3","2","1","0 — the leader must roll alone"],"answer":1,"explanation":"Each helper grants one advantage, but helpers must be able to reasonably do the task themselves. The ally without the required expertise can't contribute, so the leader gets 2.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Helping Outside Combat","page":"59"},"verify":["can’t assist with a task that requires an expertise or tools they don’t have"]},
-{"id":"s-skill-05","category":"scenario","topic":"Medicine","question":"Mid-combat, a PC with 2 ranks in Medicine treats a wounded, conscious ally beside them and succeeds on the DC 15 test. What did it cost, and how much health does the ally recover?","choices":["Cost 1 action; recover 1d6","Cost 2 focus plus the Use a Skill action; recover 2 health","Cost 2 focus; recover 2d4","Cost nothing extra; recover 4 health"],"answer":1,"explanation":"Medicine in combat costs 2 focus and the Use a Skill action, and heals health equal to the healer's Medicine ranks — 2 here.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Medicine (Using Medicine in Combat)","page":"63"},"verify":["recovers health equal to your ranks in Medicine"]},
-{"id":"s-skill-06","category":"scenario","topic":"Stealth","question":"A PC ducks behind crates and tests Stealth to hide from two guards, rolling a total of 17. Guard A has Spiritual defense 15; Guard B has 18. What's the result?","choices":["Hidden from both — beat the lower defense","Hidden from neither — must beat both","Hidden from Guard A only","Hidden from Guard B only"],"answer":2,"explanation":"Compare the one Stealth result to each character's Spiritual defense. 17 beats Guard A's 15 but not Guard B's 18, so only Guard A loses track of the PC.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Stealth (Hiding in Combat)","page":"64"},"verify":["compare your test result to each character’s Spiritual defense"]},
-{"id":"s-skill-07","category":"scenario","topic":"Stealth","question":"A PC hid in a dark corridor with a Stealth result of 19. On his turn, a guard searches with Perception. What's the DC, and does anything modify his roll?","choices":["DC 15, no modifier","DC = the PC's Spiritual defense, with an advantage","DC 19, and the guard has a disadvantage because the area obscures his primary sense","DC 19, no modifier"],"answer":2,"explanation":"A searcher uses Use a Skill for a Perception test whose DC is the hider's original Stealth result (19). They have a disadvantage if the hider is in cover or in an area obscuring the searcher's primary sense, like darkness.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Stealth (Hiding in Combat)","page":"64"},"verify":["the DC for this test equals the result of your original Stealth test"]},
-{"id":"s-skill-08","category":"scenario","topic":"Medicine","question":"During a long rest, the party medic tries to shorten a companion's vicious injury but fails the Medicine test. Another PC with Medicine wants to try too. Can they?","choices":["Yes, with an advantage from the first attempt","Yes, but at DC 25","No — a character can only be treated this way once per long rest, success or failure","Only if they spend 2 focus"],"answer":2,"explanation":"Once a character has been treated during a long rest, successfully or not, they can't be treated that way again until the next long rest.","cite":{"book":"handbook","section":"Ch. 3 Character Statistics › Medicine (Using Medicine While Resting)","page":"63"},"verify":["whether successfully or unsuccessfully"]}
+{
+"id": "r-skill-10",
+"category": "rules",
+"topic": "Skill Tests",
+"question": "Outside combat, several characters work together on one task. How is it resolved by default?",
+"choices": [
+"Everyone tests and the best result counts",
+"Everyone tests and the average result counts",
+"One leader tests, with an advantage per helper",
+"One leader tests, with +2 per helper"
+],
+"answer": 2,
+"explanation": "The person leading the effort makes a single test and gains one advantage per helper. Helpers must be able to reasonably do the task themselves; complex group tasks may become an endeavor instead.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Working Together",
+"page": "59"
+},
+"verify": [
+"gain an advantage for each character helping them"
+]
+},
+{
+"id": "r-skill-11",
+"category": "rules",
+"topic": "Skill Tests",
+"question": "How does a character help an ally's test during combat?",
+"choices": [
+"By spending 1 focus",
+"By using the Aid reaction",
+"By using the Gain Advantage action on the ally",
+"They can't help in combat"
+],
+"answer": 1,
+"explanation": "Helping in combat requires the Aid reaction; the 'one advantage per helper' rule is for working together outside combat.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Helping in Combat",
+"page": "59"
+},
+"verify": [
+"you must use the Aid reaction"
+]
+},
+{
+"id": "r-skill-12",
+"category": "rules",
+"topic": "Dice",
+"question": "An ability increases the die size of an attack that normally deals 1d4. What do you roll now?",
+"choices": [
+"2d4",
+"1d4+1",
+"1d6",
+"1d8"
+],
+"answer": 2,
+"explanation": "Increasing die size swaps the die for the next largest one: d4 → d6 → d8 → d10 → d12.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Changing Die Size",
+"page": "59"
+},
+"verify": [
+"replace it with the next largest die"
+]
+},
+{
+"id": "r-skill-13",
+"category": "rules",
+"topic": "Senses",
+"question": "In general, what happens when you make a test to directly affect a character you can't sense (e.g. a surge or weapon attack)?",
+"choices": [
+"The test automatically fails",
+"You usually gain a disadvantage",
+"The target gains +5 to its defenses",
+"Nothing, as long as you know where they are"
+],
+"answer": 1,
+"explanation": "If you can't sense a character, you usually gain a disadvantage on tests made to directly affect them.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Targeting From a Distance",
+"page": "59"
+},
+"verify": [
+"you usually gain a disadvantage on tests made to directly affect them"
+]
+},
+{
+"id": "r-skill-14",
+"category": "rules",
+"topic": "Skills",
+"question": "A PC tries to deceive someone by letter. What's the rule?",
+"choices": [
+"Deception simply can't be used at a distance at all",
+"Disadvantage on Deception if they can't sense you",
+"Test Lore instead, since the lie is in writing",
+"Test Deception normally, but the DC increases by 5"
+],
+"answer": 1,
+"explanation": "Long-distance deception (spanreed, letters, messengers) is harder: you test Deception with a disadvantage if the target can't sense you.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Deception (Long-Distance Deception)",
+"page": "61"
+},
+"verify": [
+"Long-Distance Deception"
+]
+},
+{
+"id": "r-skill-15",
+"category": "rules",
+"topic": "Movement",
+"question": "Without making a test, how far can a moving character generally jump?",
+"choices": [
+"5 feet in any direction",
+"Across: their size. Up: half their size",
+"Across: half their movement rate",
+"Across: 10 feet. Up: 3 feet"
+],
+"answer": 1,
+"explanation": "A moving character can jump a horizontal distance equal to their size and a vertical distance equal to half their size without a test. Longer jumps need an Athletics test.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Athletics (Jumping)",
+"page": "60"
+},
+"verify": [
+"a vertical distance equal to half their size"
+]
+},
+{
+"id": "r-skill-16",
+"category": "rules",
+"topic": "Medicine",
+"question": "What's needed to treat a conscious ally with Medicine during combat?",
+"choices": [
+"A healing kit and 1 action, with no test",
+"1+ Medicine rank, 2 focus, Use a Skill, DC 15 test",
+"Any character, a reaction, and a DC 10 Medicine test",
+"3 actions, a healing kit and a DC 20 Medicine test"
+],
+"answer": 1,
+"explanation": "With at least 1 rank in Medicine, you spend 2 focus and Use a Skill for a DC 15 test on a conscious ally within reach (yourself with a disadvantage). On a success they recover health equal to your Medicine ranks.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Medicine (Using Medicine in Combat)",
+"page": "63"
+},
+"verify": [
+"spend 2 focus and Use a Skill",
+"DC 15 Medicine test"
+]
+},
+{
+"id": "r-skill-17",
+"category": "rules",
+"topic": "Medicine",
+"question": "During a long rest, what does a successful DC 20 Medicine test on an injured ally do?",
+"choices": [
+"Removes the injury entirely",
+"Cuts a shallow or vicious injury by 1d4 days",
+"Restores health equal to their Medicine ranks",
+"Turns a vicious injury into a shallow one"
+],
+"answer": 1,
+"explanation": "Treating an injury during a long rest (DC 20; with a disadvantage on yourself) cuts a shallow or vicious injury's duration by 1d4 days. Each character can only be treated this way once per long rest.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Medicine (Using Medicine While Resting)",
+"page": "63"
+},
+"verify": [
+"reduced by 1d4 days"
+]
+},
+{
+"id": "r-skill-18",
+"category": "rules",
+"topic": "Stealth",
+"question": "In combat, what must be true for a character to attempt to hide from someone?",
+"choices": [
+"They must be at least 30 feet from the target",
+"Cover, obscured senses, or no line of effect",
+"They must spend 1 focus and the Brace action",
+"They must not have attacked this round"
+],
+"answer": 1,
+"explanation": "Hiding in combat (Use a Skill: Stealth vs. Spiritual defense) requires cover, an area obscuring the target's primary sense (like darkness), or no line of effect to the target.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Stealth (Hiding in Combat)",
+"page": "64"
+},
+"verify": [
+"You can hide only if you’re in cover"
+]
+},
+{
+"id": "r-skill-19",
+"category": "rules",
+"topic": "Stealth",
+"question": "When a hiding character tests Stealth in combat, which defense of the searcher do they test against?",
+"choices": [
+"Physical",
+"Cognitive",
+"Spiritual",
+"None — it's always an opposed Perception test"
+],
+"answer": 2,
+"explanation": "Hiding in combat is a Stealth test against each character's Spiritual defense. Anyone you beat loses track of you.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Stealth (Hiding in Combat)",
+"page": "64"
+},
+"verify": [
+"making a Stealth test against their Spiritual defense"
+]
+},
+{
+"id": "r-skill-20",
+"category": "rules",
+"topic": "Skills",
+"question": "Which is true about pickpocketing in combat with Thievery?",
+"choices": [
+"It's a free action with no test needed",
+"Stakes raised; vs. Spiritual; disadvantage if they're aware",
+"It targets Physical defense with an advantage",
+"It only works against Unconscious or Surprised targets"
+],
+"answer": 1,
+"explanation": "Pickpocketing in combat uses Use a Skill against a target within reach. You always raise the stakes, the DC is their Spiritual defense, and you gain a disadvantage if they're aware of your presence.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Thievery (Pickpocketing in Combat)",
+"page": "65"
+},
+"verify": [
+"Pickpocketing in Combat",
+"raise the stakes"
+]
+},
+{
+"id": "r-skill-21",
+"category": "rules",
+"topic": "Skills",
+"question": "What does a character give up to forage with Survival during a short rest?",
+"choices": [
+"Nothing — they still recover normally",
+"The other benefits of resting",
+"1 focus from their current pool",
+"Their next reaction in the following scene"
+],
+"answer": 1,
+"explanation": "Foraging during a short rest means giving up that rest's normal benefits to test Survival and collect resources.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Survival (Foraging in Nature)",
+"page": "65"
+},
+"verify": [
+"you forgo the other benefits of resting"
+]
+},
+{
+"id": "r-skill-22",
+"category": "rules",
+"topic": "Skills",
+"question": "A visibly sick PC who can barely stand threatens a thug by claiming to be a fearsome warrior. How does that affect the Intimidation test?",
+"choices": [
+"No effect — bluffing never matters",
+"The test gains a disadvantage",
+"The test is impossible",
+"Use Deception instead, with an advantage"
+],
+"answer": 1,
+"explanation": "Plausible exaggeration doesn't change the test, but an obviously preposterous threat gives a disadvantage on the Intimidation test.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Intimidation (Insincere Threats)",
+"page": "62"
+},
+"verify": [
+"Insincere Threats"
+]
+},
+{
+"id": "r-skill-23",
+"category": "rules",
+"topic": "Crafting",
+"question": "What does a character need before they can make a Crafting test to build a weapon, armor or a fabrial?",
+"choices": [
+"Nothing beyond a rank in Crafting",
+"A corresponding expertise",
+"A specialist workshop and 3 ranks",
+"Intellect 3 or higher"
+],
+"answer": 1,
+"explanation": "Commonplace items just need a Crafting test, but complex items like weapons, armor, equipment, grand works of art and fabrials need a corresponding expertise.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Crafting (Crafting Complex Items)",
+"page": "61"
+},
+"verify": [
+"you need to have a corresponding expertise"
+]
+},
+{
+"id": "s-skill-04",
+"category": "scenario",
+"topic": "Skill Tests",
+"question": "Outside combat, a PC leads an effort to decipher an enemy fabrial. Three allies want to help, but one lacks the Fabrial Crafting expertise the task needs. How many advantages does the leader get?",
+"choices": [
+"3",
+"2",
+"1",
+"0 — the leader must roll alone"
+],
+"answer": 1,
+"explanation": "Each helper grants one advantage, but helpers must be able to reasonably do the task themselves. The ally without the required expertise can't contribute, so the leader gets 2.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Helping Outside Combat",
+"page": "59"
+},
+"verify": [
+"can’t assist with a task that requires an expertise or tools they don’t have"
+]
+},
+{
+"id": "s-skill-05",
+"category": "scenario",
+"topic": "Medicine",
+"question": "Mid-combat, a PC with 2 ranks in Medicine treats a wounded, conscious ally beside them and succeeds on the DC 15 test. What did it cost, and how much health does the ally recover?",
+"choices": [
+"1 action; the ally recovers 1d6",
+"2 focus + Use a Skill; the ally recovers 2",
+"2 focus; the ally recovers 2d4",
+"No extra cost; the ally recovers 4"
+],
+"answer": 1,
+"explanation": "Medicine in combat costs 2 focus and the Use a Skill action, and heals health equal to the healer's Medicine ranks — 2 here.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Medicine (Using Medicine in Combat)",
+"page": "63"
+},
+"verify": [
+"recovers health equal to your ranks in Medicine"
+]
+},
+{
+"id": "s-skill-06",
+"category": "scenario",
+"topic": "Stealth",
+"question": "A PC ducks behind crates and tests Stealth to hide from two guards, rolling a total of 17. Guard A has Spiritual defense 15; Guard B has 18. What's the result?",
+"choices": [
+"Hidden from both — beat the lower defense",
+"Hidden from neither — must beat both",
+"Hidden from Guard A only",
+"Hidden from Guard B only"
+],
+"answer": 2,
+"explanation": "Compare the one Stealth result to each character's Spiritual defense. 17 beats Guard A's 15 but not Guard B's 18, so only Guard A loses track of the PC.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Stealth (Hiding in Combat)",
+"page": "64"
+},
+"verify": [
+"compare your test result to each character’s Spiritual defense"
+]
+},
+{
+"id": "s-skill-07",
+"category": "scenario",
+"topic": "Stealth",
+"question": "A PC hid in a dark corridor with a Stealth result of 19. On his turn, a guard searches with Perception. What's the DC, and does anything modify his roll?",
+"choices": [
+"DC 15, no modifier",
+"His Spiritual defense, with an advantage",
+"DC 19, with a disadvantage for him",
+"DC 19, with no modifier"
+],
+"answer": 2,
+"explanation": "A searcher uses Use a Skill for a Perception test whose DC is the hider's original Stealth result (19). They have a disadvantage if the hider is in cover or in an area obscuring the searcher's primary sense, like darkness.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Stealth (Hiding in Combat)",
+"page": "64"
+},
+"verify": [
+"the DC for this test equals the result of your original Stealth test"
+]
+},
+{
+"id": "s-skill-08",
+"category": "scenario",
+"topic": "Medicine",
+"question": "During a long rest, the party medic tries to shorten a companion's vicious injury but fails the Medicine test. Another PC with Medicine wants to try too. Can they?",
+"choices": [
+"Yes, with an advantage from the first attempt",
+"Yes, but the DC rises to 25 for a second try",
+"No — only one treatment per long rest, success or not",
+"Only if the second medic spends 2 focus first"
+],
+"answer": 2,
+"explanation": "Once a character has been treated during a long rest, successfully or not, they can't be treated that way again until the next long rest.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 3 Character Statistics › Medicine (Using Medicine While Resting)",
+"page": "63"
+},
+"verify": [
+"whether successfully or unsuccessfully"
+]
+}
 ]

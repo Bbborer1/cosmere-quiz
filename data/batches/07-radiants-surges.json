@@ -1,21 +1,420 @@
 [
-{"id":"r-rad-01","category":"rules","topic":"Radiants & Investiture","question":"What does choosing a First Ideal key talent immediately grant?","choices":["Both surges of the order and a Shardblade","Access to Investiture and the Breathe Stormlight, Enhance and Regenerate actions, plus the goal 'Speak the First Ideal'","Only a spren companion","Full Radiant status and the Empowered condition"],"answer":1,"explanation":"The First Ideal talent (level 2+) immediately unlocks Investiture and the three Stormlight actions and grants the goal 'Speak the First Ideal.' The order's two surges come only once that goal is completed.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Choosing a First Ideal Talent","page":"123"},"verify":["You must be level 2 or higher to choose a First Ideal key talent"]},
-{"id":"r-rad-02","category":"rules","topic":"Radiants & Investiture","question":"How much Investiture does a Radiant usually have at the start of a scene?","choices":["0 — they must Breathe Stormlight first","Full, unless they start the scene Surprised, in which case 1","Half their maximum","2"],"answer":1,"explanation":"It's assumed a Radiant instinctively breathed in Stormlight beforehand, so they start full. A Radiant who starts the scene Surprised has only 1 Investiture.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Regaining Stormlight","page":"124"},"verify":["you only start with 1 Invest­ iture"]},
-{"id":"r-rad-03","category":"rules","topic":"Radiants & Investiture","question":"When can the GM assume a Radiant has enough infused spheres without tracking them?","choices":["Always","When they carry wealth in marks of at least three times their Investiture total and can access highstorms","When they carry at least one broam","Only in Urithiru"],"answer":1,"explanation":"If a Radiant carries marks equal to at least three times their Investiture total (and highstorms are accessible), assume they have enough Stormlight. Track spheres only when the story makes it matter.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Breathe Stormlight","page":"124"},"verify":["at least three times as many marks as your Investiture total"]},
-{"id":"r-rad-04","category":"rules","topic":"Radiants & Investiture","question":"What does the Regenerate action do?","choices":["Spend 2 Investiture to heal 2d6","Spend 1 Investiture to recover 1d6 + your current tier in health; usable even while Unconscious","Spend 1 focus to recover 1d4","Heal one injury per use"],"answer":1,"explanation":"Regenerate is a free action: spend 1 Investiture to recover 1d6 + your tier in health. It works even while you're Unconscious or otherwise unable to act.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Regenerate","page":"125"},"verify":["recover health equal to 1d6 + your current tier"]},
-{"id":"r-rad-05","category":"rules","topic":"Radiants & Investiture","question":"What does the Enhance Stormlight action grant for 1 Investiture?","choices":["Enhanced [Strength +1] and Enhanced [Speed +1] until the end of your next turn","Enhanced [+2] to any one attribute for a scene","+1 deflect","An advantage on your next attack"],"answer":0,"explanation":"Enhance makes you Enhanced [Strength +1] and [Speed +1] until the end of your next turn. You can keep paying 1 Investiture at the end of each turn to maintain it.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Enhance","page":"125"},"verify":["Enhanced [Strength +1] and Enhanced [Speed +1]"]},
-{"id":"r-rad-06","category":"rules","topic":"Radiants & Investiture","question":"How many milestone boxes must be marked on an Ideal goal before the Radiant can speak those Words?","choices":["One","Two","Three","Five"],"answer":2,"explanation":"Each Ideal goal has three milestone boxes, marked for dramatic, philosophy-aligned actions. Once all three are marked, the player and GM can set up the moment to speak the Words.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Ideals and Goals","page":"126"},"verify":["Once you’ve marked all three milestone boxes"]},
-{"id":"r-rad-07","category":"rules","topic":"Radiants & Investiture","question":"What happens the first time a Radiant acts against their Ideals?","choices":["They lose their highest Ideal","Nothing — mistakes can be forgiven","Their spren dies","They lose all Investiture"],"answer":1,"explanation":"The first infraction has no effect. A second before demonstrably advancing their Ideals costs their highest Ideal and dependent talents, and further breaches strip more.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Forsaking Your Ideals","page":"128"},"verify":["The first time you act against your Ideals, nothing occurs"]},
-{"id":"r-rad-08","category":"rules","topic":"Radiants & Investiture","question":"What does a squire gain while within range of their Radiant?","choices":["The Radiant's full talents","An Investiture maximum of 2 and the three Stormlight actions (within 50 miles), plus optionally the Radiant's surges at 1 rank","A Shardblade","Nothing until they bond their own spren"],"answer":1,"explanation":"Within 50 miles of their Radiant (who must have the Take Squire talent, available after the Third Ideal), a squire can draw Stormlight with Investiture max 2 and use Breathe Stormlight, Enhance and Regenerate. The Radiant may also grant one or both surges at 1 rank.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Squire Ability","page":"128"},"verify":["While within 50 miles of the Radiant"]},
-{"id":"r-rad-09","category":"rules","topic":"Radiants & Investiture","question":"Which two surges does the Windrunner order wield?","choices":["Adhesion and Gravitation","Gravitation and Division","Adhesion and Tension","Transportation and Gravitation"],"answer":0,"explanation":"Windrunners (honorspren) wield Adhesion and Gravitation. Skybreakers have Division and Gravitation; Bondsmiths have Adhesion and Tension.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Radiant Orders table","page":"131"},"verify":["Windrunners Honorspren Adhesion and Gravitation"]},
-{"id":"r-rad-10","category":"rules","topic":"Radiants & Investiture","question":"Which order wields Illumination and Transformation?","choices":["Truthwatchers","Elsecallers","Lightweavers","Willshapers"],"answer":2,"explanation":"Lightweavers (Cryptics) wield Illumination and Transformation. Truthwatchers have Illumination and Progression; Elsecallers have Transformation and Transportation.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Radiant Orders table","page":"131"},"verify":["Lightweavers Cryptic Illumination and Transformation"]},
-{"id":"r-rad-11","category":"rules","topic":"Radiants & Investiture","question":"How far can a newly bonded spren move from their Radiant before temporarily losing sapience?","choices":["5 feet","30 feet (expandable with the Deepened Bond talent)","100 feet","1 mile"],"answer":1,"explanation":"Spren bond range starts at 30 feet; beyond it a newly bonded spren temporarily loses sapience. The Deepened Bond talent increases the range.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Spren Rules (Movement)","page":"129"},"verify":["this range begins at 30 feet"]},
-{"id":"r-surge-01","category":"rules","topic":"Surges","question":"A Radiant has 3 ranks in a surge skill. What are their surge die size and surge size?","choices":["d6, Medium (5 ft)","d8, Large (10 ft)","d10, Huge (15 ft)","d8, Medium (5 ft)"],"answer":1,"explanation":"Surge Scaling: 1 rank d4/Small, 2 d6/Medium, 3 d8/Large (10 ft), 4 d10/Huge, 5 d12/Gargantuan.","cite":{"book":"handbook","section":"Ch. 6 Surges › Surge Scaling","page":"210"},"verify":["3 d8 Large (10 feet)"]},
-{"id":"r-surge-02","category":"rules","topic":"Surges","question":"How does an infused surge effect use up its Investiture?","choices":["All at once when cast","It usually expends 1 Investiture at the start of each of your turns until it runs out","1 per minute regardless of combat","It never runs out while you're conscious"],"answer":1,"explanation":"Surges usually expend 1 Investiture at the start of each of your turns, even if you're Unconscious. An object infused with 2 Investiture lasts two rounds.","cite":{"book":"handbook","section":"Ch. 6 Surges › Expending Infused Investiture","page":"210"},"verify":["a surge usually expends 1 Investiture at the start of each of your turns"]},
-{"id":"r-surge-03","category":"rules","topic":"Surges","question":"Outside combat, roughly how long does one 'round' of a surge's Investiture last during a conversation?","choices":["10 seconds","About one minute (one round of contributions)","10 minutes","One hour"],"answer":1,"explanation":"Combat: once per 10-second round. Conversation: about once per minute. Endeavor: 1–10 minutes depending on the endeavor. Outside scenes: about every 10 minutes.","cite":{"book":"handbook","section":"Ch. 6 Surges › Duration Outside Combat","page":"211"},"verify":["so about once per minute"]},
-{"id":"s-rad-01","category":"scenario","topic":"Radiants & Investiture","question":"A tier 2 Radiant is knocked Unconscious at 0 health but still has 3 Investiture. What can they do?","choices":["Nothing until someone heals them","Use the Regenerate free action (1 Investiture) to recover 1d6 + 2 health, even while Unconscious","Use Enhance to stand up","Breathe Stormlight but not Regenerate"],"answer":1,"explanation":"Regenerate is usable while Unconscious: 1 Investiture recovers 1d6 + tier (2) health. They can then choose to wake. Breathe Stormlight also works while Unconscious.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Regenerate","page":"125"},"verify":["You can use this free action even if you’re Uncon­ scious"]},
-{"id":"s-rad-02","category":"scenario","topic":"Radiants & Investiture","question":"Assassins ambush a party, and the party's Skybreaker (max Investiture 5) is Surprised. How much Investiture does the Skybreaker start the combat with?","choices":["5","1","0","2"],"answer":1,"explanation":"Radiants normally start scenes full, but a Radiant who starts the scene Surprised has only 1 Investiture — enough to maintain ongoing powers.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Regaining Stormlight","page":"124"},"verify":["if you start a scene with the Surprised condition"]},
-{"id":"s-rad-03","category":"scenario","topic":"Surges","question":"A Radiant with 2 ranks in Adhesion wants to infuse a 10-foot-long cart. Can they?","choices":["Yes, with 2 Investiture","No — with 2 ranks their surge size is Medium (5 ft), and they can't infuse an object whose width, length or height exceeds it","Yes, but with a disadvantage","Only if they spend focus as well"],"answer":1,"explanation":"Surge size scales with ranks: 2 ranks is Medium (5 ft). Unless specified otherwise, you can't infuse an object with any dimension beyond your surge size.","cite":{"book":"handbook","section":"Ch. 6 Surges › Surge Size","page":"210"},"verify":["you can’t infuse an object if either its width, length, or height exceeds your surge size"]},
-{"id":"s-rad-04","category":"scenario","topic":"Surges","question":"A Radiant infuses a door with 3 Investiture to keep it sealed, then fights in the next room. Absent other effects, how long does the infusion last?","choices":["Until the end of the scene","Three rounds — it spends 1 Investiture at the start of each of the Radiant's turns","One round","Until the Radiant falls Unconscious"],"answer":1,"explanation":"An infusion expends 1 Investiture at the start of each of your turns, so 3 infused Investiture lasts three rounds. The Radiant can add more at the start of a turn if within range. (If the surge isn't relevant to the new scene, the GM may track it more loosely.)","cite":{"book":"handbook","section":"Ch. 6 Surges › Ending a Surge","page":"210"},"verify":["if you instead infuse that object with 2 Investiture, the surge lasts two rounds"]},
-{"id":"s-rad-05","category":"scenario","topic":"Radiants & Investiture","question":"A Windrunner abandons a defenseless village in a way that clearly breaks their Ideals. It's the second time since they last advanced their Ideals. What happens?","choices":["Nothing — only the first breach matters","They lose access to their highest Ideal and any talents requiring it","They lose all Radiant abilities immediately","Their spren dies"],"answer":1,"explanation":"The first breach is forgiven. A second, before demonstrably advancing their Ideals, weakens the bond: they lose their highest Ideal and talents that require it. They can repair the bond by genuinely rededicating themselves.","cite":{"book":"handbook","section":"Ch. 5 Radiant Paths › Forsaking Your Ideals","page":"128"},"verify":["you lose access to your highest Ideal and its benefits"]}
+{
+"id": "r-rad-01",
+"category": "rules",
+"topic": "Radiants & Investiture",
+"question": "What does choosing a First Ideal key talent immediately grant?",
+"choices": [
+"Both of the order's surges, plus a Shardblade",
+"Investiture, the three Stormlight actions and an Ideal goal",
+"Only a spren companion who follows them everywhere",
+"Full Radiant status and the Empowered condition"
+],
+"answer": 1,
+"explanation": "The First Ideal talent (level 2+) immediately unlocks Investiture and the three Stormlight actions and grants the goal 'Speak the First Ideal.' The order's two surges come only once that goal is completed.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Choosing a First Ideal Talent",
+"page": "123"
+},
+"verify": [
+"You must be level 2 or higher to choose a First Ideal key talent"
+]
+},
+{
+"id": "r-rad-02",
+"category": "rules",
+"topic": "Radiants & Investiture",
+"question": "How much Investiture does a Radiant usually have at the start of a scene?",
+"choices": [
+"0 — they must Breathe Stormlight first",
+"Full — or just 1 if they start Surprised",
+"Half their maximum, rounded down",
+"2, regardless of their maximum"
+],
+"answer": 1,
+"explanation": "It's assumed a Radiant instinctively breathed in Stormlight beforehand, so they start full. A Radiant who starts the scene Surprised has only 1 Investiture.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Regaining Stormlight",
+"page": "124"
+},
+"verify": [
+"you only start with 1 Invest­ iture"
+]
+},
+{
+"id": "r-rad-03",
+"category": "rules",
+"topic": "Radiants & Investiture",
+"question": "When can the GM assume a Radiant has enough infused spheres without tracking them?",
+"choices": [
+"Always — Stormlight is never worth tracking",
+"When they carry marks worth 3× their Investiture",
+"When they carry at least one infused broam",
+"Only while they're within the walls of Urithiru"
+],
+"answer": 1,
+"explanation": "If a Radiant carries marks equal to at least three times their Investiture total (and highstorms are accessible), assume they have enough Stormlight. Track spheres only when the story makes it matter.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Breathe Stormlight",
+"page": "124"
+},
+"verify": [
+"at least three times as many marks as your Investiture total"
+]
+},
+{
+"id": "r-rad-04",
+"category": "rules",
+"topic": "Radiants & Investiture",
+"question": "What does the Regenerate action do?",
+"choices": [
+"Spend 2 Investiture to heal 2d6 health",
+"1 Investiture: heal 1d6 + tier, even Unconscious",
+"Spend 1 focus to heal 1d4 health",
+"Spend 1 Investiture to heal one injury"
+],
+"answer": 1,
+"explanation": "Regenerate is a free action: spend 1 Investiture to recover 1d6 + your tier in health. It works even while you're Unconscious or otherwise unable to act.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Regenerate",
+"page": "125"
+},
+"verify": [
+"recover health equal to 1d6 + your current tier"
+]
+},
+{
+"id": "r-rad-05",
+"category": "rules",
+"topic": "Radiants & Investiture",
+"question": "What does the Enhance Stormlight action grant for 1 Investiture?",
+"choices": [
+"+1 Strength and +1 Speed until the end of next turn",
+"+2 to any one attribute for the whole scene",
+"+1 deflect until the end of the scene",
+"An advantage on your next attack test"
+],
+"answer": 0,
+"explanation": "Enhance makes you Enhanced [Strength +1] and [Speed +1] until the end of your next turn. You can keep paying 1 Investiture at the end of each turn to maintain it.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Enhance",
+"page": "125"
+},
+"verify": [
+"Enhanced [Strength +1] and Enhanced [Speed +1]"
+]
+},
+{
+"id": "r-rad-06",
+"category": "rules",
+"topic": "Radiants & Investiture",
+"question": "How many milestone boxes must be marked on an Ideal goal before the Radiant can speak those Words?",
+"choices": [
+"One",
+"Two",
+"Three",
+"Five"
+],
+"answer": 2,
+"explanation": "Each Ideal goal has three milestone boxes, marked for dramatic, philosophy-aligned actions. Once all three are marked, the player and GM can set up the moment to speak the Words.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Ideals and Goals",
+"page": "126"
+},
+"verify": [
+"Once you’ve marked all three milestone boxes"
+]
+},
+{
+"id": "r-rad-07",
+"category": "rules",
+"topic": "Radiants & Investiture",
+"question": "What happens the first time a Radiant acts against their Ideals?",
+"choices": [
+"They lose their highest Ideal",
+"Nothing — mistakes can be forgiven",
+"Their spren dies",
+"They lose all Investiture"
+],
+"answer": 1,
+"explanation": "The first infraction has no effect. A second before demonstrably advancing their Ideals costs their highest Ideal and dependent talents, and further breaches strip more.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Forsaking Your Ideals",
+"page": "128"
+},
+"verify": [
+"The first time you act against your Ideals, nothing occurs"
+]
+},
+{
+"id": "r-rad-08",
+"category": "rules",
+"topic": "Radiants & Investiture",
+"question": "What does a squire gain while within range of their Radiant?",
+"choices": [
+"Access to every one of the Radiant's talents",
+"Investiture 2 and the Stormlight actions within 50 miles",
+"A Shardblade of their own, summoned at will",
+"Nothing at all until they bond their own spren"
+],
+"answer": 1,
+"explanation": "Within 50 miles of their Radiant (who must have the Take Squire talent, available after the Third Ideal), a squire can draw Stormlight with Investiture max 2 and use Breathe Stormlight, Enhance and Regenerate. The Radiant may also grant one or both surges at 1 rank.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Squire Ability",
+"page": "128"
+},
+"verify": [
+"While within 50 miles of the Radiant"
+]
+},
+{
+"id": "r-rad-09",
+"category": "rules",
+"topic": "Radiants & Investiture",
+"question": "Which two surges does the Windrunner order wield?",
+"choices": [
+"Adhesion and Gravitation",
+"Gravitation and Division",
+"Adhesion and Tension",
+"Transportation and Gravitation"
+],
+"answer": 0,
+"explanation": "Windrunners (honorspren) wield Adhesion and Gravitation. Skybreakers have Division and Gravitation; Bondsmiths have Adhesion and Tension.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Radiant Orders table",
+"page": "131"
+},
+"verify": [
+"Windrunners Honorspren Adhesion and Gravitation"
+]
+},
+{
+"id": "r-rad-10",
+"category": "rules",
+"topic": "Radiants & Investiture",
+"question": "Which order wields Illumination and Transformation?",
+"choices": [
+"Truthwatchers",
+"Elsecallers",
+"Lightweavers",
+"Willshapers"
+],
+"answer": 2,
+"explanation": "Lightweavers (Cryptics) wield Illumination and Transformation. Truthwatchers have Illumination and Progression; Elsecallers have Transformation and Transportation.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Radiant Orders table",
+"page": "131"
+},
+"verify": [
+"Lightweavers Cryptic Illumination and Transformation"
+]
+},
+{
+"id": "r-rad-11",
+"category": "rules",
+"topic": "Radiants & Investiture",
+"question": "How far can a newly bonded spren move from their Radiant before temporarily losing sapience?",
+"choices": [
+"5 feet, the reach of an arm",
+"30 feet, expandable by talent",
+"100 feet, or 200 in Shadesmar",
+"1 mile, the range of a spanreed"
+],
+"answer": 1,
+"explanation": "Spren bond range starts at 30 feet; beyond it a newly bonded spren temporarily loses sapience. The Deepened Bond talent increases the range.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Spren Rules (Movement)",
+"page": "129"
+},
+"verify": [
+"this range begins at 30 feet"
+]
+},
+{
+"id": "r-surge-01",
+"category": "rules",
+"topic": "Surges",
+"question": "A Radiant has 3 ranks in a surge skill. What are their surge die size and surge size?",
+"choices": [
+"d6, Medium (5 ft)",
+"d8, Large (10 ft)",
+"d10, Huge (15 ft)",
+"d8, Medium (5 ft)"
+],
+"answer": 1,
+"explanation": "Surge Scaling: 1 rank d4/Small, 2 d6/Medium, 3 d8/Large (10 ft), 4 d10/Huge, 5 d12/Gargantuan.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 6 Surges › Surge Scaling",
+"page": "210"
+},
+"verify": [
+"3 d8 Large (10 feet)"
+]
+},
+{
+"id": "r-surge-02",
+"category": "rules",
+"topic": "Surges",
+"question": "How does an infused surge effect use up its Investiture?",
+"choices": [
+"All at once, when the surge is first used",
+"1 at the start of each of your turns",
+"1 per minute, regardless of combat",
+"It never runs out while you're conscious"
+],
+"answer": 1,
+"explanation": "Surges usually expend 1 Investiture at the start of each of your turns, even if you're Unconscious. An object infused with 2 Investiture lasts two rounds.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 6 Surges › Expending Infused Investiture",
+"page": "210"
+},
+"verify": [
+"a surge usually expends 1 Investiture at the start of each of your turns"
+]
+},
+{
+"id": "r-surge-03",
+"category": "rules",
+"topic": "Surges",
+"question": "Outside combat, roughly how long does one 'round' of a surge's Investiture last during a conversation?",
+"choices": [
+"About 10 seconds",
+"About one minute",
+"About 10 minutes",
+"About one hour"
+],
+"answer": 1,
+"explanation": "Combat: once per 10-second round. Conversation: about once per minute. Endeavor: 1–10 minutes depending on the endeavor. Outside scenes: about every 10 minutes.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 6 Surges › Duration Outside Combat",
+"page": "211"
+},
+"verify": [
+"so about once per minute"
+]
+},
+{
+"id": "s-rad-01",
+"category": "scenario",
+"topic": "Radiants & Investiture",
+"question": "A tier 2 Radiant is knocked Unconscious at 0 health but still has 3 Investiture. What can they do?",
+"choices": [
+"Nothing until someone else heals them",
+"Regenerate for 1 Investiture: 1d6 + 2 health",
+"Use Enhance to get back on their feet",
+"Breathe Stormlight, but they can't Regenerate"
+],
+"answer": 1,
+"explanation": "Regenerate is usable while Unconscious: 1 Investiture recovers 1d6 + tier (2) health. They can then choose to wake. Breathe Stormlight also works while Unconscious.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Regenerate",
+"page": "125"
+},
+"verify": [
+"You can use this free action even if you’re Uncon­ scious"
+]
+},
+{
+"id": "s-rad-02",
+"category": "scenario",
+"topic": "Radiants & Investiture",
+"question": "Assassins ambush a party, and the party's Skybreaker (max Investiture 5) is Surprised. How much Investiture does the Skybreaker start the combat with?",
+"choices": [
+"5",
+"1",
+"0",
+"2"
+],
+"answer": 1,
+"explanation": "Radiants normally start scenes full, but a Radiant who starts the scene Surprised has only 1 Investiture — enough to maintain ongoing powers.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Regaining Stormlight",
+"page": "124"
+},
+"verify": [
+"if you start a scene with the Surprised condition"
+]
+},
+{
+"id": "s-rad-03",
+"category": "scenario",
+"topic": "Surges",
+"question": "A Radiant with 2 ranks in Adhesion wants to infuse a 10-foot-long cart. Can they?",
+"choices": [
+"Yes, if they infuse 2 Investiture",
+"No — 2 ranks only reaches Medium (5 ft)",
+"Yes, but the test has a disadvantage",
+"Only if they also spend 2 focus"
+],
+"answer": 1,
+"explanation": "Surge size scales with ranks: 2 ranks is Medium (5 ft). Unless specified otherwise, you can't infuse an object with any dimension beyond your surge size.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 6 Surges › Surge Size",
+"page": "210"
+},
+"verify": [
+"you can’t infuse an object if either its width, length, or height exceeds your surge size"
+]
+},
+{
+"id": "s-rad-04",
+"category": "scenario",
+"topic": "Surges",
+"question": "A Radiant infuses a door with 3 Investiture to keep it sealed, then fights in the next room. Absent other effects, how long does the infusion last?",
+"choices": [
+"Until the end of the scene",
+"Three rounds",
+"One round",
+"Until the Radiant falls Unconscious"
+],
+"answer": 1,
+"explanation": "An infusion expends 1 Investiture at the start of each of your turns, so 3 infused Investiture lasts three rounds. The Radiant can add more at the start of a turn if within range. (If the surge isn't relevant to the new scene, the GM may track it more loosely.)",
+"cite": {
+"book": "handbook",
+"section": "Ch. 6 Surges › Ending a Surge",
+"page": "210"
+},
+"verify": [
+"if you instead infuse that object with 2 Investiture, the surge lasts two rounds"
+]
+},
+{
+"id": "s-rad-05",
+"category": "scenario",
+"topic": "Radiants & Investiture",
+"question": "A Windrunner abandons a defenseless village in a way that clearly breaks their Ideals. It's the second time since they last advanced their Ideals. What happens?",
+"choices": [
+"Nothing — only the first breach matters",
+"They lose their highest Ideal and its talents",
+"They lose all Radiant abilities immediately",
+"Their spren dies on the spot"
+],
+"answer": 1,
+"explanation": "The first breach is forgiven. A second, before demonstrably advancing their Ideals, weakens the bond: they lose their highest Ideal and talents that require it. They can repair the bond by genuinely rededicating themselves.",
+"cite": {
+"book": "handbook",
+"section": "Ch. 5 Radiant Paths › Forsaking Your Ideals",
+"page": "128"
+},
+"verify": [
+"you lose access to your highest Ideal and its benefits"
+]
+}
 ]

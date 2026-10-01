@@ -27,10 +27,10 @@
 "topic": "Plot Die",
 "question": "When the plot die comes up as a Complication, what upside does the roller get?",
 "choices": [
-"Nothing — Complications are purely negative",
-"They add the number on the Complication symbol (+2 or +4) to that d20 roll",
-"They may reroll the d20 once",
-"They recover 1 focus"
+"Nothing — a Complication is purely a drawback",
+"Add the number on the symbol (+2 or +4) to the roll",
+"They may reroll the plot die once for free",
+"They recover 1 focus to offset the setback"
 ],
 "answer": 1,
 "explanation": "A plot-die Complication also adds a bonus equal to the number on the symbol (+2 or +4) to the current d20 roll, so a Complication can actually help the test succeed.",
@@ -50,10 +50,10 @@
 "topic": "Plot Die",
 "question": "Which statement about raising the stakes is correct?",
 "choices": [
-"The GM may raise the stakes after seeing the d20 result",
-"Stakes can be raised up to twice on a very important test",
-"Stakes can be raised only once per test and only before the d20 is rolled",
-"Only players can raise the stakes; the GM merely approves"
+"The GM may raise them after seeing the d20 result",
+"They can be raised twice on a critical test",
+"Once per test, and only before the d20 is rolled",
+"Only players may raise them; the GM just approves"
 ],
 "answer": 2,
 "explanation": "Raising the stakes happens once per test at most, and it must be decided before the d20 is rolled — never after.",
@@ -139,10 +139,10 @@
 "topic": "Opportunities & Complications",
 "question": "Which of these is one of the GM's standard ways to spend a Complication?",
 "choices": [
-"The roller takes 1d4 damage",
+"The roller takes 1d4 impact damage",
 "The next test made by a PC gains a disadvantage",
-"The roller loses their next reaction",
-"The roller loses 1 Investiture"
+"The roller loses their next reaction this round",
+"The roller loses 1 Investiture or 1 health"
 ],
 "answer": 1,
 "explanation": "The standard Complication spends are Hinder an Ally (the next PC test gains a disadvantage), Become Distracted (lose 1 focus) and Influence the Narrative.",
@@ -296,9 +296,9 @@
 "question": "A PC with an advantage rolls two d20s for a Stealth test and gets a 1 and a 16. They use the 16. Do they gain a Complication?",
 "choices": [
 "Yes — any natural 1 rolled adds a Complication",
-"Yes, but it grants no bonus",
-"No — only the d20 chosen for the test can add an Opportunity or Complication",
-"No — advantages cancel Complications"
+"Yes, but it gives no +2/+4 bonus",
+"No — only the d20 they chose can add one",
+"No — an advantage cancels any Complication"
 ],
 "answer": 2,
 "explanation": "When rolling multiple d20s, a die only adds an Opportunity or Complication if its result is the one chosen for the test. The unused 1 has no effect.",
@@ -339,10 +339,10 @@
 "topic": "Opportunities & Complications",
 "question": "A player spends an Opportunity to influence the narrative, but you (the GM) think their proposed effect isn't possible. What do the rules say happens?",
 "choices": [
-"The Opportunity is lost",
+"The Opportunity is simply lost",
 "The player must accept a Complication instead",
-"You have final say; you can work out a different narrative effect together, or the player picks another Opportunity effect",
-"The player rolls a d20 against DC 15 to force it"
+"You decide; agree on another effect or they pick a different one",
+"The player rolls a d20 against DC 15 to force it through"
 ],
 "answer": 2,
 "explanation": "The GM has the final say on narrative Opportunity effects. If one isn't approved, the table can agree on a new narrative effect or the player can choose a different Opportunity effect.",

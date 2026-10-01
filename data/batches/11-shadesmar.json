@@ -1,13 +1,244 @@
 [
-{"id":"w-sm-01","category":"world","topic":"Shadesmar","question":"What are the 'seas' of Shadesmar made of?","choices":["Black water that can't be swum","Small glass beads, each representing the soul of a non-living object in the Physical Realm","Mist and Stormlight","Liquid Investiture"],"answer":1,"explanation":"Shadesmar's oceans are dark glass beads, each the soul of a non-living object. They drag people down, are drawn to Stormlight, and drift back toward their object's location if moved.","cite":{"book":"worldguide","section":"Ch. 7 Shadesmar › Seas of Beads","page":"169"},"verify":["it represents the soul of a non-living item in the Physical Realm"]},
-{"id":"w-sm-02","category":"world","topic":"Shadesmar","question":"How does Shadesmar's geography relate to the Physical Realm?","choices":["It's an exact copy","It's roughly inverted: seas of beads mirror Roshar's lands, and obsidian land mirrors its waters","It has no relation","It's rotated 90 degrees"],"answer":1,"explanation":"Shadesmar's seas of beads correspond to Roshar's land and its obsidian lands to the oceans, rivers and lakes. Sizes are shaped by how much people think about an area.","cite":{"book":"worldguide","section":"Ch. 7 Shadesmar › Geography","page":"169"},"verify":["Shadesmar’s “seas” of beads mirror Roshar’s lands"]},
-{"id":"w-sm-03","category":"world","topic":"Shadesmar","question":"What's strange about shadows cast by Shadesmar's small white sun?","choices":["There are none","They point toward the sun instead of away","They're colored","They move constantly"],"answer":1,"explanation":"Shadesmar's sun never moves, and shadows it creates point toward it. Other light sources, like manifested fires, cast normal shadows.","cite":{"book":"worldguide","section":"Ch. 7 Shadesmar › Land and Sky","page":"171"},"verify":["Shadows created by the sun point toward it"]},
-{"id":"w-sm-04","category":"world","topic":"Shadesmar","question":"In Shadesmar, what do the small floating flames represent?","choices":["Lesser spren","The souls of living creatures","Infused gemstones","Fabrials"],"answer":1,"explanation":"Beads are the souls of objects; flames are the souls of living creatures, larger for sapient beings. A flame corrupted by Odium or Sja-anat turns vivid red.","cite":{"book":"worldguide","section":"Ch. 7 Shadesmar › Flames of People","page":"171"},"verify":["the small flames found throughout the realm represent the souls of living creatures"]},
-{"id":"w-sm-05","category":"world","topic":"Shadesmar","question":"What is notable about Lasting Integrity, the honorspren capital?","choices":["It floats above the sea","It's a roofless fortress whose walls each have their own gravity, so residents walk up them","It's built from manifested beads","It sits on Cultivation's Perpendicularity"],"answer":1,"explanation":"Lasting Integrity, in the Sea of Souls, is a hollow, roofless blue-stone fortress. Each wall has its own gravitational field, so buildings rise from the walls. The Herald Kalak serves there as High Judge.","cite":{"book":"worldguide","section":"Ch. 7 Shadesmar › Lasting Integrity","page":"175"},"verify":["Each wall has its own gravitational field"]},
-{"id":"w-sm-06","category":"world","topic":"Shadesmar","question":"In Shadesmar, what do luckspren (called mandras there) do for spren sailors?","choices":["Navigate by starlight","Pull their vessels through the bead ocean","Light the ships","Ward off angerspren"],"answer":1,"explanation":"Mandras are far larger in Shadesmar, with sinuous bodies and arrow-shaped heads. Radiant spren sailors use them to pull ships through the bead sea.","cite":{"book":"worldguide","section":"Ch. 7 Shadesmar › Lesser Spren","page":"173"},"verify":["Radiant spren sailors use mandras to pull their vessels"]},
-{"id":"w-sm-07","category":"world","topic":"Shadesmar","question":"For travelers in Shadesmar, what does the World Guide call the greatest dangers?","choices":["Angerspren packs","Dehydration and starvation","Fused warships","The bead seas"],"answer":1,"explanation":"Shadesmar's wilderness has no food or water to forage, so supplies are the real threat. Spren traders sell rations, and hydrator fabrials condense water from the air.","cite":{"book":"worldguide","section":"Ch. 7 Shadesmar › Food, Water, and Survival","page":"178"},"verify":["the greatest dangers are far simpler: dehydration and starvation"]},
-{"id":"s-sm-01","category":"scenario","topic":"Shadesmar","question":"A non-Radiant PC in Shadesmar wants to manifest a rope from its bead using Stormlight from an unencased gem they're carrying. What's the test?","choices":["DC 15 Insight","Discipline at the usual DC (typically 10) + 5, because they're infusing from a gem rather than their own Investiture","Crafting DC 10","They can't — only Radiants can manifest beads"],"answer":1,"explanation":"Manifesting needs a Discipline test (usually DC 10) and 1+ Investiture infused into the bead. Without personal Investiture you can infuse from an unencased gem, but the DC rises by 5. The object then spends 1 Investiture per day.","cite":{"book":"worldguide","section":"Ch. 7 Shadesmar › Manifesting an Object","page":"170"},"verify":["the DC of your Discipline test increases by 5"]},
-{"id":"s-sm-02","category":"scenario","topic":"Shadesmar","question":"A Windrunner in Shadesmar wants their honorspren to quietly scout ahead (Covert Scouting) and to summon them as a Shardblade. What happens?","choices":["Both work normally","Neither — in Shadesmar the spren is a full-sized person fixed in form, so it can't use Covert Scouting, and Radiant Blades can't be summoned","Scouting works; the Blade doesn't","The Blade works; scouting doesn't"],"answer":1,"explanation":"In Shadesmar, a Radiant spren can't change shape, fly or disappear, so it loses Covert Scouting and Sudden Warning. Radiant and dead Shardblades can't be summoned there; only Honorblades work normally.","cite":{"book":"worldguide","section":"Ch. 7 Shadesmar › Radiant Shardblades","page":"177"},"verify":["they can’t use their Covert Scouting or Sudden Warning ability here"]},
-{"id":"s-sm-03","category":"scenario","topic":"Shadesmar","question":"A PC tests their Gravitation surge while standing near a sea of beads. What special rule applies?","choices":["None","Raise the stakes; an Opportunity can let them move 15 ft without triggering Reactive Strikes, and a Complication can knock them down for 1d6 impact damage and toward the sea","The surge automatically fails","The surge costs double Investiture"],"answer":1,"explanation":"Beads are drawn to Investiture, so surge tests near a bead sea always raise the stakes. The PC can spend an Opportunity to ride the flow 15 ft; the GM can spend a Complication to knock them off their feet (1d6 impact), possibly into the sea.","cite":{"book":"worldguide","section":"Ch. 7 Shadesmar › Dangers of the Seas","page":"171"},"verify":["When you test a surge skill while near a sea of beads, raise the stakes"]},
-{"id":"s-sm-04","category":"scenario","topic":"Shadesmar","question":"A PC with 2 Investiture touches a bead barehanded to learn what it represents. Do they need a test?","choices":["Yes, DC 15 Insight","No — being Invested (1+ Investiture) gives them a brief glimpse automatically","Yes, DC 10 Discipline","Only if they're Radiant"],"answer":1,"explanation":"Touching a bead gives a glimpse of its object if you're currently Invested (1+ Investiture) or succeed on a DC 15 Insight test. Touching too many beads at once is overwhelming.","cite":{"book":"worldguide","section":"Ch. 7 Shadesmar › Gleaning Impressions From Beads","page":"170"},"verify":["if you’re currently Invested (with 1 Investiture or more)"]}
+{
+"id": "w-sm-01",
+"category": "world",
+"topic": "Shadesmar",
+"question": "What are the 'seas' of Shadesmar made of?",
+"choices": [
+"Black water that can't be swum",
+"Glass beads, each the soul of an object",
+"Thick mist laced with Stormlight",
+"Liquid Investiture from the Spiritual Realm"
+],
+"answer": 1,
+"explanation": "Shadesmar's oceans are dark glass beads, each the soul of a non-living object. They drag people down, are drawn to Stormlight, and drift back toward their object's location if moved.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 7 Shadesmar › Seas of Beads",
+"page": "169"
+},
+"verify": [
+"it represents the soul of a non-living item in the Physical Realm"
+]
+},
+{
+"id": "w-sm-02",
+"category": "world",
+"topic": "Shadesmar",
+"question": "How does Shadesmar's geography relate to the Physical Realm?",
+"choices": [
+"It's an exact copy of the Physical Realm",
+"Roughly inverted: bead seas mirror its lands",
+"It has no relation to the Physical Realm",
+"It's the same map, rotated 90 degrees"
+],
+"answer": 1,
+"explanation": "Shadesmar's seas of beads correspond to Roshar's land and its obsidian lands to the oceans, rivers and lakes. Sizes are shaped by how much people think about an area.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 7 Shadesmar › Geography",
+"page": "169"
+},
+"verify": [
+"Shadesmar’s “seas” of beads mirror Roshar’s lands"
+]
+},
+{
+"id": "w-sm-03",
+"category": "world",
+"topic": "Shadesmar",
+"question": "What's strange about shadows cast by Shadesmar's small white sun?",
+"choices": [
+"Nothing casts shadows there",
+"They point toward the sun",
+"They glow in faint colors",
+"They constantly shift and move"
+],
+"answer": 1,
+"explanation": "Shadesmar's sun never moves, and shadows it creates point toward it. Other light sources, like manifested fires, cast normal shadows.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 7 Shadesmar › Land and Sky",
+"page": "171"
+},
+"verify": [
+"Shadows created by the sun point toward it"
+]
+},
+{
+"id": "w-sm-04",
+"category": "world",
+"topic": "Shadesmar",
+"question": "In Shadesmar, what do the small floating flames represent?",
+"choices": [
+"Lesser spren drawn to emotion",
+"The souls of living creatures",
+"Infused gemstones in the Physical Realm",
+"Fabrials and their captured spren"
+],
+"answer": 1,
+"explanation": "Beads are the souls of objects; flames are the souls of living creatures, larger for sapient beings. A flame corrupted by Odium or Sja-anat turns vivid red.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 7 Shadesmar › Flames of People",
+"page": "171"
+},
+"verify": [
+"the small flames found throughout the realm represent the souls of living creatures"
+]
+},
+{
+"id": "w-sm-05",
+"category": "world",
+"topic": "Shadesmar",
+"question": "What is notable about Lasting Integrity, the honorspren capital?",
+"choices": [
+"It floats above the Sea of Souls",
+"Each wall has its own gravity",
+"It's built entirely from manifested beads",
+"It sits atop Cultivation's Perpendicularity"
+],
+"answer": 1,
+"explanation": "Lasting Integrity, in the Sea of Souls, is a hollow, roofless blue-stone fortress. Each wall has its own gravitational field, so buildings rise from the walls. The Herald Kalak serves there as High Judge.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 7 Shadesmar › Lasting Integrity",
+"page": "175"
+},
+"verify": [
+"Each wall has its own gravitational field"
+]
+},
+{
+"id": "w-sm-06",
+"category": "world",
+"topic": "Shadesmar",
+"question": "In Shadesmar, what do luckspren (called mandras there) do for spren sailors?",
+"choices": [
+"Navigate by the unmoving sun",
+"Pull their ships through the beads",
+"Light the decks at night",
+"Ward off packs of angerspren"
+],
+"answer": 1,
+"explanation": "Mandras are far larger in Shadesmar, with sinuous bodies and arrow-shaped heads. Radiant spren sailors use them to pull ships through the bead sea.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 7 Shadesmar › Lesser Spren",
+"page": "173"
+},
+"verify": [
+"Radiant spren sailors use mandras to pull their vessels"
+]
+},
+{
+"id": "w-sm-07",
+"category": "world",
+"topic": "Shadesmar",
+"question": "For travelers in Shadesmar, what does the World Guide call the greatest dangers?",
+"choices": [
+"Packs of angerspren",
+"Dehydration and starvation",
+"Fused warships",
+"Drowning in the bead seas"
+],
+"answer": 1,
+"explanation": "Shadesmar's wilderness has no food or water to forage, so supplies are the real threat. Spren traders sell rations, and hydrator fabrials condense water from the air.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 7 Shadesmar › Food, Water, and Survival",
+"page": "178"
+},
+"verify": [
+"the greatest dangers are far simpler: dehydration and starvation"
+]
+},
+{
+"id": "s-sm-01",
+"category": "scenario",
+"topic": "Shadesmar",
+"question": "A non-Radiant PC in Shadesmar wants to manifest a rope from its bead using Stormlight from an unencased gem they're carrying. What's the test?",
+"choices": [
+"A DC 15 Insight test",
+"Discipline at the usual DC (often 10) + 5",
+"A DC 10 Crafting test",
+"None — only Radiants can manifest beads"
+],
+"answer": 1,
+"explanation": "Manifesting needs a Discipline test (usually DC 10) and 1+ Investiture infused into the bead. Without personal Investiture you can infuse from an unencased gem, but the DC rises by 5. The object then spends 1 Investiture per day.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 7 Shadesmar › Manifesting an Object",
+"page": "170"
+},
+"verify": [
+"the DC of your Discipline test increases by 5"
+]
+},
+{
+"id": "s-sm-02",
+"category": "scenario",
+"topic": "Shadesmar",
+"question": "A Windrunner in Shadesmar wants their honorspren to quietly scout ahead (Covert Scouting) and to summon them as a Shardblade. What happens?",
+"choices": [
+"Both work normally",
+"Neither works in Shadesmar",
+"Scouting works, but the Blade doesn't",
+"The Blade works, but scouting doesn't"
+],
+"answer": 1,
+"explanation": "In Shadesmar, a Radiant spren can't change shape, fly or disappear, so it loses Covert Scouting and Sudden Warning. Radiant and dead Shardblades can't be summoned there; only Honorblades work normally.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 7 Shadesmar › Radiant Shardblades",
+"page": "177"
+},
+"verify": [
+"they can’t use their Covert Scouting or Sudden Warning ability here"
+]
+},
+{
+"id": "s-sm-03",
+"category": "scenario",
+"topic": "Shadesmar",
+"question": "A PC tests their Gravitation surge while standing near a sea of beads. What special rule applies?",
+"choices": [
+"No special rule applies",
+"Raise the stakes on the test",
+"The surge automatically fails",
+"The surge costs double Investiture"
+],
+"answer": 1,
+"explanation": "Beads are drawn to Investiture, so surge tests near a bead sea always raise the stakes. The PC can spend an Opportunity to ride the flow 15 ft; the GM can spend a Complication to knock them off their feet (1d6 impact), possibly into the sea.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 7 Shadesmar › Dangers of the Seas",
+"page": "171"
+},
+"verify": [
+"When you test a surge skill while near a sea of beads, raise the stakes"
+]
+},
+{
+"id": "s-sm-04",
+"category": "scenario",
+"topic": "Shadesmar",
+"question": "A PC with 2 Investiture touches a bead barehanded to learn what it represents. Do they need a test?",
+"choices": [
+"Yes — a DC 15 Insight test",
+"No — being Invested is enough",
+"Yes — a DC 10 Discipline test",
+"Only if they're a Radiant"
+],
+"answer": 1,
+"explanation": "Touching a bead gives a glimpse of its object if you're currently Invested (1+ Investiture) or succeed on a DC 15 Insight test. Touching too many beads at once is overwhelming.",
+"cite": {
+"book": "worldguide",
+"section": "Ch. 7 Shadesmar › Gleaning Impressions From Beads",
+"page": "170"
+},
+"verify": [
+"if you’re currently Invested (with 1 Investiture or more)"
+]
+}
 ]
